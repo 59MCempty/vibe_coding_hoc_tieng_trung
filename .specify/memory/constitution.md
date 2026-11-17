@@ -1,17 +1,26 @@
 <!--
 Sync Impact Report
-- Version change: (template, chưa có) → 1.0.0
-- Modified principles: không có (lần đầu điền template)
-- Added principles:
-  I. Responsive trên mọi thiết bị (Mobile-First)
-  II. Đơn giản cho người mới bắt đầu
-  III. Giao diện có bản sắc, không "mùi AI"
-  IV. Hiệu ứng nổi bật nhưng có mục đích
-  V. Nội dung tiếng Trung chính xác
-  VI. Giữ mọi thứ đơn giản (Vibe-Coding Friendly)
-- Added sections: Tiêu chuẩn chất lượng & hiệu năng; Quy trình phát triển; Governance
+- Version change: 1.0.0 → 2.0.0 (MAJOR: định nghĩa lại nguyên tắc I)
+- Modified principles:
+  I. "Responsive trên mọi thiết bị (Mobile-First)" → "Website trên máy tính trước (Desktop-First)":
+     bỏ thiết kế điện thoại trước và kiểm tra 360/768px; chuẩn mới 1280px, dùng được từ 1024px;
+     điện thoại/tablet để giai đoạn sau. Lý do: người dùng quyết định ngày 2026-11-17.
+- Sửa thêm:
+  - Tiêu chuẩn chất lượng: Lighthouse chế độ desktop; trình duyệt trên máy tính (Safari macOS thay
+    Safari iOS); bỏ mốc "4G".
+  - Nguyên tắc IV: mốc 60fps tính trên máy tính tầm trung thay vì điện thoại tầm trung.
+  - Quy trình phát triển: kiểm tra ở 1280px và 1024px thay vì 360/768/1280; thêm luật duyệt bản vẽ
+    giao diện trước khi code và chỉ code khi người dùng nói rõ.
+- Added sections: không có
 - Removed sections: không có
-- Templates: plan/spec/tasks templates đọc constitution khi chạy, không cần sửa ở bước này
+- Tài liệu cần cập nhật theo (chưa sửa ở bước này):
+  ⚠ specs/001-hoc-tieng-trung-hsk/spec.md (US/SC nhắc điện thoại, 360/768px, SC-003)
+  ⚠ specs/001-hoc-tieng-trung-hsk/plan.md (Constitution Check nguyên tắc I, Lighthouse mobile)
+  ⚠ specs/001-hoc-tieng-trung-hsk/design-system.md (cỡ chữ "mobile ≥ 72px", checklist 360/768)
+  ⚠ specs/001-hoc-tieng-trung-hsk/contracts/routes.md (thanh điều hướng dưới đáy trên mobile)
+  ⚠ specs/001-hoc-tieng-trung-hsk/quickstart.md, tasks.md (T005, T014, T044… kiểm tra 360/768)
+  ⚠ US6 (nhắc nhở qua thông báo đẩy trên điện thoại, cài app PWA) — cần xem lại có giữ không
+  ✅ Templates của Spec Kit: đọc constitution khi chạy, không cần sửa
 - Deferred TODOs: không có
 -->
 
@@ -19,15 +28,20 @@ Sync Impact Report
 
 ## Core Principles
 
-### I. Responsive trên mọi thiết bị (Mobile-First)
+### I. Website trên máy tính trước (Desktop-First)
 
-- Mọi màn hình MUST được thiết kế cho điện thoại trước, rồi mở rộng lên tablet và desktop.
-- Mọi tính năng MUST dùng được đầy đủ ở các bề rộng 360px, 768px và 1280px trở lên,
+- Bản đầu MUST được thiết kế và làm cho website trên máy tính (desktop). Bề rộng chuẩn để thiết kế
+  và kiểm tra là 1280px; mọi màn hình MUST dùng được đầy đủ ở mọi bề rộng máy tính từ 1024px trở lên,
   không có thanh cuộn ngang và không có nội dung bị che hoặc cắt.
+- Giao diện riêng cho điện thoại và tablet chưa làm ở bản đầu; để giai đoạn sau, khi người dùng
+  quyết định. Bố cục SHOULD không chặn đường mở rộng sau này (không cố định bề rộng tuyệt đối khi
+  không cần).
+- Mọi thao tác MUST làm được bằng chuột và bàn phím.
 - Vùng bấm (nút, thẻ, ô chọn) MUST có kích thước tối thiểu 44×44px.
-- Chữ Hán MUST hiển thị đủ lớn để nhìn rõ nét trên điện thoại (tối thiểu 24px ở thẻ học).
+- Chữ Hán MUST hiển thị đủ lớn để nhìn rõ nét (tối thiểu 24px; chữ chính trên thẻ học lớn hơn nhiều).
 
-Lý do: người học chủ yếu học trên điện thoại, trong lúc rảnh, bằng một tay.
+Lý do: người dùng (chủ dự án) quyết định ngày 2026-11-17 tập trung làm website trên máy tính trước,
+chưa cần điện thoại, để ra bản dùng được sớm và thiết kế dễ duyệt hơn.
 
 ### II. Đơn giản cho người mới bắt đầu
 
@@ -60,7 +74,7 @@ Lý do: người dùng muốn một sản phẩm đẹp, bắt mắt và đáng 
 - Mỗi lượt học SHOULD có ít nhất một khoảnh khắc "thưởng" bằng hiệu ứng (ví dụ khi trả lời
   đúng hoặc hoàn thành bài).
 - Animation MUST chỉ dùng `transform` và `opacity` cho chuyển động liên tục, MUST đạt
-  khoảng 60fps trên điện thoại tầm trung, và tương tác thường ngày MUST xong trong ≤ 400ms.
+  khoảng 60fps trên máy tính tầm trung, và tương tác thường ngày MUST xong trong ≤ 400ms.
 - MUST tôn trọng `prefers-reduced-motion`: khi bật, hiệu ứng được tắt hoặc giảm còn fade.
 - Hiệu ứng MUST NOT chặn thao tác: người dùng luôn bấm tiếp được, không phải chờ animation.
 
@@ -89,11 +103,11 @@ Lý do: dự án do một người làm bằng vibe coding; sự phức tạp l�
 
 ## Tiêu chuẩn chất lượng & hiệu năng
 
-- Lighthouse trên mobile: Performance ≥ 85, Accessibility ≥ 90.
+- Lighthouse chế độ máy tính (desktop): Performance ≥ 85, Accessibility ≥ 90.
 - Tương phản chữ đạt chuẩn WCAG AA (≥ 4.5:1 cho chữ thường).
 - Mọi chức năng dùng được bằng bàn phím; có trạng thái focus nhìn thấy được.
-- Trang đầu tiên tải xong và tương tác được trong ≤ 3 giây trên mạng 4G.
-- Hỗ trợ trình duyệt: Chrome, Safari (iOS), Edge, Firefox bản mới nhất.
+- Trang đầu tiên tải xong và tương tác được trong ≤ 3 giây trên mạng gia đình thông thường.
+- Hỗ trợ trình duyệt trên máy tính: Chrome, Edge, Firefox, Safari (macOS) bản mới nhất.
 - Thông báo lỗi bằng tiếng Việt, nói rõ người dùng cần làm gì tiếp.
 
 ## Quy trình phát triển
@@ -101,8 +115,10 @@ Lý do: dự án do một người làm bằng vibe coding; sự phức tạp l�
 - Mọi tính năng đi theo chuỗi Spec Kit: `/speckit-specify` → `/speckit-clarify` →
   `/speckit-plan` → `/speckit-tasks` → `/speckit-analyze` → `/speckit-implement`.
 - Ở bước plan, MUST chạy skill `ui-ux-pro-max` để chốt design system trước khi viết giao diện.
-- Trước khi coi một tính năng là xong, MUST tự kiểm tra trên 3 bề rộng (360px, 768px,
-  1280px) và một lần với `prefers-reduced-motion` bật.
+- Trước khi coi một tính năng là xong, MUST tự kiểm tra ở bề rộng 1280px và 1024px, và một lần
+  với `prefers-reduced-motion` bật.
+- Giao diện mỗi màn hình MUST được người dùng duyệt bằng bản vẽ trước khi viết code, và chỉ
+  bắt đầu code khi người dùng nói rõ.
 - Mỗi tính năng MUST có tiêu chí chấp nhận đo được trong spec, và được đối chiếu khi xong.
 
 ## Governance
@@ -115,4 +131,4 @@ Lý do: dự án do một người làm bằng vibe coding; sự phức tạp l�
 - `/speckit-plan` và `/speckit-analyze` MUST kiểm tra tuân thủ constitution; mọi ngoại lệ
   (ví dụ thêm backend, thêm thư viện nặng) MUST ghi lý do trong plan.
 
-**Version**: 1.0.0 | **Ratified**: 2026-11-16 | **Last Amended**: 2026-11-16
+**Version**: 2.0.0 | **Ratified**: 2026-11-16 | **Last Amended**: 2026-11-17

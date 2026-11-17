@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bản vẽ màn hình — đợt 1</title>
+<!-- BẢN VẼ ĐỂ DUYỆT, không phải code của website. Theo specs/001-hoc-tieng-trung-hsk/design-system.md -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600&family=Noto+Serif:wght@600;700&display=swap" />
+<style>
+  :root {
+    --paper: #F6EFE1; --paper-deep: #ECE1CB; --card: #FBF7EE; --ink: #1E1B18; --ink-soft: #5A524A;
+    --cinnabar: #B3261E; --cinnabar-deep: #8C1D17; --gold: #C9A04A; --gold-text: #7A5A12; --jade: #2F6B4F; --line: #D9CCB3;
+    --t1: #2F5D8A; --t2: #2F6B4F; --t3: #8A5A12; --t4: #B3261E; --t0: #5A524A;
+    --shadow: 0 1px 0 #fff8 inset, 0 6px 18px -8px #1E1B1833;
+    --hanzi: 'Noto Serif SC', serif; --display: 'Ma Shan Zheng', serif; --head: 'Noto Serif', serif; --body: 'Be Vietnam Pro', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #E4DCCB; font-family: var(--body); color: var(--ink); line-height: 1.6; padding: 32px 24px 64px; }
+  .doc-head { max-width: 1200px; margin: 0 auto 28px; }
+  .doc-head h1 { font-family: var(--head); font-size: 28px; }
+  .doc-head p { color: var(--ink-soft); max-width: 760px; }
+  .row { display: flex; flex-wrap: wrap; gap: 36px; justify-content: center; max-width: 1240px; margin: 0 auto 48px; align-items: flex-start; }
+  .screen { width: 360px; }
+  .label { font-weight: 700; font-size: 15px; margin-bottom: 4px; }
+  .label b { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 6px; background: var(--ink); color: #fff; margin-right: 6px; font-size: 13px; }
+  .note { font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; min-height: 40px; }
+  .phone { width: 360px; height: 760px; background: var(--paper); border: 1px solid #00000022; border-radius: 22px; overflow: hidden; position: relative; box-shadow: 0 20px 40px -24px #0006; display: flex; flex-direction: column; }
+  .phone.tall { height: auto; min-height: 760px; }
+  .scroll { flex: 1; overflow: hidden; padding: 0 16px; }
+  .ic { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+  .sm .ic, .ic.sm { width: 18px; height: 18px; }
+  .zh { font-family: var(--hanzi); }
+  /* Thanh điều hướng dưới */
+  .tabbar { display: flex; border-top: 1px solid var(--line); background: var(--card); height: 60px; }
+  .tabbar div { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 11.5px; color: var(--ink-soft); gap: 2px; }
+  .tabbar .on { color: var(--cinnabar); font-weight: 600; }
+  /* Nút */
+  .btn { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; border-radius: 6px; font-weight: 600; font-size: 16px; padding: 0 16px; }
+  .btn.primary { background: var(--cinnabar); color: #fff; }
+  .btn.secondary { border: 1px solid #1E1B18b3; background: var(--card); }
+  .btn.ghost { color: var(--ink); }
+  .topbar { display: flex; align-items: center; gap: 8px; height: 56px; }
+  .topbar h2 { font-family: var(--head); font-size: 17px; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--card); border-radius: 6px; padding: 0 10px; height: 40px; font-size: 13px; font-weight: 500; }
+  .bar { height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--cinnabar); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); }
+  .p1 { color: var(--t1) } .p2 { color: var(--t2) } .p3 { color: var(--t3) } .p4 { color: var(--t4) } .p0 { color: var(--t0) }
+  .seal { display: inline-grid; place-items: center; background: var(--cinnabar); color: var(--card); border-radius: 6px; font-family: var(--display); transform: rotate(-4deg); box-shadow: inset 0 0 0 3px var(--cinnabar), inset 0 0 0 5px var(--card); }
+  .grid-bg { background-image: linear-gradient(#B3261E14 1px, transparent 1px), linear-gradient(90deg, #B3261E14 1px, transparent 1px); background-size: 50% 50%; background-position: center; }
+  .mizi { position: relative; }
+  .mizi::before, .mizi::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top right, transparent calc(50% - .5px), #B3261E1f 50%, transparent calc(50% + .5px)); pointer-events: none; }
+  .mizi::after { transform: scaleX(-1); }
+  .rate { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .rate div { min-height: 58px; border-radius: 6px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 600; font-size: 15px; gap: 2px; }
+  .r-again { border: 1px solid var(--cinnabar); color: var(--cinnabar); background: var(--card); }
+  .r-hard { border: 1px solid #1E1B18b3; background: var(--card); }
+  .r-good { background: var(--jade); color: #fff; }
+  .speak { width: 44px; height: 44px; border-radius: 99px; border: 1px solid var(--line); background: var(--paper); color: var(--cinnabar); display: grid; place-items: center; flex-shrink: 0; }
+  .mn { background: #ECE1CB99; border-radius: 6px; padding: 12px; }
+  .mn h4 { font-size: 13px; color: var(--gold-text); display: flex; align-items: center; gap: 6px; font-weight: 600; }
+  .comp { display: flex; gap: 8px; align-items: baseline; font-size: 13.5px; }
+  .comp .zh { font-size: 20px; }
+  .muted { color: var(--ink-soft); }
+  .tabs { display: flex; border-bottom: 1px solid var(--line); }
+  .tabs div { flex: 1; text-align: center; font-size: 14px; font-weight: 600; padding: 10px 0; color: var(--ink-soft); }
+  .tabs .on { color: var(--ink); box-shadow: inset 0 -2px 0 var(--cinnabar); }
+  .lesson { display: flex; align-items: center; gap: 14px; padding: 12px 14px; }
+  .num { width: 44px; height: 44px; border-radius: 6px; display: grid; place-items: center; font-family: var(--head); font-weight: 700; font-size: 17px; border: 1px solid var(--line); background: var(--paper); flex-shrink: 0; }
+  .num.done { background: var(--cinnabar); color: #fff; border-color: var(--cinnabar); }
+  .num.lock { color: #5A524A99; }
+  .path { position: relative; padding-left: 0; }
+  .lvl { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
+  .lvl .g { font-family: var(--display); font-size: 30px; width: 44px; text-align: center; color: var(--ink); line-height: 1; }
+  .lvl.sel { border-color: var(--cinnabar); box-shadow: 0 0 0 1px var(--cinnabar); }
+  .lvl.soon { opacity: .6; }
+  .tag { font-size: 11px; font-weight: 700; color: var(--gold-text); border: 1px solid var(--gold); border-radius: 4px; padding: 0 6px; }
+  .ink-blob { position: absolute; border-radius: 50%; background: radial-gradient(circle, #1E1B1824, #1E1B1800 70%); }
+  /* Một chữ tô 2 màu: nửa trái (女) đỏ son, nửa phải (子) xanh — website thật tô theo đúng nét */
+  .split { position: relative; display: inline-block; line-height: 1; font-weight: 600; }
+  .split span:first-child { color: var(--cinnabar); clip-path: inset(0 52% 0 0); }
+  .split span:last-child { position: absolute; left: 0; top: 0; color: var(--t1); clip-path: inset(0 0 0 48%); }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-vol" viewBox="0 0 24 24"><path d="M11 4.7a.7.7 0 0 0-1.2-.5L6.4 7.6A1.4 1.4 0 0 1 5.4 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.4a1.4 1.4 0 0 1 1 .4l3.4 3.4a.7.7 0 0 0 1.2-.5z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.4 18.4a9 9 0 0 0 0-12.7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
+    <symbol id="i-rot" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+    <symbol id="i-lib" viewBox="0 0 24 24"><path d="m16 6 4 14"/><path d="M12 6v14"/><path d="M8 8v12"/><path d="M4 4v16"/></symbol>
+    <symbol id="i-dumb" viewBox="0 0 24 24"><path d="M14.4 14.4 9.6 9.6"/><path d="M18.66 21.51a2 2 0 1 1-2.83-2.83l-1.77 1.77a2 2 0 1 1-2.83-2.83l6.37-6.37a2 2 0 1 1 2.83 2.83l-1.77 1.77a2 2 0 1 1 2.83 2.83z"/><path d="m21.5 21.5-1.4-1.4"/><path d="M3.9 3.9 2.5 2.5"/><path d="M6.4 12.77a2 2 0 1 1-2.83-2.83l1.77-1.77a2 2 0 1 1-2.83-2.83l2.83-2.83a2 2 0 1 1 2.83 2.83l1.77-1.77a2 2 0 1 1 2.83 2.83z"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path d="M8 3 4 7l4 4"/><path d="M4 7h16"/><path d="m16 21 4-4-4-4"/><path d="M20 17H4"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-rotl" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+    <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  </defs>
+</svg>
+
+<header class="doc-head">
+  <h1>Bản vẽ màn hình — đợt 1 (5 màn của bài học đầu tiên)</h1>
+  <p>Bản vẽ để duyệt, chưa phải website. Kích thước điện thoại 360px. Màu, font theo <code>design-system.md</code>.
+  Màn 4 có <b>2 phương án</b> để bạn chọn. Góp ý theo số màn, ví dụ: "màn 2 bỏ dòng mô tả", "màn 4 chọn B".</p>
+</header>
+
+<!-- ================= HÀNG 1 ================= -->
+<div class="row">
+
+  <!-- 1. Trang chủ -->
+  <div class="screen">
+    <div class="label"><b>1</b>Trang chủ — đầu trang</div>
+    <div class="note">Chữ 中文 tự viết từng nét (ở đây vẽ tĩnh). Một nút chính: chọn level. Cuộn xuống có 4 phần giới thiệu rồi tới phần chọn level (màn 1b).</div>
+    <div class="phone">
+      <div class="scroll" style="position:relative; padding-top:20px">
+        <div class="ink-blob" style="width:420px;height:420px;left:-30px;top:40px"></div>
+        <div style="display:flex;align-items:center;gap:8px;position:relative">
+          <span class="seal" style="width:34px;height:34px;font-size:22px;transform:none">中</span>
+          <span style="font-family:var(--head);font-weight:700">Học tiếng Trung</span>
+        </div>
+        <div style="position:relative;margin-top:56px;text-align:center">
+          <div class="grid-bg mizi" style="display:inline-flex;gap:0;border:1px solid #B3261E33">
+            <span class="zh" style="font-size:118px;line-height:1;font-weight:600;padding:8px 6px">中</span>
+            <span class="zh" style="font-size:118px;line-height:1;font-weight:600;padding:8px 6px;border-left:1px solid #B3261E33">文</span>
+          </div>
+          <p style="margin-top:10px;font-size:15px" class="muted"><span class="p1">Zhōng</span><span class="p2">wén</span> · tiếng Trung</p>
+        </div>
+        <h1 style="position:relative;font-family:var(--head);font-size:26px;line-height:1.3;margin-top:36px;text-align:center">Học tiếng Trung từ con số 0, mỗi ngày 10 phút</h1>
+        <p style="position:relative;text-align:center;margin-top:12px" class="muted">Thẻ từ có pinyin, phát âm, mẹo nhớ bằng hình. Không cần đăng ký.</p>
+        <div style="position:relative;margin-top:28px;display:grid;gap:10px">
+          <div class="btn primary">Chọn level của bạn <svg class="ic sm"><use href="#i-down"/></svg></div>
+        </div>
+        <p style="position:relative;text-align:center;margin-top:44px;font-size:13px" class="muted">Cuộn xuống để xem</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1b. Chọn level -->
+  <div class="screen">
+    <div class="label"><b>1b</b>Trang chủ — phần chọn level (cuối trang)</div>
+    <div class="note">5 nấc, mỗi nấc có một câu "bạn đã biết gì". Chọn xong: con dấu đỏ đóng xuống rồi chuyển trang.</div>
+    <div class="phone">
+      <div class="scroll" style="padding-top:28px">
+        <h2 style="font-family:var(--head);font-size:24px;text-align:center">Bạn đang ở level nào?</h2>
+        <p class="muted" style="text-align:center;margin-top:6px;font-size:14px">Chọn mức gần đúng nhất, sau này đổi được.</p>
+        <div style="display:grid;gap:10px;margin-top:20px">
+          <div class="lvl"><span class="g">音</span><div style="flex:1"><div style="font-weight:700">Mới bắt đầu</div><div class="muted" style="font-size:13px;line-height:1.4">Chưa biết gì. Học pinyin và 4 thanh điệu.</div></div></div>
+          <div class="lvl sel"><span class="g">壹</span><div style="flex:1"><div style="font-weight:700">HSK 1</div><div class="muted" style="font-size:13px;line-height:1.4">Đọc được pinyin, biết vài câu chào hỏi.</div></div><span class="seal" style="width:36px;height:36px;font-size:22px">选</span></div>
+          <div class="lvl"><span class="g">贰</span><div style="flex:1"><div style="font-weight:700">HSK 2</div><div class="muted" style="font-size:13px;line-height:1.4">Biết khoảng 150 từ, nói câu ngắn về bản thân.</div></div></div>
+          <div class="lvl"><span class="g">叁</span><div style="flex:1"><div style="font-weight:700">HSK 3</div><div class="muted" style="font-size:13px;line-height:1.4">Biết khoảng 300 từ, hỏi đường, mua đồ được.</div></div></div>
+          <div class="lvl soon"><span class="g">肆</span><div style="flex:1"><div style="font-weight:700">HSK 4–6 <span class="tag">SẮP CÓ</span></div><div class="muted" style="font-size:13px;line-height:1.4">Đang soạn nội dung.</div></div></div>
+        </div>
+        <div class="btn ghost" style="margin-top:14px;text-decoration:underline;text-underline-offset:4px">Không chắc? Làm bài kiểm tra trình độ</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Trang HSK 1 -->
+  <div class="screen">
+    <div class="label"><b>2</b>Trang level HSK 1 — danh sách bài</div>
+    <div class="note">Bài mở khoá lần lượt. Bài đang học nổi bật nhất, có nút "Học tiếp". Bài đã xong có dấu son.</div>
+    <div class="phone">
+      <div class="scroll" style="padding-top:16px">
+        <div class="card" style="padding:16px;position:relative;overflow:hidden">
+          <span style="position:absolute;right:6px;top:-18px;font-family:var(--display);font-size:120px;color:#1E1B1814;line-height:1">壹</span>
+          <div style="font-size:13px;font-weight:600;color:var(--cinnabar)">Cấp học</div>
+          <div style="font-family:var(--head);font-size:26px;font-weight:700;line-height:1.2">HSK 1</div>
+          <div style="display:flex;align-items:center;gap:10px;margin-top:10px">
+            <div class="bar" style="flex:1"><i style="width:13%"></i></div>
+            <span style="font-size:13px;font-weight:600">20/150 từ</span>
+          </div>
+        </div>
+        <div style="display:grid;gap:10px;margin-top:16px">
+          <div class="card lesson"><span class="num done"><svg class="ic sm" style="stroke-width:2.5"><use href="#i-check"/></svg></span><div style="flex:1"><div style="font-family:var(--head);font-weight:700">Chào hỏi</div><div class="muted" style="font-size:13px">10 từ · đã xong</div></div><svg class="ic muted"><use href="#i-right"/></svg></div>
+          <div class="card lesson" style="border-color:var(--cinnabar);box-shadow:0 0 0 1px var(--cinnabar), var(--shadow);flex-wrap:wrap">
+            <span class="num" style="border-color:var(--cinnabar);color:var(--cinnabar)">2</span>
+            <div style="flex:1"><div style="font-family:var(--head);font-weight:700">Câu cơ bản</div><div class="muted" style="font-size:13px">đang học · thẻ 4/10</div></div>
+            <div class="btn primary" style="width:100%;min-height:44px;margin-top:4px">Học tiếp</div>
+          </div>
+          <div class="card lesson"><span class="num lock"><svg class="ic sm"><use href="#i-lock"/></svg></span><div style="flex:1"><div style="font-family:var(--head);font-weight:700;color:#1E1B18b3">Số đếm</div><div class="muted" style="font-size:13px">10 từ · mở khi xong bài 2</div></div></div>
+          <div class="card lesson"><span class="num lock"><svg class="ic sm"><use href="#i-lock"/></svg></span><div style="flex:1"><div style="font-family:var(--head);font-weight:700;color:#1E1B18b3">Gia đình</div><div class="muted" style="font-size:13px">10 từ</div></div></div>
+          <div class="card lesson"><span class="num lock"><svg class="ic sm"><use href="#i-lock"/></svg></span><div style="flex:1"><div style="font-family:var(--head);font-weight:700;color:#1E1B18b3">Từ để hỏi</div><div class="muted" style="font-size:13px">10 từ</div></div></div>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="on"><svg class="ic"><use href="#i-book"/></svg>Học</div>
+        <div><svg class="ic"><use href="#i-rot"/></svg>Ôn tập</div>
+        <div><svg class="ic"><use href="#i-lib"/></svg>Từ vựng</div>
+        <div><svg class="ic"><use href="#i-dumb"/></svg>Luyện tập</div>
+        <div><svg class="ic"><use href="#i-user"/></svg>Tôi</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= HÀNG 2 ================= -->
+<div class="row">
+
+  <!-- 3. Thẻ mặt trước -->
+  <div class="screen">
+    <div class="label"><b>3</b>Thẻ học — mặt trước</div>
+    <div class="note">Chữ Hán trên nền ô chữ điền (giấy tập viết). Chạm thẻ hoặc nút để lật. Trong bài ẩn thanh điều hướng để tập trung.</div>
+    <div class="phone">
+      <div class="scroll">
+        <div class="topbar">
+          <svg class="ic"><use href="#i-x"/></svg>
+          <div class="bar" style="flex:1"><i style="width:30%"></i></div>
+          <span style="font-size:13px;font-weight:600">3/10</span>
+        </div>
+        <div class="card" style="height:470px;display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:8px;position:relative">
+          <span class="chip" style="position:absolute;top:12px;right:12px;height:36px"><svg class="ic sm"><use href="#i-swap"/></svg>Chữ → Nghĩa</span>
+          <div class="grid-bg mizi" style="width:190px;height:190px;border:1px solid #B3261E40;display:grid;place-items:center">
+            <span class="zh" style="font-size:132px;line-height:1;font-weight:600">好</span>
+          </div>
+          <p class="muted" style="margin-top:28px;font-size:14px;text-align:center;padding:0 24px">Bạn nhớ nghĩa chữ này không?</p>
+        </div>
+        <div class="btn primary" style="margin-top:16px;min-height:56px">Lật thẻ</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4A. Mặt sau – phương án A -->
+  <div class="screen">
+    <div class="label"><b>4A</b>Mặt sau — phương án A: hiện hết</div>
+    <div class="note">Mọi thứ trên một mặt: âm, nghĩa, mẹo nhớ có hình tách bộ thủ, câu ví dụ. Đủ thông tin nhưng dày chữ.</div>
+    <div class="phone">
+      <div class="scroll">
+        <div class="topbar">
+          <svg class="ic"><use href="#i-x"/></svg>
+          <div class="bar" style="flex:1"><i style="width:30%"></i></div>
+          <span style="font-size:13px;font-weight:600">3/10</span>
+        </div>
+        <div class="card" style="padding:16px;margin-top:8px">
+          <div style="display:flex;align-items:center;gap:14px">
+            <span class="zh" style="font-size:60px;line-height:1;font-weight:600">好</span>
+            <div style="flex:1">
+              <div class="p3" style="font-size:22px;font-weight:500;line-height:1.2">hǎo</div>
+              <div style="font-weight:700;font-size:17px">tốt, khoẻ, hay</div>
+              <div class="muted" style="font-size:13px">tính từ</div>
+            </div>
+            <span class="speak"><svg class="ic"><use href="#i-vol"/></svg></span>
+          </div>
+          <div class="mn" style="margin-top:14px">
+            <h4><svg class="ic sm"><use href="#i-bulb"/></svg>Mẹo nhớ</h4>
+            <div style="display:flex;gap:12px;margin-top:8px;align-items:center">
+              <span class="zh split" style="font-size:64px"><span>好</span><span>好</span></span>
+              <div style="display:grid;gap:2px">
+                <div class="comp"><span class="zh" style="color:var(--cinnabar)">女</span><span class="muted">người mẹ</span></div>
+                <div class="comp"><span class="zh" style="color:var(--t1)">子</span><span class="muted">đứa con</span></div>
+              </div>
+            </div>
+            <p style="font-size:14.5px;margin-top:8px;line-height:1.5">Mẹ (女) ôm con (子) — còn gì tốt đẹp hơn.</p>
+          </div>
+          <div style="border-top:1px solid var(--line);margin-top:14px;padding-top:12px;display:flex;gap:10px">
+            <div style="flex:1">
+              <div class="zh" style="font-size:22px">我很好。</div>
+              <div style="font-size:14.5px"><span class="p3">Wǒ</span> <span class="p3">hěn</span> <span class="p3">hǎo</span>.</div>
+              <div class="muted" style="font-size:14.5px">Tôi rất khoẻ.</div>
+            </div>
+            <span class="speak"><svg class="ic"><use href="#i-vol"/></svg></span>
+          </div>
+        </div>
+        <div class="rate" style="margin-top:14px">
+          <div class="r-again"><svg class="ic sm"><use href="#i-x"/></svg>Chưa nhớ</div>
+          <div class="r-hard"><svg class="ic sm"><use href="#i-minus"/></svg>Hơi nhớ</div>
+          <div class="r-good"><svg class="ic sm"><use href="#i-check"/></svg>Đã nhớ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4B. Mặt sau – phương án B -->
+  <div class="screen">
+    <div class="label"><b>4B</b>Mặt sau — phương án B: gọn, chia tab</div>
+    <div class="note">Phần đầu lớn, thoáng. Mẹo nhớ và câu ví dụ nằm ở 2 tab, mặc định mở "Mẹo nhớ". Ít chữ hơn, phải bấm thêm để xem câu.</div>
+    <div class="phone">
+      <div class="scroll">
+        <div class="topbar">
+          <svg class="ic"><use href="#i-x"/></svg>
+          <div class="bar" style="flex:1"><i style="width:30%"></i></div>
+          <span style="font-size:13px;font-weight:600">3/10</span>
+        </div>
+        <div class="card" style="margin-top:8px;overflow:hidden">
+          <div style="text-align:center;padding:20px 16px 14px;position:relative">
+            <span class="speak" style="position:absolute;right:14px;top:14px"><svg class="ic"><use href="#i-vol"/></svg></span>
+            <span class="zh" style="font-size:84px;line-height:1;font-weight:600">好</span>
+            <div class="p3" style="font-size:24px;font-weight:500;margin-top:6px;line-height:1.2">hǎo <span style="font-size:13px" class="muted">(thanh 3)</span></div>
+            <div style="font-weight:700;font-size:19px">tốt, khoẻ, hay</div>
+          </div>
+          <div class="tabs"><div class="on">Mẹo nhớ</div><div>Câu ví dụ (2)</div></div>
+          <div style="padding:14px 16px">
+            <div style="display:flex;align-items:center;justify-content:center;gap:10px">
+              <div style="text-align:center"><span class="zh" style="font-size:44px;color:var(--cinnabar);line-height:1">女</span><div class="muted" style="font-size:12.5px">người mẹ</div></div>
+              <span style="font-size:22px" class="muted">+</span>
+              <div style="text-align:center"><span class="zh" style="font-size:44px;color:var(--t1);line-height:1">子</span><div class="muted" style="font-size:12.5px">đứa con</div></div>
+              <span style="font-size:22px" class="muted">=</span>
+              <div style="text-align:center"><span class="zh split" style="font-size:44px"><span>好</span><span>好</span></span><div class="muted" style="font-size:12.5px">tốt</div></div>
+            </div>
+            <p style="font-size:15px;margin-top:12px;line-height:1.5;text-align:center">Mẹ ôm con — còn gì tốt đẹp hơn.</p>
+          </div>
+        </div>
+        <div class="rate" style="margin-top:14px">
+          <div class="r-again"><svg class="ic sm"><use href="#i-x"/></svg>Chưa nhớ</div>
+          <div class="r-hard"><svg class="ic sm"><use href="#i-minus"/></svg>Hơi nhớ</div>
+          <div class="r-good"><svg class="ic sm"><use href="#i-check"/></svg>Đã nhớ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Tổng kết -->
+  <div class="screen">
+    <div class="label"><b>5</b>Tổng kết bài</div>
+    <div class="note">Con dấu đỏ đóng xuống. Một nút chính tuỳ kết quả: còn từ chưa nhớ thì "Ôn lại", nhớ hết thì "Bài tiếp".</div>
+    <div class="phone">
+      <div class="scroll" style="padding-top:40px;text-align:center">
+        <div style="position:relative;display:inline-grid;place-items:center">
+          <div class="ink-blob" style="width:200px;height:200px;left:-48px;top:-48px"></div>
+          <span class="seal" style="width:104px;height:104px;font-size:64px;position:relative">好</span>
+        </div>
+        <h2 style="font-family:var(--head);font-size:24px;margin-top:24px">Xong bài “Câu cơ bản”</h2>
+        <p class="muted" style="margin-top:6px">Còn 2 từ chưa nhớ, ôn thêm một lượt là vào ngay.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px">
+          <div class="card" style="padding:12px"><div class="muted" style="font-size:13px">Đã nhớ</div><div style="font-family:var(--head);font-size:36px;font-weight:700;color:var(--jade);line-height:1.2">8</div></div>
+          <div class="card" style="padding:12px"><div class="muted" style="font-size:13px">Chưa nhớ</div><div style="font-family:var(--head);font-size:36px;font-weight:700;color:var(--cinnabar);line-height:1.2">2</div></div>
+        </div>
+        <div class="card" style="margin-top:12px;text-align:left">
+          <div style="display:flex;gap:10px;align-items:baseline;padding:8px 14px;border-bottom:1px solid var(--line)"><span class="zh" style="font-size:22px">呢</span><span class="p0">ne</span><span class="muted">còn… thì sao?</span></div>
+          <div style="display:flex;gap:10px;align-items:baseline;padding:8px 14px"><span class="zh" style="font-size:22px">名字</span><span><span class="p2">míng</span><span class="p0">zi</span></span><span class="muted">tên</span></div>
+        </div>
+        <div style="display:grid;gap:10px;margin-top:20px">
+          <div class="btn primary"><svg class="ic sm"><use href="#i-rotl"/></svg>Ôn lại 2 từ chưa nhớ</div>
+          <div class="btn secondary">Bài tiếp: Số đếm <svg class="ic sm"><use href="#i-arrow-r"/></svg></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
