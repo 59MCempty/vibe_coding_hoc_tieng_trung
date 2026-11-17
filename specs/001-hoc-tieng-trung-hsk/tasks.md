@@ -28,12 +28,12 @@ reduced motion bằng Playwright. Chỉ các test đó được đưa vào; vi�
 
 **Purpose**: Khởi tạo dự án và công cụ
 
-- [X] T001 Tạo cấu trúc thư mục `web/`, `reminder-worker/`, `content-tools/` (prompts/, review/, samples/) đúng như mục Source Code trong specs/001-hoc-tieng-trung-hsk/plan.md
-- [X] T002 Khởi tạo Vite + React + TypeScript (strict) trong web/ và cài React Router, Zustand, Tailwind CSS, Lucide React, vite-plugin-pwa; ghi lệnh `dev`, `build`, `preview`, `test`, `test:e2e`, `validate:content` vào web/package.json
-- [X] T003 [P] Cấu hình ESLint + Prettier cho TypeScript/React trong web/eslint.config.js và web/.prettierrc
-- [X] T004 [P] Cấu hình Vitest (môi trường jsdom) trong web/vitest.config.ts và thư mục web/tests/unit/
-- [X] T005 [P] Cấu hình Playwright trong web/playwright.config.ts: 3 kích thước 360×800, 768×1024, 1280×800 và một project `reducedMotion: 'reduce'` chạy trên Chromium; thêm project WebKit (Safari) 360×800 và Firefox 1280×800 để phủ các trình duyệt constitution yêu cầu (Chrome, Safari, Edge, Firefox)
-- [X] T006 [P] Tạo web/.gitignore và gốc dự án .gitignore (node_modules, dist, .env, .wrangler)
+- [ ] T001 Tạo cấu trúc thư mục `web/`, `reminder-worker/`, `content-tools/` (prompts/, review/, samples/) đúng như mục Source Code trong specs/001-hoc-tieng-trung-hsk/plan.md
+- [ ] T002 Khởi tạo Vite + React + TypeScript (strict) trong web/ và cài React Router, Zustand, Tailwind CSS, Lucide React, vite-plugin-pwa; ghi lệnh `dev`, `build`, `preview`, `test`, `test:e2e`, `validate:content` vào web/package.json
+- [ ] T003 [P] Cấu hình ESLint + Prettier cho TypeScript/React trong web/eslint.config.js và web/.prettierrc
+- [ ] T004 [P] Cấu hình Vitest (môi trường jsdom) trong web/vitest.config.ts và thư mục web/tests/unit/
+- [ ] T005 [P] Cấu hình Playwright trong web/playwright.config.ts: 3 kích thước 360×800, 768×1024, 1280×800 và một project `reducedMotion: 'reduce'` chạy trên Chromium; thêm project WebKit (Safari) 360×800 và Firefox 1280×800 để phủ các trình duyệt constitution yêu cầu (Chrome, Safari, Edge, Firefox)
+- [ ] T006 [P] Tạo web/.gitignore và gốc dự án .gitignore (node_modules, dist, .env, .wrangler)
 
 ---
 
@@ -45,35 +45,35 @@ reduced motion bằng Playwright. Chỉ các test đó được đưa vào; vi�
 
 ### Thiết kế và khung giao diện
 
-- [X] T007 Tạo web/src/styles/tokens.css với toàn bộ biến màu trong design-system.md (`--paper #F6EFE1`, `--paper-deep #ECE1CB`, `--card #FBF7EE`, `--ink #1E1B18`, `--ink-soft #5A524A`, `--cinnabar #B3261E`, `--cinnabar-deep #8C1D17`, `--gold #C9A04A` chỉ dùng trang trí, `--gold-text #7A5A12`, `--jade #2F6B4F`, `--line #D9CCB3`, `--ring #B3261E`), 5 màu thanh điệu, bo góc 6px/10px, thang khoảng cách 4px, và nối vào Tailwind theme trong web/tailwind.config.ts
-- [X] T008 Tải font Ma Shan Zheng, Noto Serif SC, Noto Serif, Be Vietnam Pro (Google Fonts, `display=swap`, có subset tiếng Việt) trong web/index.html và khai báo `font-family` trong web/src/styles/tokens.css; đặt body 16px / line-height 1.6
-- [X] T009 [P] Thêm texture giấy ≤ 20KB vào web/public/textures/paper.webp và lớp phủ `opacity: .25` trong web/src/styles/global.css
-- [X] T010 [P] Viết helper hiệu ứng web/src/lib/motion.ts: hàm `prefersReducedMotion()`, `animateOrSkip()` trả về trạng thái cuối ngay khi reduced motion, quy ước chỉ animate `transform`/`opacity`
-- [X] T011 [P] Tạo component UI cơ bản trong web/src/components/ui/: Button.tsx (vùng bấm ≥ 44×44px, focus outline 2px `--ring` offset 2px), Card.tsx (bo 10px, bóng một lớp theo design-system.md), Seal.tsx (con dấu đỏ: scale 1.4→1, rotate −8°→−4°, 350ms `back.out`, fade 150ms khi reduced motion)
-- [X] T012 [P] Tạo web/src/components/ui/ProgressRing.tsx (vẽ % bằng stroke-dashoffset, 600ms) và web/src/components/ui/PinyinText.tsx (tô màu theo thanh điệu, luôn giữ dấu thanh, không chỉ dựa vào màu)
-- [X] T013 Tạo router và layout trong web/src/app/router.tsx và web/src/app/Layout.tsx: khai báo mọi đường dẫn trong contracts/routes.md (trang tạm "Đang xây dựng" cho route chưa làm), tách code theo trang (lazy import), trang 404 tiếng Việt
-- [X] T014 Tạo thanh điều hướng web/src/app/NavBar.tsx: dưới đáy trên mobile với đúng 5 mục "Học, Ôn tập, Từ vựng, Luyện tập, Tôi", trên đầu ở ≥ 768px, ẩn ở trang chủ `/`
+- [ ] T007 Tạo web/src/styles/tokens.css với toàn bộ biến màu trong design-system.md (`--paper #F6EFE1`, `--paper-deep #ECE1CB`, `--card #FBF7EE`, `--ink #1E1B18`, `--ink-soft #5A524A`, `--cinnabar #B3261E`, `--cinnabar-deep #8C1D17`, `--gold #C9A04A` chỉ dùng trang trí, `--gold-text #7A5A12`, `--jade #2F6B4F`, `--line #D9CCB3`, `--ring #B3261E`), 5 màu thanh điệu, bo góc 6px/10px, thang khoảng cách 4px, và nối vào Tailwind theme trong web/tailwind.config.ts
+- [ ] T008 Tải font Ma Shan Zheng, Noto Serif SC, Noto Serif, Be Vietnam Pro (Google Fonts, `display=swap`, có subset tiếng Việt) trong web/index.html và khai báo `font-family` trong web/src/styles/tokens.css; đặt body 16px / line-height 1.6
+- [ ] T009 [P] Thêm texture giấy ≤ 20KB vào web/public/textures/paper.webp và lớp phủ `opacity: .25` trong web/src/styles/global.css
+- [ ] T010 [P] Viết helper hiệu ứng web/src/lib/motion.ts: hàm `prefersReducedMotion()`, `animateOrSkip()` trả về trạng thái cuối ngay khi reduced motion, quy ước chỉ animate `transform`/`opacity`
+- [ ] T011 [P] Tạo component UI cơ bản trong web/src/components/ui/: Button.tsx (vùng bấm ≥ 44×44px, focus outline 2px `--ring` offset 2px), Card.tsx (bo 10px, bóng một lớp theo design-system.md), Seal.tsx (con dấu đỏ: scale 1.4→1, rotate −8°→−4°, 350ms `back.out`, fade 150ms khi reduced motion)
+- [ ] T012 [P] Tạo web/src/components/ui/ProgressRing.tsx (vẽ % bằng stroke-dashoffset, 600ms) và web/src/components/ui/PinyinText.tsx (tô màu theo thanh điệu, luôn giữ dấu thanh, không chỉ dựa vào màu)
+- [ ] T013 Tạo router và layout trong web/src/app/router.tsx và web/src/app/Layout.tsx: khai báo mọi đường dẫn trong contracts/routes.md (trang tạm "Đang xây dựng" cho route chưa làm), tách code theo trang (lazy import), trang 404 tiếng Việt
+- [ ] T014 Tạo thanh điều hướng web/src/app/NavBar.tsx: dưới đáy trên mobile với đúng 5 mục "Học, Ôn tập, Từ vựng, Luyện tập, Tôi", trên đầu ở ≥ 768px, ẩn ở trang chủ `/`
 
 ### Dữ liệu và lưu trữ
 
-- [X] T015 Khai báo kiểu nội dung trong web/src/types/content.ts theo data-model.md: Word (id dạng `hsk1-001`, `tones` 0–4 mỗi âm tiết, `kind: 'concrete' | 'abstract'`, `image` BẮT BUỘC khi `kind = concrete`, `examples` ≥ 2), kiểu cho hai file sinh tự động `ConfusablesMap` và `ComponentsMap`, ExampleSentence (`tokens`), Mnemonic (`components` không rỗng, `story` ≤ 200 ký tự), Lesson (8–12 từ), RoadmapStage (`status: 'available' | 'coming_soon'`), BadgeDefinition
-- [X] T016 Khai báo kiểu tiến độ trong web/src/types/progress.ts theo data-model.md: CardProgress (`box` 0–6, `lastRating: 'again' | 'hard' | 'good'`), DailyGoal (`newWordsTarget` 3–20, mặc định 10), Streak, Reminder (`weekdays` ≥ 1 ngày, `channel: 'push' | 'calendar'`), EarnedBadge, GameSession, WeeklyChallenge, UserSettings (`dailyReviewCap` mặc định 50)
-- [X] T017 Viết web/src/lib/date.ts: ngày dạng `YYYY-MM-DD` theo giờ địa phương thiết bị, cộng ngày, đầu tuần (thứ Hai), so sánh ngày
-- [X] T018 Viết kho trạng thái web/src/store/index.ts bằng Zustand + persist: một khoá localStorage `hoc-tieng-trung:v1`, `schemaVersion: 1`, đủ các nhánh `settings, cards, goal, streak, reminder, badges, games, weekly` theo contracts/storage-schema.md
-- [X] T019 Viết web/src/store/migrate.ts: chạy chuyển đổi tuần tự khi `schemaVersion` tăng; khi JSON hỏng thì lưu bản sao vào `hoc-tieng-trung:backup-<ngày>`, khởi tạo mới và trả về cờ để giao diện báo lỗi tiếng Việt kèm nút tải bản sao
-- [X] T020 [P] Viết web/src/lib/content.ts: tải `public/data/*.json` theo cấp, cache trong bộ nhớ, hàm `getWord`, `getLesson`, `getStage`, `getWordsByLevel`, `getConfusables(wordId)` và `getComponents(chữ)` đọc từ web/public/data/generated/
-- [X] T021 [P] Viết web/src/lib/speech.ts: phát âm bằng Web Speech API giọng `zh-CN`, phát file mp3 khi có `audioSrc`, phát hiện không có giọng tiếng Trung và trả về lỗi để hiện hướng dẫn tiếng Việt (không chặn việc học)
+- [ ] T015 Khai báo kiểu nội dung trong web/src/types/content.ts theo data-model.md: Word (id dạng `hsk1-001`, `tones` 0–4 mỗi âm tiết, `kind: 'concrete' | 'abstract'`, `image` BẮT BUỘC khi `kind = concrete`, `examples` ≥ 2), kiểu cho hai file sinh tự động `ConfusablesMap` và `ComponentsMap`, ExampleSentence (`tokens`), Mnemonic (`components` không rỗng, `story` ≤ 200 ký tự), Lesson (8–12 từ), RoadmapStage (`status: 'available' | 'coming_soon'`), BadgeDefinition
+- [ ] T016 Khai báo kiểu tiến độ trong web/src/types/progress.ts theo data-model.md: CardProgress (`box` 0–6, `lastRating: 'again' | 'hard' | 'good'`), DailyGoal (`newWordsTarget` 3–20, mặc định 10), Streak, Reminder (`weekdays` ≥ 1 ngày, `channel: 'push' | 'calendar'`), EarnedBadge, GameSession, WeeklyChallenge, UserSettings (`dailyReviewCap` mặc định 50)
+- [ ] T017 Viết web/src/lib/date.ts: ngày dạng `YYYY-MM-DD` theo giờ địa phương thiết bị, cộng ngày, đầu tuần (thứ Hai), so sánh ngày
+- [ ] T018 Viết kho trạng thái web/src/store/index.ts bằng Zustand + persist: một khoá localStorage `hoc-tieng-trung:v1`, `schemaVersion: 1`, đủ các nhánh `settings, cards, goal, streak, reminder, badges, games, weekly` theo contracts/storage-schema.md
+- [ ] T019 Viết web/src/store/migrate.ts: chạy chuyển đổi tuần tự khi `schemaVersion` tăng; khi JSON hỏng thì lưu bản sao vào `hoc-tieng-trung:backup-<ngày>`, khởi tạo mới và trả về cờ để giao diện báo lỗi tiếng Việt kèm nút tải bản sao
+- [ ] T020 [P] Viết web/src/lib/content.ts: tải `public/data/*.json` theo cấp, cache trong bộ nhớ, hàm `getWord`, `getLesson`, `getStage`, `getWordsByLevel`, `getConfusables(wordId)` và `getComponents(chữ)` đọc từ web/public/data/generated/
+- [ ] T021 [P] Viết web/src/lib/speech.ts: phát âm bằng Web Speech API giọng `zh-CN`, phát file mp3 khi có `audioSrc`, phát hiện không có giọng tiếng Trung và trả về lỗi để hiện hướng dẫn tiếng Việt (không chặn việc học)
 
 ### Công cụ nội dung
 
-- [X] T022 Viết script kiểm tra web/scripts/validate-content.ts đủ 9 quy tắc trong contracts/content-schema.md (đủ trường, id không trùng; pinyin có dấu và số âm tiết = số chữ, `tones` khớp dấu; `examples.length ≥ 2` và ghép `tokens` = `hanzi`; cảnh báo câu dùng từ cấp cao hơn; `concrete` có file ảnh, mọi chữ có file nét; mnemonic hợp lệ; mỗi bài 8–12 từ và mỗi từ thuộc đúng một bài; báo cáo % có ảnh và mẹo nhớ); có hai chế độ: `--draft` bỏ qua các quy tắc cần file đã sinh (file ảnh, file nét) để kiểm tra nội dung đang soạn, và chế độ đầy đủ (mặc định) chạy trước `build`
-- [X] T023 [P] Viết web/tests/unit/validate-content.test.ts với dữ liệu mẫu đúng và sai cho từng quy tắc của T022
-- [X] T024 [P] Viết script web/scripts/build-search-index.ts tạo `pinyinPlain` (bỏ dấu, bỏ khoảng trắng: `nǐ hǎo` → `nihao`) và nghĩa tiếng Việt bỏ dấu (`xin chào` → `xin chao`) cho mọi từ, ghi ra web/public/data/generated/search-index.json
-- [X] T025 [P] Viết script web/scripts/build-confusables.ts sinh `confusables` cho mỗi từ: cùng âm khác thanh, chữ có thành phần chung (từ dữ liệu decomposition Make Me a Hanzi), cùng chủ đề; ghi ra web/public/data/generated/confusables.json dạng `{ "<wordId>": ["<wordId>", …] }` (file sinh tự động, không sửa tay, không ghi vào words/*.json)
-- [X] T026 [P] Viết web/scripts/fetch-strokes.ts: lấy dữ liệu nét từ hanzi-writer-data cho mọi chữ Hán xuất hiện trong từ và câu ví dụ, lưu vào web/public/strokes/<chữ>.json; đồng thời tải file từ điển của Make Me a Hanzi (dictionary.txt), lấy trường `decomposition` và `matches` (nét nào thuộc thành phần nào) để sinh web/public/data/generated/components.json dạng `{ "<chữ>": { "decomposition": "…", "groups": [[0,1,2],[3,4]] } }` (mỗi nhóm là chỉ số các nét thuộc một thành phần), chữ thiếu dữ liệu thì không có mục; ghi nguồn và giấy phép (Arphic Public License / LGPL) vào web/public/data/credits.json
-- [X] T027 Viết mẫu soạn nội dung content-tools/prompts/word-content.md: định dạng JSON đúng contracts/content-schema.md, nghĩa tiếng Việt, 2 câu ví dụ chỉ dùng từ cùng cấp trở xuống, mẹo nhớ (tách thành phần + câu chuyện ≤ 2 câu), phân loại `concrete`/`abstract`
-- [X] T028 Viết hướng dẫn ảnh Canva content-tools/prompts/image-style.md: câu lệnh chung (thuỷ mặc tối giản, mực đen trên giấy ngà, một điểm nhấn đỏ son, không chữ, không khung, phẳng 2D, vuông) + bài học từ 3 ảnh mẫu trong content-tools/samples/: thêm "chủ thể ở giữa, chiếm khoảng 60% khung hình"; với từ hành động thêm "người vẽ giản lược vài nét, không vẽ mặt chi tiết, không trang phục cổ" và nêu rõ đồ vật; quy trình xuất PNG 512×512 → WebP ≤ 40KB; kiểm tra lại điều khoản giấy phép nội dung Canva trước khi đưa lên web
-- [X] T029 Tạo web/public/data/stages.json: 7 chặng `pinyin, hsk1…hsk6`, `hsk4–hsk6` có `status: "coming_soon"` và `lessonIds` rỗng, mỗi chặng có `descriptionVi` "bạn đã biết gì" dùng cho phần chọn level
+- [ ] T022 Viết script kiểm tra web/scripts/validate-content.ts đủ 9 quy tắc trong contracts/content-schema.md (đủ trường, id không trùng; pinyin có dấu và số âm tiết = số chữ, `tones` khớp dấu; `examples.length ≥ 2` và ghép `tokens` = `hanzi`; cảnh báo câu dùng từ cấp cao hơn; `concrete` có file ảnh, mọi chữ có file nét; mnemonic hợp lệ; mỗi bài 8–12 từ và mỗi từ thuộc đúng một bài; báo cáo % có ảnh và mẹo nhớ); có hai chế độ: `--draft` bỏ qua các quy tắc cần file đã sinh (file ảnh, file nét) để kiểm tra nội dung đang soạn, và chế độ đầy đủ (mặc định) chạy trước `build`
+- [ ] T023 [P] Viết web/tests/unit/validate-content.test.ts với dữ liệu mẫu đúng và sai cho từng quy tắc của T022
+- [ ] T024 [P] Viết script web/scripts/build-search-index.ts tạo `pinyinPlain` (bỏ dấu, bỏ khoảng trắng: `nǐ hǎo` → `nihao`) và nghĩa tiếng Việt bỏ dấu (`xin chào` → `xin chao`) cho mọi từ, ghi ra web/public/data/generated/search-index.json
+- [ ] T025 [P] Viết script web/scripts/build-confusables.ts sinh `confusables` cho mỗi từ: cùng âm khác thanh, chữ có thành phần chung (từ dữ liệu decomposition Make Me a Hanzi), cùng chủ đề; ghi ra web/public/data/generated/confusables.json dạng `{ "<wordId>": ["<wordId>", …] }` (file sinh tự động, không sửa tay, không ghi vào words/*.json)
+- [ ] T026 [P] Viết web/scripts/fetch-strokes.ts: lấy dữ liệu nét từ hanzi-writer-data cho mọi chữ Hán xuất hiện trong từ và câu ví dụ, lưu vào web/public/strokes/<chữ>.json; đồng thời tải file từ điển của Make Me a Hanzi (dictionary.txt), lấy trường `decomposition` và `matches` (nét nào thuộc thành phần nào) để sinh web/public/data/generated/components.json dạng `{ "<chữ>": { "decomposition": "…", "groups": [[0,1,2],[3,4]] } }` (mỗi nhóm là chỉ số các nét thuộc một thành phần), chữ thiếu dữ liệu thì không có mục; ghi nguồn và giấy phép (Arphic Public License / LGPL) vào web/public/data/credits.json
+- [ ] T027 Viết mẫu soạn nội dung content-tools/prompts/word-content.md: định dạng JSON đúng contracts/content-schema.md, nghĩa tiếng Việt, 2 câu ví dụ chỉ dùng từ cùng cấp trở xuống, mẹo nhớ (tách thành phần + câu chuyện ≤ 2 câu), phân loại `concrete`/`abstract`
+- [ ] T028 Viết hướng dẫn ảnh Canva content-tools/prompts/image-style.md: câu lệnh chung (thuỷ mặc tối giản, mực đen trên giấy ngà, một điểm nhấn đỏ son, không chữ, không khung, phẳng 2D, vuông) + bài học từ 3 ảnh mẫu trong content-tools/samples/: thêm "chủ thể ở giữa, chiếm khoảng 60% khung hình"; với từ hành động thêm "người vẽ giản lược vài nét, không vẽ mặt chi tiết, không trang phục cổ" và nêu rõ đồ vật; quy trình xuất PNG 512×512 → WebP ≤ 40KB; kiểm tra lại điều khoản giấy phép nội dung Canva trước khi đưa lên web
+- [ ] T029 Tạo web/public/data/stages.json: 7 chặng `pinyin, hsk1…hsk6`, `hsk4–hsk6` có `status: "coming_soon"` và `lessonIds` rỗng, mỗi chặng có `descriptionVi` "bạn đã biết gì" dùng cho phần chọn level
 
 **Checkpoint**: Nền tảng xong — có thể bắt đầu các story
 
@@ -87,26 +87,26 @@ reduced motion bằng Playwright. Chỉ các test đó được đưa vào; vi�
 
 ### Nội dung cho US1
 
-- [X] T030 [US1] Soạn nội dung HSK 1 (khoảng 150 từ) theo content-tools/prompts/word-content.md vào web/public/data/words/hsk1.json và chia bài 8–12 từ theo chủ đề vào web/public/data/lessons/hsk1.json; chạy `validate:content -- --draft` không lỗi (kiểm tra đầy đủ chạy ở T033, sau khi có ảnh và file nét)
+- [ ] T030 [US1] Soạn nội dung HSK 1 (khoảng 150 từ) theo content-tools/prompts/word-content.md vào web/public/data/words/hsk1.json và chia bài 8–12 từ theo chủ đề vào web/public/data/lessons/hsk1.json; chạy `validate:content -- --draft` không lỗi (kiểm tra đầy đủ chạy ở T033, sau khi có ảnh và file nét)
 - [ ] T031 [US1] Người duyệt kiểm tra nghĩa, pinyin, câu ví dụ, mẹo nhớ của HSK 1 và ghi kết quả vào content-tools/review/hsk1.md (SC-008)
 - [ ] T032 [P] [US1] Tạo ảnh Canva cho các từ `concrete` của HSK 1 theo content-tools/prompts/image-style.md: làm 20 ảnh đầu, duyệt "mùi AI", đạt mới làm tiếp; lưu web/public/images/words/<wordId>.webp (≤ 40KB). Nếu 20 ảnh đầu không đạt, chuyển các từ đó sang `abstract` (hình tách bộ thủ) theo research R5
-- [X] T033 [US1] Chạy web/scripts/fetch-strokes.ts cho HSK 1 và web/scripts/build-search-index.ts, build-confusables.ts; sau khi T032 xong, chạy `validate:content` chế độ đầy đủ không lỗi (từ `concrete` nào chưa có ảnh đạt thì đổi sang `abstract` trước khi chạy)
+- [ ] T033 [US1] Chạy web/scripts/fetch-strokes.ts cho HSK 1 và web/scripts/build-search-index.ts, build-confusables.ts; sau khi T032 xong, chạy `validate:content` chế độ đầy đủ không lỗi (từ `concrete` nào chưa có ảnh đạt thì đổi sang `abstract` trước khi chạy)
 
 ### Logic cho US1
 
-- [X] T034 [P] [US1] Viết test web/tests/unit/lesson-session.test.ts: thứ tự thẻ, chấm 3 mức, thẻ "Chưa nhớ" quay lại cuối buổi, lưu/khôi phục vị trí `lastLessonPosition`
-- [X] T035 [US1] Viết web/src/features/flashcard/lessonSession.ts: tạo buổi học từ Lesson, ghi đánh giá vào CardProgress theo quy tắc "mới học" trong data-model.md (`good` → box=1, `hard` → box=1, `again` → box=0 và ôn lại ngay trong buổi), lưu `lastLessonPosition` sau mỗi thẻ (FR-007)
+- [ ] T034 [P] [US1] Viết test web/tests/unit/lesson-session.test.ts: thứ tự thẻ, chấm 3 mức, thẻ "Chưa nhớ" quay lại cuối buổi, lưu/khôi phục vị trí `lastLessonPosition`
+- [ ] T035 [US1] Viết web/src/features/flashcard/lessonSession.ts: tạo buổi học từ Lesson, ghi đánh giá vào CardProgress theo quy tắc "mới học" trong data-model.md (`good` → box=1, `hard` → box=1, `again` → box=0 và ôn lại ngay trong buổi), lưu `lastLessonPosition` sau mỗi thẻ (FR-007)
 
 ### Giao diện cho US1
 
-- [X] T036 [P] [US1] Tạo web/src/features/flashcard/FlashCard.tsx: mặt trước chữ Hán Noto Serif SC ≥ 72px trên mobile; mặt sau pinyin (PinyinText), nghĩa, mẹo nhớ, hình liên tưởng, 1 câu ví dụ có nút nghe; lật bằng chạm/chuột/phím cách, rotateY 400ms `power2.out` (fade khi reduced motion) (FR-003, FR-002c)
-- [X] T037 [P] [US1] Tạo web/src/components/ui/MnemonicView.tsx: hiện các thành phần + nghĩa từng phần + câu chuyện; với `concrete` hiện ảnh (lazy load, giữ chỗ để không xô lệch bố cục), với `abstract` hiện hình tách bộ thủ (T038)
-- [X] T038 [P] [US1] Tạo web/src/components/ui/RadicalSplit.tsx: vẽ SVG chữ Hán từ dữ liệu nét, tô màu khác nhau cho từng thành phần theo `groups` trong web/public/data/generated/components.json (chữ không có mục trong file đó thì tô một màu và vẫn hiện danh sách thành phần bằng chữ), hiệu ứng các thành phần trượt vào ghép thành chữ (hiện sẵn khi reduced motion) (FR-002b)
-- [X] T039 [P] [US1] Tạo web/src/components/ui/SpeakButton.tsx dùng web/src/lib/speech.ts, phát trong ≤ 1 giây, báo lỗi tiếng Việt khi máy không có giọng tiếng Trung (SC-004)
-- [X] T040 [US1] Tạo trang web/src/pages/LessonPage.tsx (`/bai/:lessonId`): thanh tiến độ trong bài, 3 nút "Chưa nhớ / Hơi nhớ / Đã nhớ" (FR-005), chuyển hướng học "chữ → nghĩa" hoặc "nghĩa → chữ" (FR-006)
-- [X] T041 [US1] Tạo web/src/features/flashcard/LessonSummary.tsx: số từ đã nhớ/chưa nhớ, con dấu đỏ (Seal) và hiệu ứng chúc mừng, nút học bài tiếp / ôn lại từ chưa nhớ
-- [X] T042 [US1] Thêm hộp thoại "Học tiếp từ thẻ đang dở?" khi mở lại bài còn dở trong web/src/pages/LessonPage.tsx
-- [X] T043 [US1] Tạo trang web/src/pages/StagePage.tsx (`/lo-trinh/:stageId`) bản đơn giản: danh sách bài của cấp, bấm vào bài thì mở `/bai/:lessonId` (lộ trình đầy đủ ở US4); đồng thời cho `/` tạm chuyển hướng tới `/lo-trinh/hsk1` trong web/src/app/router.tsx để bản MVP mở ra là học được ngay (bỏ chuyển hướng này ở T094)
+- [ ] T036 [P] [US1] Tạo web/src/features/flashcard/FlashCard.tsx: mặt trước chữ Hán Noto Serif SC ≥ 72px trên mobile; mặt sau pinyin (PinyinText), nghĩa, mẹo nhớ, hình liên tưởng, 1 câu ví dụ có nút nghe; lật bằng chạm/chuột/phím cách, rotateY 400ms `power2.out` (fade khi reduced motion) (FR-003, FR-002c)
+- [ ] T037 [P] [US1] Tạo web/src/components/ui/MnemonicView.tsx: hiện các thành phần + nghĩa từng phần + câu chuyện; với `concrete` hiện ảnh (lazy load, giữ chỗ để không xô lệch bố cục), với `abstract` hiện hình tách bộ thủ (T038)
+- [ ] T038 [P] [US1] Tạo web/src/components/ui/RadicalSplit.tsx: vẽ SVG chữ Hán từ dữ liệu nét, tô màu khác nhau cho từng thành phần theo `groups` trong web/public/data/generated/components.json (chữ không có mục trong file đó thì tô một màu và vẫn hiện danh sách thành phần bằng chữ), hiệu ứng các thành phần trượt vào ghép thành chữ (hiện sẵn khi reduced motion) (FR-002b)
+- [ ] T039 [P] [US1] Tạo web/src/components/ui/SpeakButton.tsx dùng web/src/lib/speech.ts, phát trong ≤ 1 giây, báo lỗi tiếng Việt khi máy không có giọng tiếng Trung (SC-004)
+- [ ] T040 [US1] Tạo trang web/src/pages/LessonPage.tsx (`/bai/:lessonId`): thanh tiến độ trong bài, 3 nút "Chưa nhớ / Hơi nhớ / Đã nhớ" (FR-005), chuyển hướng học "chữ → nghĩa" hoặc "nghĩa → chữ" (FR-006)
+- [ ] T041 [US1] Tạo web/src/features/flashcard/LessonSummary.tsx: số từ đã nhớ/chưa nhớ, con dấu đỏ (Seal) và hiệu ứng chúc mừng, nút học bài tiếp / ôn lại từ chưa nhớ
+- [ ] T042 [US1] Thêm hộp thoại "Học tiếp từ thẻ đang dở?" khi mở lại bài còn dở trong web/src/pages/LessonPage.tsx
+- [ ] T043 [US1] Tạo trang web/src/pages/StagePage.tsx (`/lo-trinh/:stageId`) bản đơn giản: danh sách bài của cấp, bấm vào bài thì mở `/bai/:lessonId` (lộ trình đầy đủ ở US4); đồng thời cho `/` tạm chuyển hướng tới `/lo-trinh/hsk1` trong web/src/app/router.tsx để bản MVP mở ra là học được ngay (bỏ chuyển hướng này ở T094)
 - [ ] T044 [US1] Viết e2e web/tests/e2e/us1-flashcard.spec.ts theo kịch bản 1 trong quickstart.md, chạy ở mọi project Playwright; đếm số lần bấm từ `/lo-trinh/hsk1` tới thẻ đầu tiên và khẳng định ≤ 2 (để tổng từ trang chủ ≤ 3 theo constitution II)
 
 **Checkpoint**: US1 chạy độc lập — đây là MVP
