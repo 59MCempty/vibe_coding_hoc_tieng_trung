@@ -1,0 +1,58 @@
+[
+  {
+    "id": "pinyin",
+    "order": 0,
+    "titleVi": "Pinyin và thanh điệu",
+    "descriptionVi": "Bạn chưa biết gì về tiếng Trung. Bắt đầu từ cách đọc phiên âm và 4 thanh điệu.",
+    "status": "available",
+    "lessonIds": []
+  },
+  {
+    "id": "hsk1",
+    "order": 1,
+    "titleVi": "HSK 1",
+    "descriptionVi": "Bạn đã đọc được pinyin và thanh điệu, nhưng chưa biết hoặc mới biết vài từ. Học 150 từ đầu tiên: chào hỏi, số đếm, gia đình, ăn uống.",
+    "status": "available",
+    "lessonIds": []
+  },
+  {
+    "id": "hsk2",
+    "order": 2,
+    "titleVi": "HSK 2",
+    "descriptionVi": "Bạn đã biết khoảng 150 từ, chào hỏi và nói được câu ngắn về bản thân. Học thêm 150 từ để nói chuyện hằng ngày đơn giản.",
+    "status": "available",
+    "lessonIds": []
+  },
+  {
+    "id": "hsk3",
+    "order": 3,
+    "titleVi": "HSK 3",
+    "descriptionVi": "Bạn đã biết khoảng 300 từ, hỏi đường, mua đồ, nói về thời gian được. Học thêm 300 từ để giao tiếp cơ bản trong học tập và công việc.",
+    "status": "available",
+    "lessonIds": []
+  },
+  {
+    "id": "hsk4",
+    "order": 4,
+    "titleVi": "HSK 4",
+    "descriptionVi": "Bạn đã biết khoảng 600 từ và nói chuyện được về nhiều chủ đề quen thuộc. Nội dung cấp này đang được soạn.",
+    "status": "coming_soon",
+    "lessonIds": []
+  },
+  {
+    "id": "hsk5",
+    "order": 5,
+    "titleVi": "HSK 5",
+    "descriptionVi": "Bạn đã biết khoảng 1.200 từ, đọc được báo và xem được phim đơn giản. Nội dung cấp này đang được soạn.",
+    "status": "coming_soon",
+    "lessonIds": []
+  },
+  {
+    "id": "hsk6",
+    "order": 6,
+    "titleVi": "HSK 6",
+    "descriptionVi": "Bạn đã biết khoảng 2.500 từ và dùng tiếng Trung thoải mái. Nội dung cấp này đang được soạn.",
+    "status": "coming_soon",
+    "lessonIds": []
+  }
+]
