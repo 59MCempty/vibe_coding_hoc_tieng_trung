@@ -1,0 +1,4833 @@
+[
+  {
+    "id": "hsk1-001",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "tones": [3],
+    "meaningVi": ["bạn", "anh", "chị"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你好！",
+        "pinyin": "Nǐ hǎo!",
+        "meaningVi": "Xin chào!",
+        "tokens": ["你", "好", "！"]
+      },
+      {
+        "hanzi": "你是学生吗？",
+        "pinyin": "Nǐ shì xuésheng ma?",
+        "meaningVi": "Bạn là học sinh phải không?",
+        "tokens": ["你", "是", "学生", "吗", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "亻", "meaningVi": "người" },
+        { "part": "尔", "meaningVi": "ngươi (cách gọi \"bạn\" thời xưa)" }
+      ],
+      "story": "Một người (亻) đứng trước mặt để mình gọi là \"bạn\" (尔)."
+    }
+  },
+  {
+    "id": "hsk1-002",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "tones": [3],
+    "meaningVi": ["tốt", "khoẻ", "hay"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我很好。",
+        "pinyin": "Wǒ hěn hǎo.",
+        "meaningVi": "Tôi rất khoẻ.",
+        "tokens": ["我", "很", "好", "。"]
+      },
+      {
+        "hanzi": "这本书很好。",
+        "pinyin": "Zhè běn shū hěn hǎo.",
+        "meaningVi": "Quyển sách này rất hay.",
+        "tokens": ["这", "本", "书", "很", "好", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "女", "meaningVi": "phụ nữ, người mẹ" },
+        { "part": "子", "meaningVi": "đứa con" }
+      ],
+      "story": "Mẹ (女) ôm con (子) — còn gì tốt đẹp hơn."
+    }
+  },
+  {
+    "id": "hsk1-003",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "tones": [3],
+    "meaningVi": ["tôi"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我是学生。",
+        "pinyin": "Wǒ shì xuésheng.",
+        "meaningVi": "Tôi là học sinh.",
+        "tokens": ["我", "是", "学生", "。"]
+      },
+      {
+        "hanzi": "我爱我的家。",
+        "pinyin": "Wǒ ài wǒ de jiā.",
+        "meaningVi": "Tôi yêu gia đình tôi.",
+        "tokens": ["我", "爱", "我", "的", "家", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "手", "meaningVi": "bàn tay" },
+        { "part": "戈", "meaningVi": "cây giáo" }
+      ],
+      "story": "Tay (手) cầm giáo (戈) để giữ lấy cái \"tôi\" của mình."
+    }
+  },
+  {
+    "id": "hsk1-004",
+    "hanzi": "他",
+    "pinyin": "tā",
+    "tones": [1],
+    "meaningVi": ["anh ấy", "ông ấy"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他是我朋友。",
+        "pinyin": "Tā shì wǒ péngyou.",
+        "meaningVi": "Anh ấy là bạn tôi.",
+        "tokens": ["他", "是", "我", "朋友", "。"]
+      },
+      {
+        "hanzi": "他很高兴。",
+        "pinyin": "Tā hěn gāoxìng.",
+        "meaningVi": "Anh ấy rất vui.",
+        "tokens": ["他", "很", "高兴", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "亻", "meaningVi": "người" },
+        { "part": "也", "meaningVi": "cũng" }
+      ],
+      "story": "Bên cạnh mình cũng (也) có một người (亻) nữa: anh ấy."
+    }
+  },
+  {
+    "id": "hsk1-005",
+    "hanzi": "她",
+    "pinyin": "tā",
+    "tones": [1],
+    "meaningVi": ["cô ấy", "bà ấy"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "她是老师。",
+        "pinyin": "Tā shì lǎoshī.",
+        "meaningVi": "Cô ấy là giáo viên.",
+        "tokens": ["她", "是", "老师", "。"]
+      },
+      {
+        "hanzi": "她很漂亮。",
+        "pinyin": "Tā hěn piàoliang.",
+        "meaningVi": "Cô ấy rất xinh.",
+        "tokens": ["她", "很", "漂亮", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "女", "meaningVi": "phụ nữ" },
+        { "part": "也", "meaningVi": "cũng" }
+      ],
+      "story": "Giống chữ 他 nhưng đổi bộ người thành bộ nữ (女): cô ấy."
+    }
+  },
+  {
+    "id": "hsk1-006",
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "tones": [3, 0],
+    "meaningVi": ["chúng tôi", "chúng ta"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我们是同学。",
+        "pinyin": "Wǒmen shì tóngxué.",
+        "meaningVi": "Chúng tôi là bạn học.",
+        "tokens": ["我们", "是", "同学", "。"]
+      },
+      {
+        "hanzi": "我们去学校。",
+        "pinyin": "Wǒmen qù xuéxiào.",
+        "meaningVi": "Chúng ta đi đến trường.",
+        "tokens": ["我们", "去", "学校", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "我", "meaningVi": "tôi" },
+        { "part": "亻", "meaningVi": "người" },
+        { "part": "门", "meaningVi": "cái cửa (gợi âm men)" }
+      ],
+      "story": "Tôi (我) cùng nhiều người (亻) đứng trước cửa (门): chúng tôi."
+    }
+  },
+  {
+    "id": "hsk1-007",
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "tones": [4, 0],
+    "meaningVi": ["cảm ơn"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "谢谢你！",
+        "pinyin": "Xièxie nǐ!",
+        "meaningVi": "Cảm ơn bạn!",
+        "tokens": ["谢谢", "你", "！"]
+      },
+      {
+        "hanzi": "谢谢老师。",
+        "pinyin": "Xièxie lǎoshī.",
+        "meaningVi": "Em cảm ơn thầy ạ.",
+        "tokens": ["谢谢", "老师", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "讠", "meaningVi": "lời nói" },
+        { "part": "身", "meaningVi": "thân mình" },
+        { "part": "寸", "meaningVi": "tấc (một chút)" }
+      ],
+      "story": "Cúi thân (身) một chút (寸) và nói lời (讠) cảm ơn."
+    }
+  },
+  {
+    "id": "hsk1-008",
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "tones": [2, 4, 0],
+    "meaningVi": ["không có gì", "đừng khách sáo"],
+    "partOfSpeech": "thán",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "不客气！",
+        "pinyin": "Bú kèqi!",
+        "meaningVi": "Không có gì!",
+        "tokens": ["不客气", "！"]
+      },
+      {
+        "hanzi": "不客气，请坐。",
+        "pinyin": "Bú kèqi, qǐng zuò.",
+        "meaningVi": "Đừng khách sáo, mời ngồi.",
+        "tokens": ["不客气", "，", "请", "坐", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "不", "meaningVi": "không" },
+        { "part": "客", "meaningVi": "khách" },
+        { "part": "气", "meaningVi": "hơi, vẻ ngoài" }
+      ],
+      "story": "Không (不) cần giữ vẻ (气) của người khách (客): đừng khách sáo."
+    }
+  },
+  {
+    "id": "hsk1-009",
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "tones": [4, 4],
+    "meaningVi": ["tạm biệt"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "老师，再见！",
+        "pinyin": "Lǎoshī, zàijiàn!",
+        "meaningVi": "Tạm biệt thầy ạ!",
+        "tokens": ["老师", "，", "再见", "！"]
+      },
+      {
+        "hanzi": "再见，明天见！",
+        "pinyin": "Zàijiàn, míngtiān jiàn!",
+        "meaningVi": "Tạm biệt, mai gặp nhé!",
+        "tokens": ["再见", "，", "明天", "见", "！"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "再", "meaningVi": "lại, lần nữa" },
+        { "part": "见", "meaningVi": "gặp, thấy" }
+      ],
+      "story": "Hẹn lại (再) gặp (见) nhau lần nữa: tạm biệt."
+    }
+  },
+  {
+    "id": "hsk1-010",
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "tones": [3],
+    "meaningVi": ["mời", "xin", "làm ơn"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "chao-hoi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "请坐。",
+        "pinyin": "Qǐng zuò.",
+        "meaningVi": "Mời ngồi.",
+        "tokens": ["请", "坐", "。"]
+      },
+      {
+        "hanzi": "请喝水。",
+        "pinyin": "Qǐng hē shuǐ.",
+        "meaningVi": "Mời uống nước.",
+        "tokens": ["请", "喝", "水", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "讠", "meaningVi": "lời nói" },
+        { "part": "青", "meaningVi": "màu xanh (gợi âm qīng)" }
+      ],
+      "story": "Lời nói (讠) nhẹ nhàng, tươi xanh (青) là lời mời."
+    }
+  },
+  {
+    "id": "hsk1-011",
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "tones": [4, 0, 3],
+    "meaningVi": ["xin lỗi"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "对不起，老师。",
+        "pinyin": "Duìbuqǐ, lǎoshī.",
+        "meaningVi": "Em xin lỗi thầy.",
+        "tokens": ["对不起", "，", "老师", "。"]
+      },
+      {
+        "hanzi": "对不起，我不能去。",
+        "pinyin": "Duìbuqǐ, wǒ bù néng qù.",
+        "meaningVi": "Xin lỗi, tôi không đi được.",
+        "tokens": ["对不起", "，", "我", "不", "能", "去", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "对", "meaningVi": "đối diện, đúng" },
+        { "part": "不", "meaningVi": "không" },
+        { "part": "起", "meaningVi": "đứng dậy" }
+      ],
+      "story": "Có lỗi nên không (不) dám đứng dậy (起) đối diện (对) với người ta."
+    }
+  },
+  {
+    "id": "hsk1-012",
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "tones": [2, 1, 0],
+    "meaningVi": ["không sao", "không có gì"],
+    "partOfSpeech": "thán",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "没关系！",
+        "pinyin": "Méi guānxi!",
+        "meaningVi": "Không sao!",
+        "tokens": ["没关系", "！"]
+      },
+      {
+        "hanzi": "没关系，请坐。",
+        "pinyin": "Méi guānxi, qǐng zuò.",
+        "meaningVi": "Không sao, mời ngồi.",
+        "tokens": ["没关系", "，", "请", "坐", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "没", "meaningVi": "không có" },
+        { "part": "关", "meaningVi": "liên quan, đóng lại" },
+        { "part": "系", "meaningVi": "buộc, nối" }
+      ],
+      "story": "Không có (没) gì liên quan (关), ràng buộc (系) cả: không sao."
+    }
+  },
+  {
+    "id": "hsk1-013",
+    "hanzi": "是",
+    "pinyin": "shì",
+    "tones": [4],
+    "meaningVi": ["là", "phải"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "她是我妈妈。",
+        "pinyin": "Tā shì wǒ māma.",
+        "meaningVi": "Cô ấy là mẹ tôi.",
+        "tokens": ["她", "是", "我", "妈妈", "。"]
+      },
+      {
+        "hanzi": "这是我的书。",
+        "pinyin": "Zhè shì wǒ de shū.",
+        "meaningVi": "Đây là sách của tôi.",
+        "tokens": ["这", "是", "我", "的", "书", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "日", "meaningVi": "mặt trời" },
+        { "part": "正", "meaningVi": "ngay thẳng (phần dưới, viết biến dạng)" }
+      ],
+      "story": "Dưới mặt trời (日) mọi thứ ngay thẳng (正), rõ ràng: đúng là như thế."
+    }
+  },
+  {
+    "id": "hsk1-014",
+    "hanzi": "不",
+    "pinyin": "bù",
+    "tones": [4],
+    "meaningVi": ["không"],
+    "partOfSpeech": "phó",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我不喝茶。",
+        "pinyin": "Wǒ bù hē chá.",
+        "meaningVi": "Tôi không uống trà.",
+        "tokens": ["我", "不", "喝", "茶", "。"]
+      },
+      {
+        "hanzi": "他不是老师。",
+        "pinyin": "Tā bú shì lǎoshī.",
+        "meaningVi": "Anh ấy không phải giáo viên.",
+        "tokens": ["他", "不", "是", "老师", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "不", "meaningVi": "hình con chim bay vút lên trời" }
+      ],
+      "story": "Con chim bay lên trời và không quay xuống nữa: không."
+    }
+  },
+  {
+    "id": "hsk1-015",
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "tones": [0],
+    "meaningVi": ["không? (từ đặt cuối câu để hỏi)"],
+    "partOfSpeech": "trợ",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你好吗？",
+        "pinyin": "Nǐ hǎo ma?",
+        "meaningVi": "Bạn khoẻ không?",
+        "tokens": ["你", "好", "吗", "？"]
+      },
+      {
+        "hanzi": "他是老师吗？",
+        "pinyin": "Tā shì lǎoshī ma?",
+        "meaningVi": "Anh ấy là giáo viên phải không?",
+        "tokens": ["他", "是", "老师", "吗", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "马", "meaningVi": "con ngựa (gợi âm mǎ)" }
+      ],
+      "story": "Miệng (口) hỏi: \"Đây là ngựa (马) à?\" — thêm 吗 cuối câu là thành câu hỏi."
+    }
+  },
+  {
+    "id": "hsk1-016",
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "tones": [0],
+    "meaningVi": ["còn... thì sao?", "đâu rồi?"],
+    "partOfSpeech": "trợ",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我很好，你呢？",
+        "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+        "meaningVi": "Tôi khoẻ, còn bạn?",
+        "tokens": ["我", "很", "好", "，", "你", "呢", "？"]
+      },
+      {
+        "hanzi": "你的书呢？",
+        "pinyin": "Nǐ de shū ne?",
+        "meaningVi": "Sách của bạn đâu?",
+        "tokens": ["你", "的", "书", "呢", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "尼", "meaningVi": "ni cô (gợi âm ní)" }
+      ],
+      "story": "Miệng (口) hỏi vặn lại: \"Còn ni cô (尼) thì sao?\""
+    }
+  },
+  {
+    "id": "hsk1-017",
+    "hanzi": "的",
+    "pinyin": "de",
+    "tones": [0],
+    "meaningVi": ["của (từ nối)"],
+    "partOfSpeech": "trợ",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这是你的书吗？",
+        "pinyin": "Zhè shì nǐ de shū ma?",
+        "meaningVi": "Đây là sách của bạn phải không?",
+        "tokens": ["这", "是", "你", "的", "书", "吗", "？"]
+      },
+      {
+        "hanzi": "他是我的朋友。",
+        "pinyin": "Tā shì wǒ de péngyou.",
+        "meaningVi": "Anh ấy là bạn của tôi.",
+        "tokens": ["他", "是", "我", "的", "朋友", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "白", "meaningVi": "màu trắng" },
+        { "part": "勺", "meaningVi": "cái thìa" }
+      ],
+      "story": "Cái thìa (勺) trắng (白) này là của tôi."
+    }
+  },
+  {
+    "id": "hsk1-018",
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "tones": [3],
+    "meaningVi": ["rất"],
+    "partOfSpeech": "phó",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这个人很好。",
+        "pinyin": "Zhège rén hěn hǎo.",
+        "meaningVi": "Người này rất tốt.",
+        "tokens": ["这", "个", "人", "很", "好", "。"]
+      },
+      {
+        "hanzi": "我家很大。",
+        "pinyin": "Wǒ jiā hěn dà.",
+        "meaningVi": "Nhà tôi rất rộng.",
+        "tokens": ["我", "家", "很", "大", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "彳", "meaningVi": "bước chân" },
+        { "part": "艮", "meaningVi": "cứng, bền" }
+      ],
+      "story": "Bước chân (彳) rất bền bỉ (艮): đi rất xa."
+    }
+  },
+  {
+    "id": "hsk1-019",
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "tones": [4],
+    "meaningVi": ["gọi", "tên là"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他叫什么？",
+        "pinyin": "Tā jiào shénme?",
+        "meaningVi": "Anh ấy tên gì?",
+        "tokens": ["他", "叫", "什么", "？"]
+      },
+      {
+        "hanzi": "妈妈叫我回家。",
+        "pinyin": "Māma jiào wǒ huí jiā.",
+        "meaningVi": "Mẹ gọi tôi về nhà.",
+        "tokens": ["妈妈", "叫", "我", "回", "家", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "丩", "meaningVi": "sợi dây quấn lại" }
+      ],
+      "story": "Miệng (口) gọi to, tiếng vang quấn quýt (丩): gọi tên."
+    }
+  },
+  {
+    "id": "hsk1-020",
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "tones": [2, 0],
+    "meaningVi": ["tên"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "cau-co-ban",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你叫什么名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "meaningVi": "Bạn tên là gì?",
+        "tokens": ["你", "叫", "什么", "名字", "？"]
+      },
+      {
+        "hanzi": "这是我的名字。",
+        "pinyin": "Zhè shì wǒ de míngzi.",
+        "meaningVi": "Đây là tên của tôi.",
+        "tokens": ["这", "是", "我", "的", "名字", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "夕", "meaningVi": "buổi tối" },
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "宀", "meaningVi": "mái nhà" },
+        { "part": "子", "meaningVi": "đứa con" }
+      ],
+      "story": "Tối (夕) không thấy mặt, phải mở miệng (口) xưng tên. Đứa con (子) dưới mái nhà (宀) được đặt tên."
+    }
+  },
+  {
+    "id": "hsk1-021",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "tones": [1],
+    "meaningVi": ["một"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我有一个朋友。",
+        "pinyin": "Wǒ yǒu yí ge péngyou.",
+        "meaningVi": "Tôi có một người bạn.",
+        "tokens": ["我", "有", "一", "个", "朋友", "。"]
+      },
+      {
+        "hanzi": "我有一本汉语书。",
+        "pinyin": "Wǒ yǒu yì běn Hànyǔ shū.",
+        "meaningVi": "Tôi có một quyển sách tiếng Trung.",
+        "tokens": ["我", "有", "一", "本", "汉语", "书", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "一", "meaningVi": "một nét ngang" }
+      ],
+      "story": "Một nét ngang là số một."
+    }
+  },
+  {
+    "id": "hsk1-022",
+    "hanzi": "二",
+    "pinyin": "èr",
+    "tones": [4],
+    "meaningVi": ["hai"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天二号。",
+        "pinyin": "Jīntiān èr hào.",
+        "meaningVi": "Hôm nay mùng hai.",
+        "tokens": ["今天", "二", "号", "。"]
+      },
+      {
+        "hanzi": "现在是二月。",
+        "pinyin": "Xiànzài shì èr yuè.",
+        "meaningVi": "Bây giờ là tháng hai.",
+        "tokens": ["现在", "是", "二", "月", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "二", "meaningVi": "hai nét ngang" }
+      ],
+      "story": "Hai nét ngang là số hai."
+    }
+  },
+  {
+    "id": "hsk1-023",
+    "hanzi": "三",
+    "pinyin": "sān",
+    "tones": [1],
+    "meaningVi": ["ba"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我有三本书。",
+        "pinyin": "Wǒ yǒu sān běn shū.",
+        "meaningVi": "Tôi có ba quyển sách.",
+        "tokens": ["我", "有", "三", "本", "书", "。"]
+      },
+      {
+        "hanzi": "我家有三个人。",
+        "pinyin": "Wǒ jiā yǒu sān ge rén.",
+        "meaningVi": "Nhà tôi có ba người.",
+        "tokens": ["我", "家", "有", "三", "个", "人", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "三", "meaningVi": "ba nét ngang" }
+      ],
+      "story": "Ba nét ngang là số ba."
+    }
+  },
+  {
+    "id": "hsk1-024",
+    "hanzi": "四",
+    "pinyin": "sì",
+    "tones": [4],
+    "meaningVi": ["bốn"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他家有四个人。",
+        "pinyin": "Tā jiā yǒu sì ge rén.",
+        "meaningVi": "Nhà anh ấy có bốn người.",
+        "tokens": ["他", "家", "有", "四", "个", "人", "。"]
+      },
+      {
+        "hanzi": "今天星期四。",
+        "pinyin": "Jīntiān xīngqīsì.",
+        "meaningVi": "Hôm nay thứ Năm.",
+        "tokens": ["今天", "星期", "四", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "囗", "meaningVi": "khung vuông" },
+        { "part": "儿", "meaningVi": "hai nét bên trong" }
+      ],
+      "story": "Căn phòng vuông (囗) có bốn góc, bên trong hai nét (儿) như tấm rèm."
+    }
+  },
+  {
+    "id": "hsk1-025",
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "tones": [3],
+    "meaningVi": ["năm"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "现在五点。",
+        "pinyin": "Xiànzài wǔ diǎn.",
+        "meaningVi": "Bây giờ là năm giờ.",
+        "tokens": ["现在", "五", "点", "。"]
+      },
+      {
+        "hanzi": "她有五个苹果。",
+        "pinyin": "Tā yǒu wǔ ge píngguǒ.",
+        "meaningVi": "Cô ấy có năm quả táo.",
+        "tokens": ["她", "有", "五", "个", "苹果", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "五", "meaningVi": "nét trên là trời, nét dưới là đất, ở giữa các nét đan nhau" }
+      ],
+      "story": "Giữa trời (nét trên) và đất (nét dưới), một bàn tay năm ngón đan vào nhau."
+    }
+  },
+  {
+    "id": "hsk1-026",
+    "hanzi": "六",
+    "pinyin": "liù",
+    "tones": [4],
+    "meaningVi": ["sáu"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我六点回家。",
+        "pinyin": "Wǒ liù diǎn huí jiā.",
+        "meaningVi": "Tôi về nhà lúc sáu giờ.",
+        "tokens": ["我", "六", "点", "回", "家", "。"]
+      },
+      {
+        "hanzi": "他儿子六岁。",
+        "pinyin": "Tā érzi liù suì.",
+        "meaningVi": "Con trai anh ấy sáu tuổi.",
+        "tokens": ["他", "儿子", "六", "岁", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "亠", "meaningVi": "cái mái" },
+        { "part": "八", "meaningVi": "hai nét xoè ra" }
+      ],
+      "story": "Một mái lều (亠) dựng trên hai chân xoè (八): túp lều sáu cạnh."
+    }
+  },
+  {
+    "id": "hsk1-027",
+    "hanzi": "七",
+    "pinyin": "qī",
+    "tones": [1],
+    "meaningVi": ["bảy"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天七号。",
+        "pinyin": "Jīntiān qī hào.",
+        "meaningVi": "Hôm nay mùng bảy.",
+        "tokens": ["今天", "七", "号", "。"]
+      },
+      {
+        "hanzi": "我女儿七岁。",
+        "pinyin": "Wǒ nǚ'ér qī suì.",
+        "meaningVi": "Con gái tôi bảy tuổi.",
+        "tokens": ["我", "女儿", "七", "岁", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "七", "meaningVi": "nét ngang bị một nét cong cắt qua" }
+      ],
+      "story": "Trông như số 7 viết lộn ngược, có thêm cái đuôi cong."
+    }
+  },
+  {
+    "id": "hsk1-028",
+    "hanzi": "八",
+    "pinyin": "bā",
+    "tones": [1],
+    "meaningVi": ["tám"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "现在八点。",
+        "pinyin": "Xiànzài bā diǎn.",
+        "meaningVi": "Bây giờ tám giờ.",
+        "tokens": ["现在", "八", "点", "。"]
+      },
+      {
+        "hanzi": "我有八块钱。",
+        "pinyin": "Wǒ yǒu bā kuài qián.",
+        "meaningVi": "Tôi có tám đồng.",
+        "tokens": ["我", "有", "八", "块", "钱", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "八", "meaningVi": "hai nét tách ra hai bên" }
+      ],
+      "story": "Hai nét tách ra như chia đôi — số tám chia đôi rất dễ."
+    }
+  },
+  {
+    "id": "hsk1-029",
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "tones": [3],
+    "meaningVi": ["chín"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我九点睡觉。",
+        "pinyin": "Wǒ jiǔ diǎn shuìjiào.",
+        "meaningVi": "Tôi ngủ lúc chín giờ.",
+        "tokens": ["我", "九", "点", "睡觉", "。"]
+      },
+      {
+        "hanzi": "今天九月九号。",
+        "pinyin": "Jīntiān jiǔ yuè jiǔ hào.",
+        "meaningVi": "Hôm nay ngày 9 tháng 9.",
+        "tokens": ["今天", "九", "月", "九", "号", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "九", "meaningVi": "cánh tay gập khuỷu lại" }
+      ],
+      "story": "Gần tới mười thì gập khuỷu tay lại: chín, còn thiếu một."
+    }
+  },
+  {
+    "id": "hsk1-030",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "tones": [2],
+    "meaningVi": ["mười"],
+    "partOfSpeech": "số",
+    "hskLevel": 1,
+    "topic": "so-dem",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我有十块钱。",
+        "pinyin": "Wǒ yǒu shí kuài qián.",
+        "meaningVi": "Tôi có mười đồng.",
+        "tokens": ["我", "有", "十", "块", "钱", "。"]
+      },
+      {
+        "hanzi": "现在十点。",
+        "pinyin": "Xiànzài shí diǎn.",
+        "meaningVi": "Bây giờ mười giờ.",
+        "tokens": ["现在", "十", "点", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "十", "meaningVi": "một nét ngang và một nét dọc" }
+      ],
+      "story": "Hai nét bắt chéo như dấu cộng: đủ mười, tròn chục."
+    }
+  },
+  {
+    "id": "hsk1-031",
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "tones": [4, 0],
+    "meaningVi": ["bố", "ba"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我爸爸是医生。",
+        "pinyin": "Wǒ bàba shì yīshēng.",
+        "meaningVi": "Bố tôi là bác sĩ.",
+        "tokens": ["我", "爸爸", "是", "医生", "。"]
+      },
+      {
+        "hanzi": "爸爸在家。",
+        "pinyin": "Bàba zài jiā.",
+        "meaningVi": "Bố ở nhà.",
+        "tokens": ["爸爸", "在", "家", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "父", "meaningVi": "người cha" },
+        { "part": "巴", "meaningVi": "gợi âm bā" }
+      ],
+      "story": "Người cha (父) được con gọi \"ba ba\" (巴)."
+    }
+  },
+  {
+    "id": "hsk1-032",
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "tones": [1, 0],
+    "meaningVi": ["mẹ", "má"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我妈妈很好。",
+        "pinyin": "Wǒ māma hěn hǎo.",
+        "meaningVi": "Mẹ tôi rất khoẻ.",
+        "tokens": ["我", "妈妈", "很", "好", "。"]
+      },
+      {
+        "hanzi": "妈妈在家做饭。",
+        "pinyin": "Māma zài jiā zuò fàn.",
+        "meaningVi": "Mẹ ở nhà nấu cơm.",
+        "tokens": ["妈妈", "在", "家", "做", "饭", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "女", "meaningVi": "người phụ nữ" },
+        { "part": "马", "meaningVi": "con ngựa (gợi âm mǎ)" }
+      ],
+      "story": "Người phụ nữ (女) tất tả như ngựa (马) chạy lo cho cả nhà — đó là mẹ (mā)."
+    }
+  },
+  {
+    "id": "hsk1-033",
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "tones": [2, 0],
+    "meaningVi": ["con trai"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我儿子是学生。",
+        "pinyin": "Wǒ érzi shì xuésheng.",
+        "meaningVi": "Con trai tôi là học sinh.",
+        "tokens": ["我", "儿子", "是", "学生", "。"]
+      },
+      {
+        "hanzi": "他有一个儿子。",
+        "pinyin": "Tā yǒu yí ge érzi.",
+        "meaningVi": "Anh ấy có một con trai.",
+        "tokens": ["他", "有", "一", "个", "儿子", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "儿", "meaningVi": "đứa trẻ (hai chân nhỏ)" },
+        { "part": "子", "meaningVi": "con" }
+      ],
+      "story": "Đứa trẻ (儿) là con (子) trong nhà: con trai."
+    }
+  },
+  {
+    "id": "hsk1-034",
+    "hanzi": "女儿",
+    "pinyin": "nǚ'ér",
+    "tones": [3, 2],
+    "meaningVi": ["con gái"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我女儿五岁。",
+        "pinyin": "Wǒ nǚ'ér wǔ suì.",
+        "meaningVi": "Con gái tôi năm tuổi.",
+        "tokens": ["我", "女儿", "五", "岁", "。"]
+      },
+      {
+        "hanzi": "他女儿很漂亮。",
+        "pinyin": "Tā nǚ'ér hěn piàoliang.",
+        "meaningVi": "Con gái anh ấy rất xinh.",
+        "tokens": ["他", "女儿", "很", "漂亮", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "女", "meaningVi": "phụ nữ, con gái" },
+        { "part": "儿", "meaningVi": "đứa trẻ" }
+      ],
+      "story": "Đứa trẻ (儿) là nữ (女): con gái."
+    }
+  },
+  {
+    "id": "hsk1-035",
+    "hanzi": "人",
+    "pinyin": "rén",
+    "tones": [2],
+    "meaningVi": ["người"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他是中国人。",
+        "pinyin": "Tā shì Zhōngguó rén.",
+        "meaningVi": "Anh ấy là người Trung Quốc.",
+        "tokens": ["他", "是", "中国", "人", "。"]
+      },
+      {
+        "hanzi": "我家有五个人。",
+        "pinyin": "Wǒ jiā yǒu wǔ ge rén.",
+        "meaningVi": "Nhà tôi có năm người.",
+        "tokens": ["我", "家", "有", "五", "个", "人", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "人", "meaningVi": "hình một người đang bước đi" }
+      ],
+      "story": "Hai nét như hai chân một người đang sải bước."
+    }
+  },
+  {
+    "id": "hsk1-036",
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "tones": [2, 0],
+    "meaningVi": ["bạn", "bạn bè"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我有很多朋友。",
+        "pinyin": "Wǒ yǒu hěn duō péngyou.",
+        "meaningVi": "Tôi có rất nhiều bạn.",
+        "tokens": ["我", "有", "很", "多", "朋友", "。"]
+      },
+      {
+        "hanzi": "我朋友在北京。",
+        "pinyin": "Wǒ péngyou zài Běijīng.",
+        "meaningVi": "Bạn tôi ở Bắc Kinh.",
+        "tokens": ["我", "朋友", "在", "北京", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "月", "meaningVi": "mặt trăng (hai chữ 月 đứng cạnh nhau)" },
+        { "part": "友", "meaningVi": "bạn (hai bàn tay nắm lấy nhau)" }
+      ],
+      "story": "Hai vầng trăng (月月) sánh đôi, hai bàn tay nắm lấy nhau (友): bạn bè."
+    }
+  },
+  {
+    "id": "hsk1-037",
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "tones": [1],
+    "meaningVi": ["nhà", "gia đình"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我家在北京。",
+        "pinyin": "Wǒ jiā zài Běijīng.",
+        "meaningVi": "Nhà tôi ở Bắc Kinh.",
+        "tokens": ["我", "家", "在", "北京", "。"]
+      },
+      {
+        "hanzi": "他不在家。",
+        "pinyin": "Tā bú zài jiā.",
+        "meaningVi": "Anh ấy không có nhà.",
+        "tokens": ["他", "不", "在", "家", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "宀", "meaningVi": "mái nhà" },
+        { "part": "豕", "meaningVi": "con lợn" }
+      ],
+      "story": "Dưới mái nhà (宀) nuôi con lợn (豕): ngày xưa có lợn là có nhà, có gia đình."
+    }
+  },
+  {
+    "id": "hsk1-038",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "tones": [3],
+    "meaningVi": ["có"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我有一个女儿。",
+        "pinyin": "Wǒ yǒu yí ge nǚ'ér.",
+        "meaningVi": "Tôi có một con gái.",
+        "tokens": ["我", "有", "一", "个", "女儿", "。"]
+      },
+      {
+        "hanzi": "你有钱吗？",
+        "pinyin": "Nǐ yǒu qián ma?",
+        "meaningVi": "Bạn có tiền không?",
+        "tokens": ["你", "有", "钱", "吗", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "手", "meaningVi": "bàn tay (viết gọn ở phía trên)" },
+        { "part": "月", "meaningVi": "miếng thịt" }
+      ],
+      "story": "Bàn tay cầm miếng thịt (月): có của ăn."
+    }
+  },
+  {
+    "id": "hsk1-039",
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "tones": [2, 3],
+    "meaningVi": ["không có", "chưa"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我没有钱。",
+        "pinyin": "Wǒ méiyǒu qián.",
+        "meaningVi": "Tôi không có tiền.",
+        "tokens": ["我", "没有", "钱", "。"]
+      },
+      {
+        "hanzi": "他没有来。",
+        "pinyin": "Tā méiyǒu lái.",
+        "meaningVi": "Anh ấy chưa đến.",
+        "tokens": ["他", "没有", "来", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "氵", "meaningVi": "nước" },
+        { "part": "殳", "meaningVi": "tay cầm gậy khua" },
+        { "part": "有", "meaningVi": "có" }
+      ],
+      "story": "Khua gậy (殳) xuống nước (氵) tìm mãi mà chẳng có (有) gì: không có."
+    }
+  },
+  {
+    "id": "hsk1-040",
+    "hanzi": "和",
+    "pinyin": "hé",
+    "tones": [2],
+    "meaningVi": ["và", "với"],
+    "partOfSpeech": "liên",
+    "hskLevel": 1,
+    "topic": "gia-dinh",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "爸爸和妈妈都在家。",
+        "pinyin": "Bàba hé māma dōu zài jiā.",
+        "meaningVi": "Bố và mẹ đều ở nhà.",
+        "tokens": ["爸爸", "和", "妈妈", "都", "在", "家", "。"]
+      },
+      {
+        "hanzi": "我和朋友去商店。",
+        "pinyin": "Wǒ hé péngyou qù shāngdiàn.",
+        "meaningVi": "Tôi với bạn đi cửa hàng.",
+        "tokens": ["我", "和", "朋友", "去", "商店", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "禾", "meaningVi": "cây lúa" },
+        { "part": "口", "meaningVi": "cái miệng" }
+      ],
+      "story": "Có lúa (禾) cho mọi miệng (口) ăn thì nhà nhà hoà thuận, ở cùng nhau."
+    }
+  },
+  {
+    "id": "hsk1-041",
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "tones": [2, 0],
+    "meaningVi": ["gì", "cái gì"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这是什么？",
+        "pinyin": "Zhè shì shénme?",
+        "meaningVi": "Đây là cái gì?",
+        "tokens": ["这", "是", "什么", "？"]
+      },
+      {
+        "hanzi": "你喝什么？",
+        "pinyin": "Nǐ hē shénme?",
+        "meaningVi": "Bạn uống gì?",
+        "tokens": ["你", "喝", "什么", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "亻", "meaningVi": "người" },
+        { "part": "十", "meaningVi": "số mười" },
+        { "part": "么", "meaningVi": "đuôi của từ để hỏi" }
+      ],
+      "story": "Mười (十) người (亻) cùng hỏi: \"Cái gì thế?\""
+    }
+  },
+  {
+    "id": "hsk1-042",
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "tones": [2],
+    "meaningVi": ["ai"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他是谁？",
+        "pinyin": "Tā shì shéi?",
+        "meaningVi": "Anh ấy là ai?",
+        "tokens": ["他", "是", "谁", "？"]
+      },
+      {
+        "hanzi": "谁是你的老师？",
+        "pinyin": "Shéi shì nǐ de lǎoshī?",
+        "meaningVi": "Ai là giáo viên của bạn?",
+        "tokens": ["谁", "是", "你", "的", "老师", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "讠", "meaningVi": "lời nói" },
+        { "part": "隹", "meaningVi": "con chim đuôi ngắn" }
+      ],
+      "story": "Nghe tiếng nói (讠) líu lo như chim (隹) mà chẳng biết là ai."
+    }
+  },
+  {
+    "id": "hsk1-043",
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "tones": [3],
+    "meaningVi": ["nào"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你是哪国人？",
+        "pinyin": "Nǐ shì nǎ guó rén?",
+        "meaningVi": "Bạn là người nước nào?",
+        "tokens": ["你", "是", "哪", "国", "人", "？"]
+      },
+      {
+        "hanzi": "哪本书是你的？",
+        "pinyin": "Nǎ běn shū shì nǐ de?",
+        "meaningVi": "Quyển sách nào là của bạn?",
+        "tokens": ["哪", "本", "书", "是", "你", "的", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "那", "meaningVi": "kia" }
+      ],
+      "story": "Miệng (口) hỏi: \"Cái kia (那) là cái nào?\""
+    }
+  },
+  {
+    "id": "hsk1-044",
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "tones": [3, 0],
+    "meaningVi": ["đâu", "ở đâu"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你去哪儿？",
+        "pinyin": "Nǐ qù nǎr?",
+        "meaningVi": "Bạn đi đâu?",
+        "tokens": ["你", "去", "哪儿", "？"]
+      },
+      {
+        "hanzi": "你家在哪儿？",
+        "pinyin": "Nǐ jiā zài nǎr?",
+        "meaningVi": "Nhà bạn ở đâu?",
+        "tokens": ["你", "家", "在", "哪儿", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "哪", "meaningVi": "nào" },
+        { "part": "儿", "meaningVi": "đuôi cuốn lưỡi \"r\"" }
+      ],
+      "story": "Thêm 儿 sau 哪 (nào) thành câu hỏi về nơi chốn: ở đâu."
+    }
+  },
+  {
+    "id": "hsk1-045",
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "tones": [4],
+    "meaningVi": ["này", "đây"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这是我妈妈。",
+        "pinyin": "Zhè shì wǒ māma.",
+        "meaningVi": "Đây là mẹ tôi.",
+        "tokens": ["这", "是", "我", "妈妈", "。"]
+      },
+      {
+        "hanzi": "这个人是谁？",
+        "pinyin": "Zhège rén shì shéi?",
+        "meaningVi": "Người này là ai?",
+        "tokens": ["这", "个", "人", "是", "谁", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "辶", "meaningVi": "bước đi" },
+        { "part": "文", "meaningVi": "chữ viết" }
+      ],
+      "story": "Đi (辶) tới gần mới đọc được chữ (文) này: cái ở gần là \"đây\"."
+    }
+  },
+  {
+    "id": "hsk1-046",
+    "hanzi": "那",
+    "pinyin": "nà",
+    "tones": [4],
+    "meaningVi": ["kia", "đó"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "那是我的学校。",
+        "pinyin": "Nà shì wǒ de xuéxiào.",
+        "meaningVi": "Kia là trường của tôi.",
+        "tokens": ["那", "是", "我", "的", "学校", "。"]
+      },
+      {
+        "hanzi": "那个人是我爸爸。",
+        "pinyin": "Nàge rén shì wǒ bàba.",
+        "meaningVi": "Người kia là bố tôi.",
+        "tokens": ["那", "个", "人", "是", "我", "爸爸", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "刀", "meaningVi": "con dao (phần bên trái, viết biến dạng)" },
+        { "part": "阝", "meaningVi": "thành ấp" }
+      ],
+      "story": "Cái ấp (阝) ở tít đằng xa kia."
+    }
+  },
+  {
+    "id": "hsk1-047",
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "tones": [3],
+    "meaningVi": ["mấy"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "现在几点？",
+        "pinyin": "Xiànzài jǐ diǎn?",
+        "meaningVi": "Bây giờ mấy giờ?",
+        "tokens": ["现在", "几", "点", "？"]
+      },
+      {
+        "hanzi": "你家有几个人？",
+        "pinyin": "Nǐ jiā yǒu jǐ ge rén?",
+        "meaningVi": "Nhà bạn có mấy người?",
+        "tokens": ["你", "家", "有", "几", "个", "人", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "几", "meaningVi": "hình cái bàn nhỏ, thấp" }
+      ],
+      "story": "Cái bàn nhỏ (几) chỉ đặt được mấy món thôi: mấy?"
+    }
+  },
+  {
+    "id": "hsk1-048",
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "tones": [1, 0],
+    "meaningVi": ["bao nhiêu"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这个多少钱？",
+        "pinyin": "Zhège duōshao qián?",
+        "meaningVi": "Cái này bao nhiêu tiền?",
+        "tokens": ["这", "个", "多少", "钱", "？"]
+      },
+      {
+        "hanzi": "你们学校有多少学生？",
+        "pinyin": "Nǐmen xuéxiào yǒu duōshao xuésheng?",
+        "meaningVi": "Trường các bạn có bao nhiêu học sinh?",
+        "tokens": ["你们", "学校", "有", "多少", "学生", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "多", "meaningVi": "nhiều" },
+        { "part": "少", "meaningVi": "ít" }
+      ],
+      "story": "Nhiều (多) hay ít (少)? — bao nhiêu?"
+    }
+  },
+  {
+    "id": "hsk1-049",
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "tones": [3, 0],
+    "meaningVi": ["thế nào", "làm sao"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这个字怎么读？",
+        "pinyin": "Zhège zì zěnme dú?",
+        "meaningVi": "Chữ này đọc thế nào?",
+        "tokens": ["这", "个", "字", "怎么", "读", "？"]
+      },
+      {
+        "hanzi": "你怎么去学校？",
+        "pinyin": "Nǐ zěnme qù xuéxiào?",
+        "meaningVi": "Bạn đến trường bằng cách nào?",
+        "tokens": ["你", "怎么", "去", "学校", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "乍", "meaningVi": "bất chợt" },
+        { "part": "心", "meaningVi": "trái tim" },
+        { "part": "么", "meaningVi": "đuôi của từ để hỏi" }
+      ],
+      "story": "Bất chợt (乍) trong lòng (心) thắc mắc: làm sao bây giờ?"
+    }
+  },
+  {
+    "id": "hsk1-050",
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "tones": [3, 0, 4],
+    "meaningVi": ["như thế nào", "ra sao"],
+    "partOfSpeech": "đại",
+    "hskLevel": 1,
+    "topic": "hoi-dap",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天天气怎么样？",
+        "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+        "meaningVi": "Thời tiết hôm nay thế nào?",
+        "tokens": ["今天", "天气", "怎么样", "？"]
+      },
+      {
+        "hanzi": "这本书怎么样？",
+        "pinyin": "Zhè běn shū zěnmeyàng?",
+        "meaningVi": "Quyển sách này thế nào?",
+        "tokens": ["这", "本", "书", "怎么样", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "怎么", "meaningVi": "thế nào" },
+        { "part": "木", "meaningVi": "cái cây" },
+        { "part": "羊", "meaningVi": "con dê" }
+      ],
+      "story": "Hỏi \"thế nào\" (怎么) về dáng vẻ (样): con dê (羊) đứng cạnh cái cây (木) trông ra sao?"
+    }
+  },
+  {
+    "id": "hsk1-051",
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "tones": [1, 1],
+    "meaningVi": ["hôm nay"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天星期几？",
+        "pinyin": "Jīntiān xīngqī jǐ?",
+        "meaningVi": "Hôm nay thứ mấy?",
+        "tokens": ["今天", "星期", "几", "？"]
+      },
+      {
+        "hanzi": "今天我不工作。",
+        "pinyin": "Jīntiān wǒ bù gōngzuò.",
+        "meaningVi": "Hôm nay tôi không làm việc.",
+        "tokens": ["今天", "我", "不", "工作", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "今", "meaningVi": "bây giờ" },
+        { "part": "天", "meaningVi": "trời, ngày" }
+      ],
+      "story": "Ngày (天) của bây giờ (今): hôm nay."
+    }
+  },
+  {
+    "id": "hsk1-052",
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "tones": [2, 1],
+    "meaningVi": ["ngày mai"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "明天见！",
+        "pinyin": "Míngtiān jiàn!",
+        "meaningVi": "Mai gặp nhé!",
+        "tokens": ["明天", "见", "！"]
+      },
+      {
+        "hanzi": "明天我去北京。",
+        "pinyin": "Míngtiān wǒ qù Běijīng.",
+        "meaningVi": "Ngày mai tôi đi Bắc Kinh.",
+        "tokens": ["明天", "我", "去", "北京", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "日", "meaningVi": "mặt trời" },
+        { "part": "月", "meaningVi": "mặt trăng" },
+        { "part": "天", "meaningVi": "ngày" }
+      ],
+      "story": "Hết trăng (月) lại tới mặt trời (日) sáng: ngày (天) mai."
+    }
+  },
+  {
+    "id": "hsk1-053",
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "tones": [2, 1],
+    "meaningVi": ["hôm qua"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "昨天很冷。",
+        "pinyin": "Zuótiān hěn lěng.",
+        "meaningVi": "Hôm qua rất lạnh.",
+        "tokens": ["昨天", "很", "冷", "。"]
+      },
+      {
+        "hanzi": "昨天我没有去学校。",
+        "pinyin": "Zuótiān wǒ méiyǒu qù xuéxiào.",
+        "meaningVi": "Hôm qua tôi không đến trường.",
+        "tokens": ["昨天", "我", "没有", "去", "学校", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "日", "meaningVi": "mặt trời" },
+        { "part": "乍", "meaningVi": "bất chợt, vụt qua" },
+        { "part": "天", "meaningVi": "ngày" }
+      ],
+      "story": "Mặt trời (日) vụt qua (乍): ngày (天) ấy đã thành hôm qua."
+    }
+  },
+  {
+    "id": "hsk1-054",
+    "hanzi": "年",
+    "pinyin": "nián",
+    "tones": [2],
+    "meaningVi": ["năm"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "一年有十二个月。",
+        "pinyin": "Yì nián yǒu shí'èr ge yuè.",
+        "meaningVi": "Một năm có mười hai tháng.",
+        "tokens": ["一", "年", "有", "十二", "个", "月", "。"]
+      },
+      {
+        "hanzi": "他在中国住了三年。",
+        "pinyin": "Tā zài Zhōngguó zhùle sān nián.",
+        "meaningVi": "Anh ấy sống ở Trung Quốc ba năm.",
+        "tokens": ["他", "在", "中国", "住", "了", "三", "年", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "年", "meaningVi": "hình người gánh bó lúa sau vụ gặt" }
+      ],
+      "story": "Mỗi năm gặt lúa một lần: gánh lúa về là hết một năm."
+    }
+  },
+  {
+    "id": "hsk1-055",
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "tones": [4],
+    "meaningVi": ["tháng", "mặt trăng"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "现在是八月。",
+        "pinyin": "Xiànzài shì bā yuè.",
+        "meaningVi": "Bây giờ là tháng tám.",
+        "tokens": ["现在", "是", "八", "月", "。"]
+      },
+      {
+        "hanzi": "今天几月几号？",
+        "pinyin": "Jīntiān jǐ yuè jǐ hào?",
+        "meaningVi": "Hôm nay ngày mấy tháng mấy?",
+        "tokens": ["今天", "几", "月", "几", "号", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "月", "meaningVi": "hình vầng trăng khuyết" }
+      ],
+      "story": "Trăng tròn rồi khuyết đúng một vòng là hết một tháng."
+    }
+  },
+  {
+    "id": "hsk1-056",
+    "hanzi": "号",
+    "pinyin": "hào",
+    "tones": [4],
+    "meaningVi": ["ngày (mùng)", "số"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天十号。",
+        "pinyin": "Jīntiān shí hào.",
+        "meaningVi": "Hôm nay mùng mười.",
+        "tokens": ["今天", "十", "号", "。"]
+      },
+      {
+        "hanzi": "明天是八号。",
+        "pinyin": "Míngtiān shì bā hào.",
+        "meaningVi": "Ngày mai là mùng tám.",
+        "tokens": ["明天", "是", "八", "号", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "丂", "meaningVi": "hơi thở bật ra" }
+      ],
+      "story": "Miệng (口) hô to từng con số: số, ngày mùng mấy."
+    }
+  },
+  {
+    "id": "hsk1-057",
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "tones": [1, 1],
+    "meaningVi": ["tuần", "thứ"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天星期三。",
+        "pinyin": "Jīntiān xīngqīsān.",
+        "meaningVi": "Hôm nay thứ Tư.",
+        "tokens": ["今天", "星期", "三", "。"]
+      },
+      {
+        "hanzi": "一个星期有七天。",
+        "pinyin": "Yí ge xīngqī yǒu qī tiān.",
+        "meaningVi": "Một tuần có bảy ngày.",
+        "tokens": ["一", "个", "星期", "有", "七", "天", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "日", "meaningVi": "mặt trời, ánh sáng" },
+        { "part": "生", "meaningVi": "sinh ra" },
+        { "part": "其", "meaningVi": "cái đó (gợi âm qí)" },
+        { "part": "月", "meaningVi": "mặt trăng" }
+      ],
+      "story": "Ngôi sao (星) sinh (生) ra ánh sáng (日); kỳ hẹn (期) tính theo trăng (月): bảy ngày một tuần."
+    }
+  },
+  {
+    "id": "hsk1-058",
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "tones": [4, 4],
+    "meaningVi": ["bây giờ", "hiện tại"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你现在在哪儿？",
+        "pinyin": "Nǐ xiànzài zài nǎr?",
+        "meaningVi": "Bây giờ bạn đang ở đâu?",
+        "tokens": ["你", "现在", "在", "哪儿", "？"]
+      },
+      {
+        "hanzi": "我现在不想吃。",
+        "pinyin": "Wǒ xiànzài bù xiǎng chī.",
+        "meaningVi": "Bây giờ tôi không muốn ăn.",
+        "tokens": ["我", "现在", "不", "想", "吃", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "王", "meaningVi": "ngọc, vua" },
+        { "part": "见", "meaningVi": "thấy" },
+        { "part": "在", "meaningVi": "ở, có mặt" }
+      ],
+      "story": "Thấy (见) viên ngọc (王) đang ở (在) ngay trước mắt: bây giờ."
+    }
+  },
+  {
+    "id": "hsk1-059",
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "tones": [3],
+    "meaningVi": ["giờ", "chấm", "điểm"],
+    "partOfSpeech": "lượng",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "现在三点。",
+        "pinyin": "Xiànzài sān diǎn.",
+        "meaningVi": "Bây giờ ba giờ.",
+        "tokens": ["现在", "三", "点", "。"]
+      },
+      {
+        "hanzi": "我七点去学校。",
+        "pinyin": "Wǒ qī diǎn qù xuéxiào.",
+        "meaningVi": "Tôi đi học lúc bảy giờ.",
+        "tokens": ["我", "七", "点", "去", "学校", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "占", "meaningVi": "chiếm chỗ" },
+        { "part": "灬", "meaningVi": "bốn chấm lửa" }
+      ],
+      "story": "Bốn chấm (灬) chiếm (占) chỗ trên mặt đồng hồ, mỗi chấm là một giờ."
+    }
+  },
+  {
+    "id": "hsk1-060",
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "tones": [1, 1],
+    "meaningVi": ["phút"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "thoi-gian",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想睡十分钟。",
+        "pinyin": "Wǒ xiǎng shuì shí fēnzhōng.",
+        "meaningVi": "Tôi muốn ngủ mười phút.",
+        "tokens": ["我", "想", "睡", "十", "分钟", "。"]
+      },
+      {
+        "hanzi": "我们坐五分钟。",
+        "pinyin": "Wǒmen zuò wǔ fēnzhōng.",
+        "meaningVi": "Chúng ta ngồi năm phút.",
+        "tokens": ["我们", "坐", "五", "分钟", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "八", "meaningVi": "chia ra" },
+        { "part": "刀", "meaningVi": "con dao" },
+        { "part": "钅", "meaningVi": "kim loại" },
+        { "part": "中", "meaningVi": "ở giữa (gợi âm zhōng)" }
+      ],
+      "story": "Dao (刀) chia (八) thời gian thành phần nhỏ; chuông kim loại (钅) điểm giờ: phút đồng hồ."
+    }
+  },
+  {
+    "id": "hsk1-061",
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "tones": [4, 3],
+    "meaningVi": ["buổi sáng"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我上午去学校。",
+        "pinyin": "Wǒ shàngwǔ qù xuéxiào.",
+        "meaningVi": "Buổi sáng tôi đi học.",
+        "tokens": ["我", "上午", "去", "学校", "。"]
+      },
+      {
+        "hanzi": "今天上午很冷。",
+        "pinyin": "Jīntiān shàngwǔ hěn lěng.",
+        "meaningVi": "Sáng nay rất lạnh.",
+        "tokens": ["今天", "上午", "很", "冷", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "上", "meaningVi": "trên, trước" },
+        { "part": "午", "meaningVi": "giữa trưa" }
+      ],
+      "story": "Phần trước (上) giữa trưa (午): buổi sáng."
+    }
+  },
+  {
+    "id": "hsk1-062",
+    "hanzi": "中午",
+    "pinyin": "zhōngwǔ",
+    "tones": [1, 3],
+    "meaningVi": ["buổi trưa"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "中午我吃米饭。",
+        "pinyin": "Zhōngwǔ wǒ chī mǐfàn.",
+        "meaningVi": "Buổi trưa tôi ăn cơm.",
+        "tokens": ["中午", "我", "吃", "米饭", "。"]
+      },
+      {
+        "hanzi": "中午很热。",
+        "pinyin": "Zhōngwǔ hěn rè.",
+        "meaningVi": "Buổi trưa rất nóng.",
+        "tokens": ["中午", "很", "热", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "中", "meaningVi": "ở giữa" },
+        { "part": "午", "meaningVi": "giữa trưa" }
+      ],
+      "story": "Chính giữa (中) ngày: buổi trưa (午)."
+    }
+  },
+  {
+    "id": "hsk1-063",
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "tones": [4, 3],
+    "meaningVi": ["buổi chiều"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "下午我去商店。",
+        "pinyin": "Xiàwǔ wǒ qù shāngdiàn.",
+        "meaningVi": "Buổi chiều tôi đi cửa hàng.",
+        "tokens": ["下午", "我", "去", "商店", "。"]
+      },
+      {
+        "hanzi": "明天下午见！",
+        "pinyin": "Míngtiān xiàwǔ jiàn!",
+        "meaningVi": "Chiều mai gặp nhé!",
+        "tokens": ["明天", "下午", "见", "！"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "下", "meaningVi": "dưới, sau" },
+        { "part": "午", "meaningVi": "giữa trưa" }
+      ],
+      "story": "Phần sau (下) giữa trưa (午): buổi chiều."
+    }
+  },
+  {
+    "id": "hsk1-064",
+    "hanzi": "时候",
+    "pinyin": "shíhou",
+    "tones": [2, 0],
+    "meaningVi": ["lúc", "khi"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你什么时候来？",
+        "pinyin": "Nǐ shénme shíhou lái?",
+        "meaningVi": "Khi nào bạn đến?",
+        "tokens": ["你", "什么", "时候", "来", "？"]
+      },
+      {
+        "hanzi": "我吃饭的时候不看电视。",
+        "pinyin": "Wǒ chī fàn de shíhou bú kàn diànshì.",
+        "meaningVi": "Lúc ăn cơm tôi không xem tivi.",
+        "tokens": ["我", "吃", "饭", "的", "时候", "不", "看", "电视", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "日", "meaningVi": "mặt trời" },
+        { "part": "寸", "meaningVi": "tấc (đo đếm)" },
+        { "part": "候", "meaningVi": "chờ đợi" }
+      ],
+      "story": "Đo (寸) bóng mặt trời (日) rồi chờ đợi (候): đúng lúc, khi ấy."
+    }
+  },
+  {
+    "id": "hsk1-065",
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "tones": [4],
+    "meaningVi": ["tuổi"],
+    "partOfSpeech": "lượng",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你几岁？",
+        "pinyin": "Nǐ jǐ suì?",
+        "meaningVi": "Cháu mấy tuổi?",
+        "tokens": ["你", "几", "岁", "？"]
+      },
+      {
+        "hanzi": "我儿子八岁。",
+        "pinyin": "Wǒ érzi bā suì.",
+        "meaningVi": "Con trai tôi tám tuổi.",
+        "tokens": ["我", "儿子", "八", "岁", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "山", "meaningVi": "núi" },
+        { "part": "夕", "meaningVi": "buổi tối" }
+      ],
+      "story": "Mỗi tối (夕) trôi qua dưới chân núi (山) là thêm một ngày tuổi."
+    }
+  },
+  {
+    "id": "hsk1-066",
+    "hanzi": "个",
+    "pinyin": "gè",
+    "tones": [4],
+    "meaningVi": ["cái", "người (lượng từ chung)"],
+    "partOfSpeech": "lượng",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我有三个朋友。",
+        "pinyin": "Wǒ yǒu sān ge péngyou.",
+        "meaningVi": "Tôi có ba người bạn.",
+        "tokens": ["我", "有", "三", "个", "朋友", "。"]
+      },
+      {
+        "hanzi": "这个杯子很大。",
+        "pinyin": "Zhège bēizi hěn dà.",
+        "meaningVi": "Cái cốc này rất to.",
+        "tokens": ["这", "个", "杯子", "很", "大", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "人", "meaningVi": "người" },
+        { "part": "丨", "meaningVi": "một nét sổ thẳng" }
+      ],
+      "story": "Một người (人) đứng trên một cây cọc (丨): đếm từng cái một."
+    }
+  },
+  {
+    "id": "hsk1-067",
+    "hanzi": "些",
+    "pinyin": "xiē",
+    "tones": [1],
+    "meaningVi": ["một số", "những"],
+    "partOfSpeech": "lượng",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这些书是我的。",
+        "pinyin": "Zhèxiē shū shì wǒ de.",
+        "meaningVi": "Những quyển sách này là của tôi.",
+        "tokens": ["这", "些", "书", "是", "我", "的", "。"]
+      },
+      {
+        "hanzi": "我买了一些水果。",
+        "pinyin": "Wǒ mǎile yìxiē shuǐguǒ.",
+        "meaningVi": "Tôi đã mua một ít hoa quả.",
+        "tokens": ["我", "买", "了", "一", "些", "水果", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "此", "meaningVi": "cái này" },
+        { "part": "二", "meaningVi": "hai" }
+      ],
+      "story": "Cái này (此) có từ hai (二) trở lên: một số, những."
+    }
+  },
+  {
+    "id": "hsk1-068",
+    "hanzi": "本",
+    "pinyin": "běn",
+    "tones": [3],
+    "meaningVi": ["quyển (lượng từ của sách)"],
+    "partOfSpeech": "lượng",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这本书是谁的？",
+        "pinyin": "Zhè běn shū shì shéi de?",
+        "meaningVi": "Quyển sách này của ai?",
+        "tokens": ["这", "本", "书", "是", "谁", "的", "？"]
+      },
+      {
+        "hanzi": "这本书多少钱？",
+        "pinyin": "Zhè běn shū duōshao qián?",
+        "meaningVi": "Quyển sách này bao nhiêu tiền?",
+        "tokens": ["这", "本", "书", "多少", "钱", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "木", "meaningVi": "cái cây" },
+        { "part": "一", "meaningVi": "nét ngang đánh dấu gốc" }
+      ],
+      "story": "Đánh dấu (一) vào gốc cây (木): cái gốc. Sách xưa làm từ gỗ nên đếm bằng 本."
+    }
+  },
+  {
+    "id": "hsk1-069",
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "tones": [4],
+    "meaningVi": ["đồng (tiền)", "miếng"],
+    "partOfSpeech": "lượng",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这个三块钱。",
+        "pinyin": "Zhège sān kuài qián.",
+        "meaningVi": "Cái này ba đồng.",
+        "tokens": ["这", "个", "三", "块", "钱", "。"]
+      },
+      {
+        "hanzi": "我有五块钱。",
+        "pinyin": "Wǒ yǒu wǔ kuài qián.",
+        "meaningVi": "Tôi có năm đồng.",
+        "tokens": ["我", "有", "五", "块", "钱", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "土", "meaningVi": "đất" },
+        { "part": "夬", "meaningVi": "tách ra" }
+      ],
+      "story": "Tách (夬) ra một cục đất (土): một miếng, một đồng."
+    }
+  },
+  {
+    "id": "hsk1-070",
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "tones": [2],
+    "meaningVi": ["tiền"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "don-vi",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他有很多钱。",
+        "pinyin": "Tā yǒu hěn duō qián.",
+        "meaningVi": "Anh ấy có rất nhiều tiền.",
+        "tokens": ["他", "有", "很", "多", "钱", "。"]
+      },
+      {
+        "hanzi": "苹果多少钱？",
+        "pinyin": "Píngguǒ duōshao qián?",
+        "meaningVi": "Táo bao nhiêu tiền?",
+        "tokens": ["苹果", "多少", "钱", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "钅", "meaningVi": "kim loại" },
+        { "part": "戋", "meaningVi": "nhỏ, ít" }
+      ],
+      "story": "Những mảnh kim loại (钅) nhỏ (戋) chính là tiền xu."
+    }
+  },
+  {
+    "id": "hsk1-071",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "tones": [1],
+    "meaningVi": ["ăn"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想吃米饭。",
+        "pinyin": "Wǒ xiǎng chī mǐfàn.",
+        "meaningVi": "Tôi muốn ăn cơm.",
+        "tokens": ["我", "想", "吃", "米饭", "。"]
+      },
+      {
+        "hanzi": "你吃什么？",
+        "pinyin": "Nǐ chī shénme?",
+        "meaningVi": "Bạn ăn gì?",
+        "tokens": ["你", "吃", "什么", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "乞", "meaningVi": "xin (ăn xin)" }
+      ],
+      "story": "Miệng (口) xin (乞) đồ ăn: ăn."
+    }
+  },
+  {
+    "id": "hsk1-072",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "tones": [1],
+    "meaningVi": ["uống"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我喝水。",
+        "pinyin": "Wǒ hē shuǐ.",
+        "meaningVi": "Tôi uống nước.",
+        "tokens": ["我", "喝", "水", "。"]
+      },
+      {
+        "hanzi": "你想喝什么？",
+        "pinyin": "Nǐ xiǎng hē shénme?",
+        "meaningVi": "Bạn muốn uống gì?",
+        "tokens": ["你", "想", "喝", "什么", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "曷", "meaningVi": "gợi âm hé (cũng có trong chữ 渴: khát)" }
+      ],
+      "story": "Miệng (口) khô vì khát nên phải uống."
+    }
+  },
+  {
+    "id": "hsk1-073",
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "tones": [4, 4],
+    "meaningVi": ["nhà hàng", "khách sạn"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我们去饭店吃饭。",
+        "pinyin": "Wǒmen qù fàndiàn chī fàn.",
+        "meaningVi": "Chúng ta đi nhà hàng ăn cơm.",
+        "tokens": ["我们", "去", "饭店", "吃", "饭", "。"]
+      },
+      {
+        "hanzi": "这个饭店很大。",
+        "pinyin": "Zhège fàndiàn hěn dà.",
+        "meaningVi": "Nhà hàng này rất lớn.",
+        "tokens": ["这", "个", "饭店", "很", "大", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "饣", "meaningVi": "đồ ăn" },
+        { "part": "反", "meaningVi": "gợi âm fǎn" },
+        { "part": "广", "meaningVi": "mái hiên" },
+        { "part": "占", "meaningVi": "chiếm chỗ" }
+      ],
+      "story": "Cửa tiệm (店) dưới mái hiên (广) bán đồ ăn (饣): nhà hàng."
+    }
+  },
+  {
+    "id": "hsk1-074",
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "tones": [3, 4],
+    "meaningVi": ["cơm"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我爱吃米饭。",
+        "pinyin": "Wǒ ài chī mǐfàn.",
+        "meaningVi": "Tôi thích ăn cơm.",
+        "tokens": ["我", "爱", "吃", "米饭", "。"]
+      },
+      {
+        "hanzi": "妈妈做了米饭。",
+        "pinyin": "Māma zuòle mǐfàn.",
+        "meaningVi": "Mẹ đã nấu cơm.",
+        "tokens": ["妈妈", "做", "了", "米饭", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "米", "meaningVi": "hạt gạo" },
+        { "part": "饣", "meaningVi": "đồ ăn" },
+        { "part": "反", "meaningVi": "gợi âm fǎn" }
+      ],
+      "story": "Hạt gạo (米) nấu thành đồ ăn (饣): cơm."
+    }
+  },
+  {
+    "id": "hsk1-075",
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "tones": [4],
+    "meaningVi": ["rau", "món ăn"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我喜欢吃中国菜。",
+        "pinyin": "Wǒ xǐhuan chī Zhōngguó cài.",
+        "meaningVi": "Tôi thích ăn món Trung Quốc.",
+        "tokens": ["我", "喜欢", "吃", "中国", "菜", "。"]
+      },
+      {
+        "hanzi": "妈妈去买菜。",
+        "pinyin": "Māma qù mǎi cài.",
+        "meaningVi": "Mẹ đi mua rau.",
+        "tokens": ["妈妈", "去", "买", "菜", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "艹", "meaningVi": "cỏ, cây" },
+        { "part": "采", "meaningVi": "hái" }
+      ],
+      "story": "Hái (采) cây cỏ (艹) về làm rau, nấu thành món ăn."
+    }
+  },
+  {
+    "id": "hsk1-076",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "tones": [2],
+    "meaningVi": ["trà"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我喜欢喝茶。",
+        "pinyin": "Wǒ xǐhuan hē chá.",
+        "meaningVi": "Tôi thích uống trà.",
+        "tokens": ["我", "喜欢", "喝", "茶", "。"]
+      },
+      {
+        "hanzi": "这是中国茶。",
+        "pinyin": "Zhè shì Zhōngguó chá.",
+        "meaningVi": "Đây là trà Trung Quốc.",
+        "tokens": ["这", "是", "中国", "茶", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "艹", "meaningVi": "cỏ, lá cây" },
+        { "part": "人", "meaningVi": "người" },
+        { "part": "木", "meaningVi": "cái cây" }
+      ],
+      "story": "Người (人) đứng giữa cây (木) hái lá (艹) về pha trà."
+    }
+  },
+  {
+    "id": "hsk1-077",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "tones": [3],
+    "meaningVi": ["nước"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想喝水。",
+        "pinyin": "Wǒ xiǎng hē shuǐ.",
+        "meaningVi": "Tôi muốn uống nước.",
+        "tokens": ["我", "想", "喝", "水", "。"]
+      },
+      {
+        "hanzi": "杯子里有水。",
+        "pinyin": "Bēizi lǐ yǒu shuǐ.",
+        "meaningVi": "Trong cốc có nước.",
+        "tokens": ["杯子", "里", "有", "水", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "水", "meaningVi": "dòng nước ở giữa, hai bên nước bắn ra" }
+      ],
+      "story": "Nét giữa là dòng suối, hai bên là những tia nước toé ra."
+    }
+  },
+  {
+    "id": "hsk1-078",
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "tones": [3, 3],
+    "meaningVi": ["hoa quả", "trái cây"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我喜欢吃水果。",
+        "pinyin": "Wǒ xǐhuan chī shuǐguǒ.",
+        "meaningVi": "Tôi thích ăn hoa quả.",
+        "tokens": ["我", "喜欢", "吃", "水果", "。"]
+      },
+      {
+        "hanzi": "商店里有很多水果。",
+        "pinyin": "Shāngdiàn lǐ yǒu hěn duō shuǐguǒ.",
+        "meaningVi": "Trong cửa hàng có rất nhiều hoa quả.",
+        "tokens": ["商店", "里", "有", "很", "多", "水果", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "水", "meaningVi": "nước" },
+        { "part": "田", "meaningVi": "quả tròn (hình thửa ruộng)" },
+        { "part": "木", "meaningVi": "cái cây" }
+      ],
+      "story": "Quả (田) mọc trên cây (木), cắn vào mọng nước (水): trái cây."
+    }
+  },
+  {
+    "id": "hsk1-079",
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "tones": [2, 3],
+    "meaningVi": ["quả táo"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想买苹果。",
+        "pinyin": "Wǒ xiǎng mǎi píngguǒ.",
+        "meaningVi": "Tôi muốn mua táo.",
+        "tokens": ["我", "想", "买", "苹果", "。"]
+      },
+      {
+        "hanzi": "我爱吃苹果。",
+        "pinyin": "Wǒ ài chī píngguǒ.",
+        "meaningVi": "Tôi thích ăn táo.",
+        "tokens": ["我", "爱", "吃", "苹果", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "艹", "meaningVi": "cỏ, cây" },
+        { "part": "平", "meaningVi": "bằng phẳng (gợi âm píng)" },
+        { "part": "果", "meaningVi": "quả" }
+      ],
+      "story": "Loại quả (果) của cây (艹) có tên đọc là \"píng\": quả táo."
+    }
+  },
+  {
+    "id": "hsk1-080",
+    "hanzi": "杯子",
+    "pinyin": "bēizi",
+    "tones": [1, 0],
+    "meaningVi": ["cốc", "ly"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "an-uong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这个杯子是我的。",
+        "pinyin": "Zhège bēizi shì wǒ de.",
+        "meaningVi": "Cái cốc này là của tôi.",
+        "tokens": ["这", "个", "杯子", "是", "我", "的", "。"]
+      },
+      {
+        "hanzi": "桌子上有一个杯子。",
+        "pinyin": "Zhuōzi shàng yǒu yí ge bēizi.",
+        "meaningVi": "Trên bàn có một cái cốc.",
+        "tokens": ["桌子", "上", "有", "一", "个", "杯子", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "木", "meaningVi": "gỗ" },
+        { "part": "不", "meaningVi": "không (gợi âm bù)" },
+        { "part": "子", "meaningVi": "đuôi của danh từ" }
+      ],
+      "story": "Cái cốc xưa làm bằng gỗ (木). Cốc mà không (不) có nước thì buồn lắm."
+    }
+  },
+  {
+    "id": "hsk1-081",
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "tones": [3, 1],
+    "meaningVi": ["giáo viên", "thầy", "cô"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "老师好！",
+        "pinyin": "Lǎoshī hǎo!",
+        "meaningVi": "Em chào thầy ạ!",
+        "tokens": ["老师", "好", "！"]
+      },
+      {
+        "hanzi": "我们的老师是中国人。",
+        "pinyin": "Wǒmen de lǎoshī shì Zhōngguó rén.",
+        "meaningVi": "Giáo viên của chúng tôi là người Trung Quốc.",
+        "tokens": ["我们", "的", "老师", "是", "中国", "人", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "老", "meaningVi": "già, lâu năm" },
+        { "part": "师", "meaningVi": "người thầy" }
+      ],
+      "story": "Người thầy (师) lâu năm (老) kinh nghiệm: thầy cô giáo."
+    }
+  },
+  {
+    "id": "hsk1-082",
+    "hanzi": "学生",
+    "pinyin": "xuésheng",
+    "tones": [2, 0],
+    "meaningVi": ["học sinh"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他们是学生。",
+        "pinyin": "Tāmen shì xuésheng.",
+        "meaningVi": "Họ là học sinh.",
+        "tokens": ["他们", "是", "学生", "。"]
+      },
+      {
+        "hanzi": "学校里有很多学生。",
+        "pinyin": "Xuéxiào lǐ yǒu hěn duō xuésheng.",
+        "meaningVi": "Trong trường có rất nhiều học sinh.",
+        "tokens": ["学校", "里", "有", "很", "多", "学生", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "学", "meaningVi": "học" },
+        { "part": "生", "meaningVi": "sinh ra, người" }
+      ],
+      "story": "Người (生) đang học (学): học sinh."
+    }
+  },
+  {
+    "id": "hsk1-083",
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "tones": [2, 2],
+    "meaningVi": ["bạn học"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他是我的同学。",
+        "pinyin": "Tā shì wǒ de tóngxué.",
+        "meaningVi": "Cậu ấy là bạn học của tôi.",
+        "tokens": ["他", "是", "我", "的", "同学", "。"]
+      },
+      {
+        "hanzi": "同学们好！",
+        "pinyin": "Tóngxuémen hǎo!",
+        "meaningVi": "Chào các bạn!",
+        "tokens": ["同学", "们", "好", "！"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "同", "meaningVi": "cùng, giống nhau" },
+        { "part": "学", "meaningVi": "học" }
+      ],
+      "story": "Cùng (同) học (学) một lớp: bạn học."
+    }
+  },
+  {
+    "id": "hsk1-084",
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "tones": [2, 4],
+    "meaningVi": ["trường học"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我的学校很大。",
+        "pinyin": "Wǒ de xuéxiào hěn dà.",
+        "meaningVi": "Trường của tôi rất lớn.",
+        "tokens": ["我", "的", "学校", "很", "大", "。"]
+      },
+      {
+        "hanzi": "学校在我家后面。",
+        "pinyin": "Xuéxiào zài wǒ jiā hòumiàn.",
+        "meaningVi": "Trường học ở phía sau nhà tôi.",
+        "tokens": ["学校", "在", "我", "家", "后面", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "学", "meaningVi": "học" },
+        { "part": "木", "meaningVi": "cây, gỗ" },
+        { "part": "交", "meaningVi": "giao, trao đổi" }
+      ],
+      "story": "Nơi dựng bằng gỗ (木) để gặp gỡ, trao đổi (交) việc học (学): trường học."
+    }
+  },
+  {
+    "id": "hsk1-085",
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "tones": [2, 2],
+    "meaningVi": ["học", "học tập"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我学习汉语。",
+        "pinyin": "Wǒ xuéxí Hànyǔ.",
+        "meaningVi": "Tôi học tiếng Trung.",
+        "tokens": ["我", "学习", "汉语", "。"]
+      },
+      {
+        "hanzi": "他很喜欢学习。",
+        "pinyin": "Tā hěn xǐhuan xuéxí.",
+        "meaningVi": "Cậu ấy rất thích học.",
+        "tokens": ["他", "很", "喜欢", "学习", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "学", "meaningVi": "học" },
+        { "part": "习", "meaningVi": "tập, luyện (hình cánh chim tập bay)" }
+      ],
+      "story": "Học (学) rồi tập (习) đi tập lại như chim non tập bay."
+    }
+  },
+  {
+    "id": "hsk1-086",
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "tones": [4, 3],
+    "meaningVi": ["tiếng Trung", "tiếng Hán"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你会说汉语吗？",
+        "pinyin": "Nǐ huì shuō Hànyǔ ma?",
+        "meaningVi": "Bạn biết nói tiếng Trung không?",
+        "tokens": ["你", "会", "说", "汉语", "吗", "？"]
+      },
+      {
+        "hanzi": "我喜欢汉语。",
+        "pinyin": "Wǒ xǐhuan Hànyǔ.",
+        "meaningVi": "Tôi thích tiếng Trung.",
+        "tokens": ["我", "喜欢", "汉语", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "氵", "meaningVi": "nước" },
+        { "part": "又", "meaningVi": "bàn tay" },
+        { "part": "讠", "meaningVi": "lời nói" },
+        { "part": "吾", "meaningVi": "ta, tôi" }
+      ],
+      "story": "汉 là tên con sông (氵) của người Hán; lời nói (讠) của ta (吾) là ngôn ngữ (语): tiếng Hán."
+    }
+  },
+  {
+    "id": "hsk1-087",
+    "hanzi": "字",
+    "pinyin": "zì",
+    "tones": [4],
+    "meaningVi": ["chữ"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这个字我不认识。",
+        "pinyin": "Zhège zì wǒ bú rènshi.",
+        "meaningVi": "Chữ này tôi không biết.",
+        "tokens": ["这", "个", "字", "我", "不", "认识", "。"]
+      },
+      {
+        "hanzi": "你会写这个字吗？",
+        "pinyin": "Nǐ huì xiě zhège zì ma?",
+        "meaningVi": "Bạn biết viết chữ này không?",
+        "tokens": ["你", "会", "写", "这", "个", "字", "吗", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "宀", "meaningVi": "mái nhà" },
+        { "part": "子", "meaningVi": "đứa con" }
+      ],
+      "story": "Đứa con (子) ngồi dưới mái nhà (宀) tập viết chữ."
+    }
+  },
+  {
+    "id": "hsk1-088",
+    "hanzi": "书",
+    "pinyin": "shū",
+    "tones": [1],
+    "meaningVi": ["sách"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我喜欢看书。",
+        "pinyin": "Wǒ xǐhuan kàn shū.",
+        "meaningVi": "Tôi thích đọc sách.",
+        "tokens": ["我", "喜欢", "看", "书", "。"]
+      },
+      {
+        "hanzi": "桌子上有三本书。",
+        "pinyin": "Zhuōzi shàng yǒu sān běn shū.",
+        "meaningVi": "Trên bàn có ba quyển sách.",
+        "tokens": ["桌子", "上", "有", "三", "本", "书", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "书", "meaningVi": "vài nét bút và một chấm mực" }
+      ],
+      "story": "Vài nét bút, thêm một chấm mực rơi xuống: viết thành sách."
+    }
+  },
+  {
+    "id": "hsk1-089",
+    "hanzi": "读",
+    "pinyin": "dú",
+    "tones": [2],
+    "meaningVi": ["đọc"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "请读这个字。",
+        "pinyin": "Qǐng dú zhège zì.",
+        "meaningVi": "Mời đọc chữ này.",
+        "tokens": ["请", "读", "这", "个", "字", "。"]
+      },
+      {
+        "hanzi": "他在北京读书。",
+        "pinyin": "Tā zài Běijīng dú shū.",
+        "meaningVi": "Cậu ấy học ở Bắc Kinh.",
+        "tokens": ["他", "在", "北京", "读", "书", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "讠", "meaningVi": "lời nói" },
+        { "part": "卖", "meaningVi": "bán" }
+      ],
+      "story": "Người bán (卖) hàng rao thành lời (讠), như đọc to lên."
+    }
+  },
+  {
+    "id": "hsk1-090",
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "tones": [3],
+    "meaningVi": ["viết"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "truong-hoc",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我会写汉字。",
+        "pinyin": "Wǒ huì xiě Hànzì.",
+        "meaningVi": "Tôi biết viết chữ Hán.",
+        "tokens": ["我", "会", "写", "汉字", "。"]
+      },
+      {
+        "hanzi": "请写你的名字。",
+        "pinyin": "Qǐng xiě nǐ de míngzi.",
+        "meaningVi": "Xin viết tên của bạn.",
+        "tokens": ["请", "写", "你", "的", "名字", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "冖", "meaningVi": "cái nắp che" },
+        { "part": "与", "meaningVi": "đưa cho" }
+      ],
+      "story": "Che (冖) tờ giấy lại, viết xong mới đưa cho (与) người ta xem."
+    }
+  },
+  {
+    "id": "hsk1-091",
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "tones": [4],
+    "meaningVi": ["nhìn", "xem", "đọc"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想看电影。",
+        "pinyin": "Wǒ xiǎng kàn diànyǐng.",
+        "meaningVi": "Tôi muốn xem phim.",
+        "tokens": ["我", "想", "看", "电影", "。"]
+      },
+      {
+        "hanzi": "你看，那是什么？",
+        "pinyin": "Nǐ kàn, nà shì shénme?",
+        "meaningVi": "Bạn nhìn kìa, kia là cái gì?",
+        "tokens": ["你", "看", "，", "那", "是", "什么", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "手", "meaningVi": "bàn tay" },
+        { "part": "目", "meaningVi": "con mắt" }
+      ],
+      "story": "Đưa tay (手) che trên mắt (目) để nhìn ra xa."
+    }
+  },
+  {
+    "id": "hsk1-092",
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "tones": [4, 4],
+    "meaningVi": ["nhìn thấy"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我看见他了。",
+        "pinyin": "Wǒ kànjiàn tā le.",
+        "meaningVi": "Tôi nhìn thấy anh ấy rồi.",
+        "tokens": ["我", "看见", "他", "了", "。"]
+      },
+      {
+        "hanzi": "你看见我的书了吗？",
+        "pinyin": "Nǐ kànjiàn wǒ de shū le ma?",
+        "meaningVi": "Bạn có thấy sách của tôi không?",
+        "tokens": ["你", "看见", "我", "的", "书", "了", "吗", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "看", "meaningVi": "nhìn" },
+        { "part": "见", "meaningVi": "thấy" }
+      ],
+      "story": "Nhìn (看) và đã thấy (见): nhìn thấy."
+    }
+  },
+  {
+    "id": "hsk1-093",
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "tones": [1],
+    "meaningVi": ["nghe"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "请听老师说。",
+        "pinyin": "Qǐng tīng lǎoshī shuō.",
+        "meaningVi": "Hãy nghe thầy giáo nói.",
+        "tokens": ["请", "听", "老师", "说", "。"]
+      },
+      {
+        "hanzi": "你听，下雨了。",
+        "pinyin": "Nǐ tīng, xià yǔ le.",
+        "meaningVi": "Bạn nghe kìa, mưa rồi.",
+        "tokens": ["你", "听", "，", "下雨", "了", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "斤", "meaningVi": "cái rìu" }
+      ],
+      "story": "Miệng (口) im lặng để nghe tiếng rìu (斤) chặt cây từ xa."
+    }
+  },
+  {
+    "id": "hsk1-094",
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "tones": [1],
+    "meaningVi": ["nói"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "老师说明天不来。",
+        "pinyin": "Lǎoshī shuō míngtiān bù lái.",
+        "meaningVi": "Thầy nói ngày mai không đến.",
+        "tokens": ["老师", "说", "明天", "不", "来", "。"]
+      },
+      {
+        "hanzi": "请说汉语。",
+        "pinyin": "Qǐng shuō Hànyǔ.",
+        "meaningVi": "Xin hãy nói tiếng Trung.",
+        "tokens": ["请", "说", "汉语", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "讠", "meaningVi": "lời nói" },
+        { "part": "兑", "meaningVi": "trao đổi" }
+      ],
+      "story": "Trao đổi (兑) với nhau bằng lời (讠): nói."
+    }
+  },
+  {
+    "id": "hsk1-095",
+    "hanzi": "来",
+    "pinyin": "lái",
+    "tones": [2],
+    "meaningVi": ["đến", "tới"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "请你来我家。",
+        "pinyin": "Qǐng nǐ lái wǒ jiā.",
+        "meaningVi": "Mời bạn đến nhà tôi.",
+        "tokens": ["请", "你", "来", "我", "家", "。"]
+      },
+      {
+        "hanzi": "他明天来。",
+        "pinyin": "Tā míngtiān lái.",
+        "meaningVi": "Ngày mai anh ấy đến.",
+        "tokens": ["他", "明天", "来", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "木", "meaningVi": "cái cây" },
+        { "part": "丷", "meaningVi": "hai bông lúa trĩu xuống" }
+      ],
+      "story": "Cây lúa trĩu bông được mang đến nhà: đến."
+    }
+  },
+  {
+    "id": "hsk1-096",
+    "hanzi": "去",
+    "pinyin": "qù",
+    "tones": [4],
+    "meaningVi": ["đi"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我去商店。",
+        "pinyin": "Wǒ qù shāngdiàn.",
+        "meaningVi": "Tôi đi cửa hàng.",
+        "tokens": ["我", "去", "商店", "。"]
+      },
+      {
+        "hanzi": "你想去中国吗？",
+        "pinyin": "Nǐ xiǎng qù Zhōngguó ma?",
+        "meaningVi": "Bạn muốn đi Trung Quốc không?",
+        "tokens": ["你", "想", "去", "中国", "吗", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "土", "meaningVi": "đất" },
+        { "part": "厶", "meaningVi": "riêng tư (hình vòng khép)" }
+      ],
+      "story": "Rời mảnh đất (土) riêng (厶) của mình để đi nơi khác."
+    }
+  },
+  {
+    "id": "hsk1-097",
+    "hanzi": "回",
+    "pinyin": "huí",
+    "tones": [2],
+    "meaningVi": ["về", "trở về"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我下午回家。",
+        "pinyin": "Wǒ xiàwǔ huí jiā.",
+        "meaningVi": "Buổi chiều tôi về nhà.",
+        "tokens": ["我", "下午", "回", "家", "。"]
+      },
+      {
+        "hanzi": "他什么时候回来？",
+        "pinyin": "Tā shénme shíhou huílai?",
+        "meaningVi": "Khi nào anh ấy về?",
+        "tokens": ["他", "什么", "时候", "回", "来", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "囗", "meaningVi": "vòng ngoài" },
+        { "part": "口", "meaningVi": "vòng trong" }
+      ],
+      "story": "Đi một vòng lớn (囗) rồi quay về điểm ban đầu ở giữa (口)."
+    }
+  },
+  {
+    "id": "hsk1-098",
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "tones": [4],
+    "meaningVi": ["ngồi", "đi (xe, máy bay)"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我们坐出租车去。",
+        "pinyin": "Wǒmen zuò chūzūchē qù.",
+        "meaningVi": "Chúng ta đi bằng taxi.",
+        "tokens": ["我们", "坐", "出租车", "去", "。"]
+      },
+      {
+        "hanzi": "你坐这儿。",
+        "pinyin": "Nǐ zuò zhèr.",
+        "meaningVi": "Bạn ngồi đây.",
+        "tokens": ["你", "坐", "这儿", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "人", "meaningVi": "người (hai người)" },
+        { "part": "土", "meaningVi": "đất" }
+      ],
+      "story": "Hai người (人人) ngồi trên mặt đất (土)."
+    }
+  },
+  {
+    "id": "hsk1-099",
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "tones": [4],
+    "meaningVi": ["ở", "sống"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你住在哪儿？",
+        "pinyin": "Nǐ zhù zài nǎr?",
+        "meaningVi": "Bạn sống ở đâu?",
+        "tokens": ["你", "住", "在", "哪儿", "？"]
+      },
+      {
+        "hanzi": "我住在北京。",
+        "pinyin": "Wǒ zhù zài Běijīng.",
+        "meaningVi": "Tôi sống ở Bắc Kinh.",
+        "tokens": ["我", "住", "在", "北京", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "亻", "meaningVi": "người" },
+        { "part": "主", "meaningVi": "chủ" }
+      ],
+      "story": "Người (亻) làm chủ (主) căn nhà thì ở trong đó."
+    }
+  },
+  {
+    "id": "hsk1-100",
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "tones": [4],
+    "meaningVi": ["làm", "nấu"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "hoat-dong",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你在做什么？",
+        "pinyin": "Nǐ zài zuò shénme?",
+        "meaningVi": "Bạn đang làm gì?",
+        "tokens": ["你", "在", "做", "什么", "？"]
+      },
+      {
+        "hanzi": "我会做中国菜。",
+        "pinyin": "Wǒ huì zuò Zhōngguó cài.",
+        "meaningVi": "Tôi biết nấu món Trung Quốc.",
+        "tokens": ["我", "会", "做", "中国", "菜", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "亻", "meaningVi": "người" },
+        { "part": "古", "meaningVi": "cũ, xưa" },
+        { "part": "攵", "meaningVi": "tay cầm roi (làm việc)" }
+      ],
+      "story": "Người (亻) làm (攵) theo cách xưa (古) của ông bà."
+    }
+  },
+  {
+    "id": "hsk1-101",
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "tones": [1, 0],
+    "meaningVi": ["cái bàn"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒu yì běn shū.",
+        "meaningVi": "Trên bàn có một quyển sách.",
+        "tokens": ["桌子", "上", "有", "一", "本", "书", "。"]
+      },
+      {
+        "hanzi": "这个桌子很大。",
+        "pinyin": "Zhège zhuōzi hěn dà.",
+        "meaningVi": "Cái bàn này rất to.",
+        "tokens": ["这", "个", "桌子", "很", "大", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "日", "meaningVi": "mặt bàn (hình chữ nhật)" },
+        { "part": "木", "meaningVi": "chân gỗ" },
+        { "part": "子", "meaningVi": "đuôi của danh từ" }
+      ],
+      "story": "Mặt bàn chữ nhật (日) đặt trên chân gỗ (木): cái bàn."
+    }
+  },
+  {
+    "id": "hsk1-102",
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "tones": [3, 0],
+    "meaningVi": ["cái ghế"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "椅子在桌子后面。",
+        "pinyin": "Yǐzi zài zhuōzi hòumiàn.",
+        "meaningVi": "Ghế ở phía sau bàn.",
+        "tokens": ["椅子", "在", "桌子", "后面", "。"]
+      },
+      {
+        "hanzi": "这个椅子很小。",
+        "pinyin": "Zhège yǐzi hěn xiǎo.",
+        "meaningVi": "Cái ghế này rất nhỏ.",
+        "tokens": ["这", "个", "椅子", "很", "小", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "木", "meaningVi": "gỗ" },
+        { "part": "奇", "meaningVi": "lạ (gợi âm qí)" },
+        { "part": "子", "meaningVi": "đuôi của danh từ" }
+      ],
+      "story": "Một món đồ gỗ (木) hình dáng lạ (奇) để ngồi: cái ghế."
+    }
+  },
+  {
+    "id": "hsk1-103",
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "tones": [4, 3],
+    "meaningVi": ["máy tính"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这是我的电脑。",
+        "pinyin": "Zhè shì wǒ de diànnǎo.",
+        "meaningVi": "Đây là máy tính của tôi.",
+        "tokens": ["这", "是", "我", "的", "电脑", "。"]
+      },
+      {
+        "hanzi": "我想买电脑。",
+        "pinyin": "Wǒ xiǎng mǎi diànnǎo.",
+        "meaningVi": "Tôi muốn mua máy tính.",
+        "tokens": ["我", "想", "买", "电脑", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "电", "meaningVi": "điện" },
+        { "part": "脑", "meaningVi": "bộ não (月 là phần cơ thể)" }
+      ],
+      "story": "Bộ não (脑) chạy bằng điện (电): máy tính."
+    }
+  },
+  {
+    "id": "hsk1-104",
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "tones": [4, 4],
+    "meaningVi": ["tivi"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我不喜欢看电视。",
+        "pinyin": "Wǒ bù xǐhuan kàn diànshì.",
+        "meaningVi": "Tôi không thích xem tivi.",
+        "tokens": ["我", "不", "喜欢", "看", "电视", "。"]
+      },
+      {
+        "hanzi": "爸爸在家看电视。",
+        "pinyin": "Bàba zài jiā kàn diànshì.",
+        "meaningVi": "Bố ở nhà xem tivi.",
+        "tokens": ["爸爸", "在", "家", "看", "电视", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "电", "meaningVi": "điện" },
+        { "part": "礻", "meaningVi": "bày ra cho thấy" },
+        { "part": "见", "meaningVi": "nhìn thấy" }
+      ],
+      "story": "Dùng điện (电) bày ra (礻) hình ảnh cho ta nhìn (见): tivi."
+    }
+  },
+  {
+    "id": "hsk1-105",
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "tones": [4, 3],
+    "meaningVi": ["phim (điện ảnh)"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我们去看电影。",
+        "pinyin": "Wǒmen qù kàn diànyǐng.",
+        "meaningVi": "Chúng ta đi xem phim.",
+        "tokens": ["我们", "去", "看", "电影", "。"]
+      },
+      {
+        "hanzi": "这个电影怎么样？",
+        "pinyin": "Zhège diànyǐng zěnmeyàng?",
+        "meaningVi": "Bộ phim này thế nào?",
+        "tokens": ["这", "个", "电影", "怎么样", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "电", "meaningVi": "điện" },
+        { "part": "景", "meaningVi": "cảnh" },
+        { "part": "彡", "meaningVi": "những vệt bóng" }
+      ],
+      "story": "Cảnh (景) và bóng (彡) chiếu bằng điện (电): phim."
+    }
+  },
+  {
+    "id": "hsk1-106",
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "tones": [1, 0],
+    "meaningVi": ["đồ", "đồ vật"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想买东西。",
+        "pinyin": "Wǒ xiǎng mǎi dōngxi.",
+        "meaningVi": "Tôi muốn mua đồ.",
+        "tokens": ["我", "想", "买", "东西", "。"]
+      },
+      {
+        "hanzi": "这是什么东西？",
+        "pinyin": "Zhè shì shénme dōngxi?",
+        "meaningVi": "Đây là đồ gì?",
+        "tokens": ["这", "是", "什么", "东西", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "东", "meaningVi": "phía đông" },
+        { "part": "西", "meaningVi": "phía tây" }
+      ],
+      "story": "Chợ phía đông (东), chợ phía tây (西) đều bán đủ thứ đồ."
+    }
+  },
+  {
+    "id": "hsk1-107",
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "tones": [1, 0],
+    "meaningVi": ["quần áo"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这些衣服太大了。",
+        "pinyin": "Zhèxiē yīfu tài dà le.",
+        "meaningVi": "Những bộ quần áo này rộng quá.",
+        "tokens": ["这", "些", "衣服", "太", "大", "了", "。"]
+      },
+      {
+        "hanzi": "妈妈去商店买衣服。",
+        "pinyin": "Māma qù shāngdiàn mǎi yīfu.",
+        "meaningVi": "Mẹ đi cửa hàng mua quần áo.",
+        "tokens": ["妈妈", "去", "商店", "买", "衣服", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "衣", "meaningVi": "cái áo (hình cổ áo và tà áo)" },
+        { "part": "服", "meaningVi": "y phục, mặc vừa" }
+      ],
+      "story": "Cái áo (衣) mặc vừa (服) người: quần áo."
+    }
+  },
+  {
+    "id": "hsk1-108",
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "tones": [1, 4],
+    "meaningVi": ["cửa hàng"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "商店在学校前面。",
+        "pinyin": "Shāngdiàn zài xuéxiào qiánmiàn.",
+        "meaningVi": "Cửa hàng ở phía trước trường.",
+        "tokens": ["商店", "在", "学校", "前面", "。"]
+      },
+      {
+        "hanzi": "这个商店很小。",
+        "pinyin": "Zhège shāngdiàn hěn xiǎo.",
+        "meaningVi": "Cửa hàng này rất nhỏ.",
+        "tokens": ["这", "个", "商店", "很", "小", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "商", "meaningVi": "buôn bán" },
+        { "part": "广", "meaningVi": "mái hiên" },
+        { "part": "占", "meaningVi": "chiếm chỗ" }
+      ],
+      "story": "Chiếm (占) một chỗ dưới mái hiên (广) để buôn bán (商): cửa hàng."
+    }
+  },
+  {
+    "id": "hsk1-109",
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "tones": [1, 4],
+    "meaningVi": ["bệnh viện"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我明天去医院。",
+        "pinyin": "Wǒ míngtiān qù yīyuàn.",
+        "meaningVi": "Ngày mai tôi đi bệnh viện.",
+        "tokens": ["我", "明天", "去", "医院", "。"]
+      },
+      {
+        "hanzi": "医院在哪儿？",
+        "pinyin": "Yīyuàn zài nǎr?",
+        "meaningVi": "Bệnh viện ở đâu?",
+        "tokens": ["医院", "在", "哪儿", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "匚", "meaningVi": "cái hộp" },
+        { "part": "矢", "meaningVi": "mũi tên (kim châm)" },
+        { "part": "阝", "meaningVi": "tường bao" },
+        { "part": "完", "meaningVi": "xong, trọn vẹn" }
+      ],
+      "story": "Hộp (匚) đựng kim (矢) chữa bệnh, đặt trong khu nhà có tường bao (院): bệnh viện."
+    }
+  },
+  {
+    "id": "hsk1-110",
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "tones": [1, 1],
+    "meaningVi": ["bác sĩ"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "do-vat",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我妈妈是医生。",
+        "pinyin": "Wǒ māma shì yīshēng.",
+        "meaningVi": "Mẹ tôi là bác sĩ.",
+        "tokens": ["我", "妈妈", "是", "医生", "。"]
+      },
+      {
+        "hanzi": "医生说我很好。",
+        "pinyin": "Yīshēng shuō wǒ hěn hǎo.",
+        "meaningVi": "Bác sĩ nói tôi rất khoẻ.",
+        "tokens": ["医生", "说", "我", "很", "好", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "医", "meaningVi": "chữa bệnh" },
+        { "part": "生", "meaningVi": "người, sự sống" }
+      ],
+      "story": "Người (生) chữa bệnh (医), giữ sự sống: bác sĩ."
+    }
+  },
+  {
+    "id": "hsk1-111",
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "tones": [4],
+    "meaningVi": ["trên", "lên"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "桌子上有茶。",
+        "pinyin": "Zhuōzi shàng yǒu chá.",
+        "meaningVi": "Trên bàn có trà.",
+        "tokens": ["桌子", "上", "有", "茶", "。"]
+      },
+      {
+        "hanzi": "书在椅子上。",
+        "pinyin": "Shū zài yǐzi shàng.",
+        "meaningVi": "Sách ở trên ghế.",
+        "tokens": ["书", "在", "椅子", "上", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "上", "meaningVi": "nét ngắn nằm phía trên vạch ngang" }
+      ],
+      "story": "Vạch ngang dài là mặt đất, nét ngắn chỉ lên trên: trên."
+    }
+  },
+  {
+    "id": "hsk1-112",
+    "hanzi": "下",
+    "pinyin": "xià",
+    "tones": [4],
+    "meaningVi": ["dưới", "xuống"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "猫在桌子下。",
+        "pinyin": "Māo zài zhuōzi xià.",
+        "meaningVi": "Con mèo ở dưới bàn.",
+        "tokens": ["猫", "在", "桌子", "下", "。"]
+      },
+      {
+        "hanzi": "狗在椅子下。",
+        "pinyin": "Gǒu zài yǐzi xià.",
+        "meaningVi": "Con chó ở dưới ghế.",
+        "tokens": ["狗", "在", "椅子", "下", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "下", "meaningVi": "nét chấm nằm phía dưới vạch ngang" }
+      ],
+      "story": "Vạch ngang là mặt đất, nét chấm chỉ xuống dưới: dưới."
+    }
+  },
+  {
+    "id": "hsk1-113",
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "tones": [3],
+    "meaningVi": ["trong", "bên trong"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "杯子里有茶。",
+        "pinyin": "Bēizi lǐ yǒu chá.",
+        "meaningVi": "Trong cốc có trà.",
+        "tokens": ["杯子", "里", "有", "茶", "。"]
+      },
+      {
+        "hanzi": "学校里有商店。",
+        "pinyin": "Xuéxiào lǐ yǒu shāngdiàn.",
+        "meaningVi": "Trong trường có cửa hàng.",
+        "tokens": ["学校", "里", "有", "商店", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "田", "meaningVi": "ruộng" },
+        { "part": "土", "meaningVi": "đất" }
+      ],
+      "story": "Ruộng (田) và đất (土) nằm bên trong làng: bên trong."
+    }
+  },
+  {
+    "id": "hsk1-114",
+    "hanzi": "前面",
+    "pinyin": "qiánmiàn",
+    "tones": [2, 4],
+    "meaningVi": ["phía trước"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "学校前面有一个商店。",
+        "pinyin": "Xuéxiào qiánmiàn yǒu yí ge shāngdiàn.",
+        "meaningVi": "Phía trước trường có một cửa hàng.",
+        "tokens": ["学校", "前面", "有", "一", "个", "商店", "。"]
+      },
+      {
+        "hanzi": "他坐在我前面。",
+        "pinyin": "Tā zuò zài wǒ qiánmiàn.",
+        "meaningVi": "Cậu ấy ngồi phía trước tôi.",
+        "tokens": ["他", "坐", "在", "我", "前面", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "前", "meaningVi": "trước (con thuyền 月 rẽ nước 刂 tiến lên)" },
+        { "part": "面", "meaningVi": "mặt, phía" }
+      ],
+      "story": "Phía mà mặt (面) mình hướng tới khi tiến lên (前): phía trước."
+    }
+  },
+  {
+    "id": "hsk1-115",
+    "hanzi": "后面",
+    "pinyin": "hòumiàn",
+    "tones": [4, 4],
+    "meaningVi": ["phía sau"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我家后面有一个学校。",
+        "pinyin": "Wǒ jiā hòumiàn yǒu yí ge xuéxiào.",
+        "meaningVi": "Phía sau nhà tôi có một ngôi trường.",
+        "tokens": ["我", "家", "后面", "有", "一", "个", "学校", "。"]
+      },
+      {
+        "hanzi": "猫在椅子后面。",
+        "pinyin": "Māo zài yǐzi hòumiàn.",
+        "meaningVi": "Con mèo ở sau ghế.",
+        "tokens": ["猫", "在", "椅子", "后面", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "后", "meaningVi": "sau" },
+        { "part": "面", "meaningVi": "mặt, phía" }
+      ],
+      "story": "Phía (面) ở sau (后) lưng mình: phía sau."
+    }
+  },
+  {
+    "id": "hsk1-116",
+    "hanzi": "在",
+    "pinyin": "zài",
+    "tones": [4],
+    "meaningVi": ["ở", "đang ở"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我在家。",
+        "pinyin": "Wǒ zài jiā.",
+        "meaningVi": "Tôi ở nhà.",
+        "tokens": ["我", "在", "家", "。"]
+      },
+      {
+        "hanzi": "你的书在桌子上。",
+        "pinyin": "Nǐ de shū zài zhuōzi shàng.",
+        "meaningVi": "Sách của bạn ở trên bàn.",
+        "tokens": ["你", "的", "书", "在", "桌子", "上", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "才", "meaningVi": "mầm cây vừa nhú" },
+        { "part": "土", "meaningVi": "đất" }
+      ],
+      "story": "Mầm cây (才) nhú lên ngay ở mảnh đất (土) này: ở."
+    }
+  },
+  {
+    "id": "hsk1-117",
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "tones": [1, 1, 1],
+    "meaningVi": ["xe taxi"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我坐出租车去医院。",
+        "pinyin": "Wǒ zuò chūzūchē qù yīyuàn.",
+        "meaningVi": "Tôi đi taxi đến bệnh viện.",
+        "tokens": ["我", "坐", "出租车", "去", "医院", "。"]
+      },
+      {
+        "hanzi": "出租车来了。",
+        "pinyin": "Chūzūchē lái le.",
+        "meaningVi": "Taxi đến rồi.",
+        "tokens": ["出租车", "来", "了", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "出", "meaningVi": "đi ra" },
+        { "part": "租", "meaningVi": "thuê (禾 lúa + 且)" },
+        { "part": "车", "meaningVi": "xe" }
+      ],
+      "story": "Xe (车) đem ra (出) cho thuê (租): taxi."
+    }
+  },
+  {
+    "id": "hsk1-118",
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "tones": [1, 1],
+    "meaningVi": ["máy bay"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我坐飞机去北京。",
+        "pinyin": "Wǒ zuò fēijī qù Běijīng.",
+        "meaningVi": "Tôi đi máy bay đến Bắc Kinh.",
+        "tokens": ["我", "坐", "飞机", "去", "北京", "。"]
+      },
+      {
+        "hanzi": "你看，飞机！",
+        "pinyin": "Nǐ kàn, fēijī!",
+        "meaningVi": "Bạn nhìn kìa, máy bay!",
+        "tokens": ["你", "看", "，", "飞机", "！"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "飞", "meaningVi": "bay (hình cánh chim)" },
+        { "part": "木", "meaningVi": "gỗ" },
+        { "part": "几", "meaningVi": "cái bàn nhỏ (gợi âm jī)" }
+      ],
+      "story": "Cỗ máy (机) biết bay (飞): máy bay."
+    }
+  },
+  {
+    "id": "hsk1-119",
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "tones": [1, 2],
+    "meaningVi": ["Trung Quốc"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想去中国。",
+        "pinyin": "Wǒ xiǎng qù Zhōngguó.",
+        "meaningVi": "Tôi muốn đi Trung Quốc.",
+        "tokens": ["我", "想", "去", "中国", "。"]
+      },
+      {
+        "hanzi": "中国很大。",
+        "pinyin": "Zhōngguó hěn dà.",
+        "meaningVi": "Trung Quốc rất lớn.",
+        "tokens": ["中国", "很", "大", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "中", "meaningVi": "ở giữa" },
+        { "part": "囗", "meaningVi": "bờ cõi" },
+        { "part": "玉", "meaningVi": "ngọc" }
+      ],
+      "story": "Đất nước (国: ngọc 玉 trong bờ cõi 囗) ở giữa (中): Trung Quốc."
+    }
+  },
+  {
+    "id": "hsk1-120",
+    "hanzi": "北京",
+    "pinyin": "Běijīng",
+    "tones": [3, 1],
+    "meaningVi": ["Bắc Kinh"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "vi-tri",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "北京很大。",
+        "pinyin": "Běijīng hěn dà.",
+        "meaningVi": "Bắc Kinh rất lớn.",
+        "tokens": ["北京", "很", "大", "。"]
+      },
+      {
+        "hanzi": "我朋友住在北京。",
+        "pinyin": "Wǒ péngyou zhù zài Běijīng.",
+        "meaningVi": "Bạn tôi sống ở Bắc Kinh.",
+        "tokens": ["我", "朋友", "住", "在", "北京", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "北", "meaningVi": "phía bắc (hai người quay lưng vào nhau)" },
+        { "part": "京", "meaningVi": "kinh đô" }
+      ],
+      "story": "Kinh đô (京) ở phía bắc (北): Bắc Kinh."
+    }
+  },
+  {
+    "id": "hsk1-121",
+    "hanzi": "大",
+    "pinyin": "dà",
+    "tones": [4],
+    "meaningVi": ["to", "lớn"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你的家很大。",
+        "pinyin": "Nǐ de jiā hěn dà.",
+        "meaningVi": "Nhà của bạn rất rộng.",
+        "tokens": ["你", "的", "家", "很", "大", "。"]
+      },
+      {
+        "hanzi": "这个太大了。",
+        "pinyin": "Zhège tài dà le.",
+        "meaningVi": "Cái này to quá.",
+        "tokens": ["这", "个", "太", "大", "了", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "人", "meaningVi": "người" },
+        { "part": "一", "meaningVi": "hai cánh tay dang ngang" }
+      ],
+      "story": "Người (人) dang hai tay (一) hết cỡ: to thế này này!"
+    }
+  },
+  {
+    "id": "hsk1-122",
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "tones": [3],
+    "meaningVi": ["nhỏ", "bé"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我的家很小。",
+        "pinyin": "Wǒ de jiā hěn xiǎo.",
+        "meaningVi": "Nhà tôi rất nhỏ.",
+        "tokens": ["我", "的", "家", "很", "小", "。"]
+      },
+      {
+        "hanzi": "这个杯子太小了。",
+        "pinyin": "Zhège bēizi tài xiǎo le.",
+        "meaningVi": "Cái cốc này nhỏ quá.",
+        "tokens": ["这", "个", "杯子", "太", "小", "了", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "小", "meaningVi": "một nét giữa và hai chấm nhỏ hai bên" }
+      ],
+      "story": "Một vật bị chia ra thành những mảnh nhỏ xíu ở hai bên."
+    }
+  },
+  {
+    "id": "hsk1-123",
+    "hanzi": "多",
+    "pinyin": "duō",
+    "tones": [1],
+    "meaningVi": ["nhiều"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他有很多书。",
+        "pinyin": "Tā yǒu hěn duō shū.",
+        "meaningVi": "Anh ấy có rất nhiều sách.",
+        "tokens": ["他", "有", "很", "多", "书", "。"]
+      },
+      {
+        "hanzi": "这儿的人很多。",
+        "pinyin": "Zhèr de rén hěn duō.",
+        "meaningVi": "Người ở đây rất đông.",
+        "tokens": ["这儿", "的", "人", "很", "多", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "夕", "meaningVi": "buổi tối (hai chữ 夕 chồng lên nhau)" }
+      ],
+      "story": "Tối (夕) này qua tối (夕) khác chồng lên nhau: nhiều."
+    }
+  },
+  {
+    "id": "hsk1-124",
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "tones": [3],
+    "meaningVi": ["ít"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天人很少。",
+        "pinyin": "Jīntiān rén hěn shǎo.",
+        "meaningVi": "Hôm nay rất ít người.",
+        "tokens": ["今天", "人", "很", "少", "。"]
+      },
+      {
+        "hanzi": "我的钱很少。",
+        "pinyin": "Wǒ de qián hěn shǎo.",
+        "meaningVi": "Tiền của tôi rất ít.",
+        "tokens": ["我", "的", "钱", "很", "少", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "小", "meaningVi": "nhỏ" },
+        { "part": "丿", "meaningVi": "một nét phẩy cắt bớt" }
+      ],
+      "story": "Đã nhỏ (小) lại còn bị cắt bớt (丿): ít."
+    }
+  },
+  {
+    "id": "hsk1-125",
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "tones": [3],
+    "meaningVi": ["lạnh"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天太冷了。",
+        "pinyin": "Jīntiān tài lěng le.",
+        "meaningVi": "Hôm nay lạnh quá.",
+        "tokens": ["今天", "太", "冷", "了", "。"]
+      },
+      {
+        "hanzi": "北京很冷。",
+        "pinyin": "Běijīng hěn lěng.",
+        "meaningVi": "Bắc Kinh rất lạnh.",
+        "tokens": ["北京", "很", "冷", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "冫", "meaningVi": "băng (hai giọt nước đá)" },
+        { "part": "令", "meaningVi": "mệnh lệnh (gợi âm lìng)" }
+      ],
+      "story": "Băng giá (冫) ra lệnh (令) cho mọi người mặc áo ấm: lạnh."
+    }
+  },
+  {
+    "id": "hsk1-126",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "tones": [4],
+    "meaningVi": ["nóng"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天天气很热。",
+        "pinyin": "Jīntiān tiānqì hěn rè.",
+        "meaningVi": "Hôm nay trời rất nóng.",
+        "tokens": ["今天", "天气", "很", "热", "。"]
+      },
+      {
+        "hanzi": "茶很热。",
+        "pinyin": "Chá hěn rè.",
+        "meaningVi": "Trà rất nóng.",
+        "tokens": ["茶", "很", "热", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "执", "meaningVi": "cầm, nắm" },
+        { "part": "灬", "meaningVi": "lửa" }
+      ],
+      "story": "Cầm (执) vật gì đặt trên lửa (灬) thì nóng."
+    }
+  },
+  {
+    "id": "hsk1-127",
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "tones": [1, 4],
+    "meaningVi": ["vui", "vui mừng"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "认识你很高兴。",
+        "pinyin": "Rènshi nǐ hěn gāoxìng.",
+        "meaningVi": "Rất vui được quen bạn.",
+        "tokens": ["认识", "你", "很", "高兴", "。"]
+      },
+      {
+        "hanzi": "今天我很高兴。",
+        "pinyin": "Jīntiān wǒ hěn gāoxìng.",
+        "meaningVi": "Hôm nay tôi rất vui.",
+        "tokens": ["今天", "我", "很", "高兴", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "高", "meaningVi": "cao (hình toà lầu cao)" },
+        { "part": "兴", "meaningVi": "hứng khởi" }
+      ],
+      "story": "Hứng khởi (兴) dâng cao (高): vui mừng."
+    }
+  },
+  {
+    "id": "hsk1-128",
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "tones": [4, 0],
+    "meaningVi": ["đẹp", "xinh"],
+    "partOfSpeech": "tính",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "这个杯子很漂亮。",
+        "pinyin": "Zhège bēizi hěn piàoliang.",
+        "meaningVi": "Cái cốc này rất đẹp.",
+        "tokens": ["这", "个", "杯子", "很", "漂亮", "。"]
+      },
+      {
+        "hanzi": "她的衣服很漂亮。",
+        "pinyin": "Tā de yīfu hěn piàoliang.",
+        "meaningVi": "Quần áo của cô ấy rất đẹp.",
+        "tokens": ["她", "的", "衣服", "很", "漂亮", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "氵", "meaningVi": "nước" },
+        { "part": "票", "meaningVi": "tấm vé (gợi âm piào)" },
+        { "part": "亮", "meaningVi": "sáng" }
+      ],
+      "story": "Mặt nước (氵) sáng (亮) lấp lánh: đẹp."
+    }
+  },
+  {
+    "id": "hsk1-129",
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "tones": [1, 4],
+    "meaningVi": ["thời tiết"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天天气很好。",
+        "pinyin": "Jīntiān tiānqì hěn hǎo.",
+        "meaningVi": "Hôm nay thời tiết rất đẹp.",
+        "tokens": ["今天", "天气", "很", "好", "。"]
+      },
+      {
+        "hanzi": "明天天气怎么样？",
+        "pinyin": "Míngtiān tiānqì zěnmeyàng?",
+        "meaningVi": "Thời tiết ngày mai thế nào?",
+        "tokens": ["明天", "天气", "怎么样", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "天", "meaningVi": "trời" },
+        { "part": "气", "meaningVi": "hơi, khí" }
+      ],
+      "story": "Khí (气) của trời (天): thời tiết."
+    }
+  },
+  {
+    "id": "hsk1-130",
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "tones": [4, 3],
+    "meaningVi": ["mưa", "trời mưa"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "tinh-tu",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "今天下雨。",
+        "pinyin": "Jīntiān xià yǔ.",
+        "meaningVi": "Hôm nay trời mưa.",
+        "tokens": ["今天", "下雨", "。"]
+      },
+      {
+        "hanzi": "下雨了，我不去了。",
+        "pinyin": "Xià yǔ le, wǒ bú qù le.",
+        "meaningVi": "Mưa rồi, tôi không đi nữa.",
+        "tokens": ["下雨", "了", "，", "我", "不", "去", "了", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "下", "meaningVi": "rơi xuống" },
+        { "part": "雨", "meaningVi": "mưa (những giọt nước dưới bầu trời)" }
+      ],
+      "story": "Những giọt nước (雨) rơi xuống (下): trời mưa."
+    }
+  },
+  {
+    "id": "hsk1-131",
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "tones": [4],
+    "meaningVi": ["yêu", "thích"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我爱你。",
+        "pinyin": "Wǒ ài nǐ.",
+        "meaningVi": "Tôi yêu bạn.",
+        "tokens": ["我", "爱", "你", "。"]
+      },
+      {
+        "hanzi": "妈妈爱我。",
+        "pinyin": "Māma ài wǒ.",
+        "meaningVi": "Mẹ yêu tôi.",
+        "tokens": ["妈妈", "爱", "我", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "爫", "meaningVi": "bàn tay che chở" },
+        { "part": "冖", "meaningVi": "mái che" },
+        { "part": "友", "meaningVi": "bạn" }
+      ],
+      "story": "Bàn tay (爫) che chở (冖) cho người bạn (友): yêu thương."
+    }
+  },
+  {
+    "id": "hsk1-132",
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "tones": [3, 0],
+    "meaningVi": ["thích"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我喜欢猫。",
+        "pinyin": "Wǒ xǐhuan māo.",
+        "meaningVi": "Tôi thích mèo.",
+        "tokens": ["我", "喜欢", "猫", "。"]
+      },
+      {
+        "hanzi": "你喜欢什么？",
+        "pinyin": "Nǐ xǐhuan shénme?",
+        "meaningVi": "Bạn thích gì?",
+        "tokens": ["你", "喜欢", "什么", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "喜", "meaningVi": "mừng (tiếng trống và miệng cười)" },
+        { "part": "又", "meaningVi": "bàn tay" },
+        { "part": "欠", "meaningVi": "há miệng" }
+      ],
+      "story": "Mừng (喜) quá, vỗ tay (又) há miệng (欠) reo vui: thích."
+    }
+  },
+  {
+    "id": "hsk1-133",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "tones": [3],
+    "meaningVi": ["muốn", "nghĩ", "nhớ"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想喝茶。",
+        "pinyin": "Wǒ xiǎng hē chá.",
+        "meaningVi": "Tôi muốn uống trà.",
+        "tokens": ["我", "想", "喝", "茶", "。"]
+      },
+      {
+        "hanzi": "我很想你。",
+        "pinyin": "Wǒ hěn xiǎng nǐ.",
+        "meaningVi": "Tôi rất nhớ bạn.",
+        "tokens": ["我", "很", "想", "你", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "相", "meaningVi": "hình ảnh, lẫn nhau" },
+        { "part": "心", "meaningVi": "trái tim" }
+      ],
+      "story": "Hình ảnh (相) hiện lên trong tim (心): nghĩ, nhớ, muốn."
+    }
+  },
+  {
+    "id": "hsk1-134",
+    "hanzi": "会",
+    "pinyin": "huì",
+    "tones": [4],
+    "meaningVi": ["biết (làm)", "sẽ"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我会说汉语。",
+        "pinyin": "Wǒ huì shuō Hànyǔ.",
+        "meaningVi": "Tôi biết nói tiếng Trung.",
+        "tokens": ["我", "会", "说", "汉语", "。"]
+      },
+      {
+        "hanzi": "明天会下雨吗？",
+        "pinyin": "Míngtiān huì xià yǔ ma?",
+        "meaningVi": "Ngày mai có mưa không?",
+        "tokens": ["明天", "会", "下雨", "吗", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "人", "meaningVi": "người" },
+        { "part": "云", "meaningVi": "nói, mây" }
+      ],
+      "story": "Mọi người (人) họp lại nói (云) với nhau thì sẽ biết cách làm."
+    }
+  },
+  {
+    "id": "hsk1-135",
+    "hanzi": "能",
+    "pinyin": "néng",
+    "tones": [2],
+    "meaningVi": ["có thể"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你能来吗？",
+        "pinyin": "Nǐ néng lái ma?",
+        "meaningVi": "Bạn đến được không?",
+        "tokens": ["你", "能", "来", "吗", "？"]
+      },
+      {
+        "hanzi": "我明天不能去。",
+        "pinyin": "Wǒ míngtiān bù néng qù.",
+        "meaningVi": "Ngày mai tôi không đi được.",
+        "tokens": ["我", "明天", "不", "能", "去", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "厶", "meaningVi": "cái đầu" },
+        { "part": "月", "meaningVi": "thân mình" },
+        { "part": "匕", "meaningVi": "bàn chân có móng" }
+      ],
+      "story": "Cả chữ là hình con gấu: gấu khoẻ, việc gì cũng có thể làm."
+    }
+  },
+  {
+    "id": "hsk1-136",
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "tones": [4, 0],
+    "meaningVi": ["quen", "biết (người, chữ)"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我认识他。",
+        "pinyin": "Wǒ rènshi tā.",
+        "meaningVi": "Tôi quen anh ấy.",
+        "tokens": ["我", "认识", "他", "。"]
+      },
+      {
+        "hanzi": "你认识这个字吗？",
+        "pinyin": "Nǐ rènshi zhège zì ma?",
+        "meaningVi": "Bạn biết chữ này không?",
+        "tokens": ["你", "认识", "这", "个", "字", "吗", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "讠", "meaningVi": "lời nói" },
+        { "part": "人", "meaningVi": "người" },
+        { "part": "只", "meaningVi": "chỉ (gợi âm zhī)" }
+      ],
+      "story": "Nói chuyện (讠) với một người (人) rồi thì quen biết người đó."
+    }
+  },
+  {
+    "id": "hsk1-137",
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "tones": [3],
+    "meaningVi": ["mua"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想买一本书。",
+        "pinyin": "Wǒ xiǎng mǎi yì běn shū.",
+        "meaningVi": "Tôi muốn mua một quyển sách.",
+        "tokens": ["我", "想", "买", "一", "本", "书", "。"]
+      },
+      {
+        "hanzi": "你买什么？",
+        "pinyin": "Nǐ mǎi shénme?",
+        "meaningVi": "Bạn mua gì?",
+        "tokens": ["你", "买", "什么", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "乛", "meaningVi": "cái móc, cái nắp" },
+        { "part": "头", "meaningVi": "cái đầu, thứ đứng đầu" }
+      ],
+      "story": "Thấy món hàng đứng đầu (头) thì trùm lại (乛) mang về: mua."
+    }
+  },
+  {
+    "id": "hsk1-138",
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "tones": [1],
+    "meaningVi": ["mở", "lái (xe)"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "他会开车。",
+        "pinyin": "Tā huì kāi chē.",
+        "meaningVi": "Anh ấy biết lái xe.",
+        "tokens": ["他", "会", "开", "车", "。"]
+      },
+      {
+        "hanzi": "我开出租车。",
+        "pinyin": "Wǒ kāi chūzūchē.",
+        "meaningVi": "Tôi lái taxi.",
+        "tokens": ["我", "开", "出租车", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "一", "meaningVi": "cái then cửa" },
+        { "part": "廾", "meaningVi": "hai bàn tay" }
+      ],
+      "story": "Hai tay (廾) nhấc cái then (一) lên: mở cửa."
+    }
+  },
+  {
+    "id": "hsk1-139",
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "tones": [1, 4],
+    "meaningVi": ["làm việc", "công việc"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "你在哪儿工作？",
+        "pinyin": "Nǐ zài nǎr gōngzuò?",
+        "meaningVi": "Bạn làm việc ở đâu?",
+        "tokens": ["你", "在", "哪儿", "工作", "？"]
+      },
+      {
+        "hanzi": "我爸爸在医院工作。",
+        "pinyin": "Wǒ bàba zài yīyuàn gōngzuò.",
+        "meaningVi": "Bố tôi làm việc ở bệnh viện.",
+        "tokens": ["我", "爸爸", "在", "医院", "工作", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "工", "meaningVi": "cái thước thợ, việc thợ" },
+        { "part": "亻", "meaningVi": "người" },
+        { "part": "乍", "meaningVi": "bất chợt, bắt tay vào" }
+      ],
+      "story": "Người (亻) bắt tay vào (乍) việc thợ (工): làm việc."
+    }
+  },
+  {
+    "id": "hsk1-140",
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "tones": [4, 4],
+    "meaningVi": ["ngủ"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "mong-muon",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我想睡觉。",
+        "pinyin": "Wǒ xiǎng shuìjiào.",
+        "meaningVi": "Tôi muốn ngủ.",
+        "tokens": ["我", "想", "睡觉", "。"]
+      },
+      {
+        "hanzi": "你几点睡觉？",
+        "pinyin": "Nǐ jǐ diǎn shuìjiào?",
+        "meaningVi": "Bạn ngủ lúc mấy giờ?",
+        "tokens": ["你", "几", "点", "睡觉", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "目", "meaningVi": "con mắt" },
+        { "part": "垂", "meaningVi": "rủ xuống" },
+        { "part": "觉", "meaningVi": "giấc ngủ, cảm thấy" }
+      ],
+      "story": "Mí mắt (目) rủ xuống (垂) là vào giấc (觉): ngủ."
+    }
+  },
+  {
+    "id": "hsk1-141",
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "tones": [1],
+    "meaningVi": ["đều", "tất cả"],
+    "partOfSpeech": "phó",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我们都是学生。",
+        "pinyin": "Wǒmen dōu shì xuésheng.",
+        "meaningVi": "Chúng tôi đều là học sinh.",
+        "tokens": ["我们", "都", "是", "学生", "。"]
+      },
+      {
+        "hanzi": "他们都很高兴。",
+        "pinyin": "Tāmen dōu hěn gāoxìng.",
+        "meaningVi": "Họ đều rất vui.",
+        "tokens": ["他们", "都", "很", "高兴", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "者", "meaningVi": "người" },
+        { "part": "阝", "meaningVi": "thành ấp" }
+      ],
+      "story": "Mọi người (者) trong thành (阝) đều có mặt: tất cả, đều."
+    }
+  },
+  {
+    "id": "hsk1-142",
+    "hanzi": "太",
+    "pinyin": "tài",
+    "tones": [4],
+    "meaningVi": ["quá", "rất"],
+    "partOfSpeech": "phó",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "太好了！",
+        "pinyin": "Tài hǎo le!",
+        "meaningVi": "Tốt quá!",
+        "tokens": ["太", "好", "了", "！"]
+      },
+      {
+        "hanzi": "今天太热了。",
+        "pinyin": "Jīntiān tài rè le.",
+        "meaningVi": "Hôm nay nóng quá.",
+        "tokens": ["今天", "太", "热", "了", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "大", "meaningVi": "to" },
+        { "part": "丶", "meaningVi": "thêm một chấm" }
+      ],
+      "story": "Đã to (大) lại thêm một chấm (丶) nữa: quá to, quá mức."
+    }
+  },
+  {
+    "id": "hsk1-143",
+    "hanzi": "了",
+    "pinyin": "le",
+    "tones": [0],
+    "meaningVi": ["rồi (việc đã xảy ra hoặc đã thay đổi)"],
+    "partOfSpeech": "trợ",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我吃了。",
+        "pinyin": "Wǒ chī le.",
+        "meaningVi": "Tôi ăn rồi.",
+        "tokens": ["我", "吃", "了", "。"]
+      },
+      {
+        "hanzi": "他去北京了。",
+        "pinyin": "Tā qù Běijīng le.",
+        "meaningVi": "Anh ấy đi Bắc Kinh rồi.",
+        "tokens": ["他", "去", "北京", "了", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "了", "meaningVi": "hình đứa bé quấn tã, không thấy tay" }
+      ],
+      "story": "Đứa bé đã được quấn tã xong xuôi: xong rồi."
+    }
+  },
+  {
+    "id": "hsk1-144",
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "tones": [4],
+    "meaningVi": ["a lô", "này"],
+    "partOfSpeech": "thán",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "喂，你好！",
+        "pinyin": "Wèi, nǐ hǎo!",
+        "meaningVi": "A lô, xin chào!",
+        "tokens": ["喂", "，", "你", "好", "！"]
+      },
+      {
+        "hanzi": "喂，你是谁？",
+        "pinyin": "Wèi, nǐ shì shéi?",
+        "meaningVi": "A lô, ai đấy ạ?",
+        "tokens": ["喂", "，", "你", "是", "谁", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "口", "meaningVi": "cái miệng" },
+        { "part": "畏", "meaningVi": "sợ, e dè" }
+      ],
+      "story": "Nhấc máy, miệng (口) e dè (畏) cất tiếng: a lô?"
+    }
+  },
+  {
+    "id": "hsk1-145",
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "tones": [3, 4, 4],
+    "meaningVi": ["gọi điện thoại"],
+    "partOfSpeech": "động",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "妈妈在打电话。",
+        "pinyin": "Māma zài dǎ diànhuà.",
+        "meaningVi": "Mẹ đang gọi điện thoại.",
+        "tokens": ["妈妈", "在", "打电话", "。"]
+      },
+      {
+        "hanzi": "他不喜欢打电话。",
+        "pinyin": "Tā bù xǐhuan dǎ diànhuà.",
+        "meaningVi": "Anh ấy không thích gọi điện thoại.",
+        "tokens": ["他", "不", "喜欢", "打电话", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "扌", "meaningVi": "bàn tay" },
+        { "part": "丁", "meaningVi": "cái đinh (gợi âm dīng)" },
+        { "part": "电", "meaningVi": "điện" },
+        { "part": "话", "meaningVi": "lời nói (讠 + 舌 cái lưỡi)" }
+      ],
+      "story": "Tay (扌) bấm máy để lời nói (话) chạy theo dòng điện (电): gọi điện thoại."
+    }
+  },
+  {
+    "id": "hsk1-146",
+    "hanzi": "先生",
+    "pinyin": "xiānsheng",
+    "tones": [1, 0],
+    "meaningVi": ["ông", "ngài", "chồng"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "先生，你好！",
+        "pinyin": "Xiānsheng, nǐ hǎo!",
+        "meaningVi": "Chào ông!",
+        "tokens": ["先生", "，", "你", "好", "！"]
+      },
+      {
+        "hanzi": "这是我先生。",
+        "pinyin": "Zhè shì wǒ xiānsheng.",
+        "meaningVi": "Đây là chồng tôi.",
+        "tokens": ["这", "是", "我", "先生", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "先", "meaningVi": "trước (bước chân đi trước)" },
+        { "part": "生", "meaningVi": "sinh ra" }
+      ],
+      "story": "Người sinh (生) ra trước (先) mình thì gọi kính trọng là \"ông\"."
+    }
+  },
+  {
+    "id": "hsk1-147",
+    "hanzi": "小姐",
+    "pinyin": "xiǎojiě",
+    "tones": [3, 3],
+    "meaningVi": ["cô", "tiểu thư"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "小姐，你好！",
+        "pinyin": "Xiǎojiě, nǐ hǎo!",
+        "meaningVi": "Chào cô!",
+        "tokens": ["小姐", "，", "你", "好", "！"]
+      },
+      {
+        "hanzi": "小姐，请坐。",
+        "pinyin": "Xiǎojiě, qǐng zuò.",
+        "meaningVi": "Mời cô ngồi.",
+        "tokens": ["小姐", "，", "请", "坐", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "小", "meaningVi": "nhỏ, trẻ" },
+        { "part": "女", "meaningVi": "phụ nữ" },
+        { "part": "且", "meaningVi": "gợi âm qiě" }
+      ],
+      "story": "Người chị (姐) còn trẻ (小): cô, tiểu thư."
+    }
+  },
+  {
+    "id": "hsk1-148",
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "tones": [3],
+    "meaningVi": ["con chó"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我喜欢狗。",
+        "pinyin": "Wǒ xǐhuan gǒu.",
+        "meaningVi": "Tôi thích chó.",
+        "tokens": ["我", "喜欢", "狗", "。"]
+      },
+      {
+        "hanzi": "狗在哪儿？",
+        "pinyin": "Gǒu zài nǎr?",
+        "meaningVi": "Con chó ở đâu?",
+        "tokens": ["狗", "在", "哪儿", "？"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "犭", "meaningVi": "con thú" },
+        { "part": "句", "meaningVi": "câu nói (gợi âm gōu)" }
+      ],
+      "story": "Con thú (犭) hiểu được câu (句) chủ nói: con chó."
+    }
+  },
+  {
+    "id": "hsk1-149",
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "tones": [1],
+    "meaningVi": ["con mèo"],
+    "partOfSpeech": "danh",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我家有猫。",
+        "pinyin": "Wǒ jiā yǒu māo.",
+        "meaningVi": "Nhà tôi có mèo.",
+        "tokens": ["我", "家", "有", "猫", "。"]
+      },
+      {
+        "hanzi": "猫在椅子上。",
+        "pinyin": "Māo zài yǐzi shàng.",
+        "meaningVi": "Con mèo ở trên ghế.",
+        "tokens": ["猫", "在", "椅子", "上", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "犭", "meaningVi": "con thú" },
+        { "part": "苗", "meaningVi": "mầm lúa (gợi âm miáo, giống tiếng mèo kêu)" }
+      ],
+      "story": "Con thú (犭) kêu \"miáo\" (苗): con mèo."
+    }
+  },
+  {
+    "id": "hsk1-150",
+    "hanzi": "一点儿",
+    "pinyin": "yìdiǎnr",
+    "tones": [4, 3, 0],
+    "meaningVi": ["một chút", "một ít"],
+    "partOfSpeech": "lượng",
+    "hskLevel": 1,
+    "topic": "tu-khac",
+    "kind": "abstract",
+    "examples": [
+      {
+        "hanzi": "我会说一点儿汉语。",
+        "pinyin": "Wǒ huì shuō yìdiǎnr Hànyǔ.",
+        "meaningVi": "Tôi biết nói một chút tiếng Trung.",
+        "tokens": ["我", "会", "说", "一点儿", "汉语", "。"]
+      },
+      {
+        "hanzi": "我想喝一点儿水。",
+        "pinyin": "Wǒ xiǎng hē yìdiǎnr shuǐ.",
+        "meaningVi": "Tôi muốn uống một chút nước.",
+        "tokens": ["我", "想", "喝", "一点儿", "水", "。"]
+      }
+    ],
+    "mnemonic": {
+      "components": [
+        { "part": "一", "meaningVi": "một" },
+        { "part": "点", "meaningVi": "chấm, điểm" },
+        { "part": "儿", "meaningVi": "đuôi cuốn lưỡi \"r\"" }
+      ],
+      "story": "Chỉ một (一) chấm (点) nhỏ xíu: một chút."
+    }
+  }
+]

@@ -87,26 +87,26 @@ reduced motion bằng Playwright. Chỉ các test đó được đưa vào; vi�
 
 ### Nội dung cho US1
 
-- [ ] T030 [US1] Soạn nội dung HSK 1 (khoảng 150 từ) theo content-tools/prompts/word-content.md vào web/public/data/words/hsk1.json và chia bài 8–12 từ theo chủ đề vào web/public/data/lessons/hsk1.json; chạy `validate:content -- --draft` không lỗi (kiểm tra đầy đủ chạy ở T033, sau khi có ảnh và file nét)
+- [X] T030 [US1] Soạn nội dung HSK 1 (khoảng 150 từ) theo content-tools/prompts/word-content.md vào web/public/data/words/hsk1.json và chia bài 8–12 từ theo chủ đề vào web/public/data/lessons/hsk1.json; chạy `validate:content -- --draft` không lỗi (kiểm tra đầy đủ chạy ở T033, sau khi có ảnh và file nét)
 - [ ] T031 [US1] Người duyệt kiểm tra nghĩa, pinyin, câu ví dụ, mẹo nhớ của HSK 1 và ghi kết quả vào content-tools/review/hsk1.md (SC-008)
 - [ ] T032 [P] [US1] Tạo ảnh Canva cho các từ `concrete` của HSK 1 theo content-tools/prompts/image-style.md: làm 20 ảnh đầu, duyệt "mùi AI", đạt mới làm tiếp; lưu web/public/images/words/<wordId>.webp (≤ 40KB). Nếu 20 ảnh đầu không đạt, chuyển các từ đó sang `abstract` (hình tách bộ thủ) theo research R5
-- [ ] T033 [US1] Chạy web/scripts/fetch-strokes.ts cho HSK 1 và web/scripts/build-search-index.ts, build-confusables.ts; sau khi T032 xong, chạy `validate:content` chế độ đầy đủ không lỗi (từ `concrete` nào chưa có ảnh đạt thì đổi sang `abstract` trước khi chạy)
+- [X] T033 [US1] Chạy web/scripts/fetch-strokes.ts cho HSK 1 và web/scripts/build-search-index.ts, build-confusables.ts; sau khi T032 xong, chạy `validate:content` chế độ đầy đủ không lỗi (từ `concrete` nào chưa có ảnh đạt thì đổi sang `abstract` trước khi chạy)
 
 ### Logic cho US1
 
-- [ ] T034 [P] [US1] Viết test web/tests/unit/lesson-session.test.ts: thứ tự thẻ, chấm 3 mức, thẻ "Chưa nhớ" quay lại cuối buổi, lưu/khôi phục vị trí `lastLessonPosition`
-- [ ] T035 [US1] Viết web/src/features/flashcard/lessonSession.ts: tạo buổi học từ Lesson, ghi đánh giá vào CardProgress theo quy tắc "mới học" trong data-model.md (`good` → box=1, `hard` → box=1, `again` → box=0 và ôn lại ngay trong buổi), lưu `lastLessonPosition` sau mỗi thẻ (FR-007)
+- [X] T034 [P] [US1] Viết test web/tests/unit/lesson-session.test.ts: thứ tự thẻ, chấm 3 mức, thẻ "Chưa nhớ" quay lại cuối buổi, lưu/khôi phục vị trí `lastLessonPosition`
+- [X] T035 [US1] Viết web/src/features/flashcard/lessonSession.ts: tạo buổi học từ Lesson, ghi đánh giá vào CardProgress theo quy tắc "mới học" trong data-model.md (`good` → box=1, `hard` → box=1, `again` → box=0 và ôn lại ngay trong buổi), lưu `lastLessonPosition` sau mỗi thẻ (FR-007)
 
 ### Giao diện cho US1
 
-- [ ] T036 [P] [US1] Tạo web/src/features/flashcard/FlashCard.tsx: mặt trước chữ Hán Noto Serif SC ≥ 72px trên mobile; mặt sau pinyin (PinyinText), nghĩa, mẹo nhớ, hình liên tưởng, 1 câu ví dụ có nút nghe; lật bằng chạm/chuột/phím cách, rotateY 400ms `power2.out` (fade khi reduced motion) (FR-003, FR-002c)
-- [ ] T037 [P] [US1] Tạo web/src/components/ui/MnemonicView.tsx: hiện các thành phần + nghĩa từng phần + câu chuyện; với `concrete` hiện ảnh (lazy load, giữ chỗ để không xô lệch bố cục), với `abstract` hiện hình tách bộ thủ (T038)
-- [ ] T038 [P] [US1] Tạo web/src/components/ui/RadicalSplit.tsx: vẽ SVG chữ Hán từ dữ liệu nét, tô màu khác nhau cho từng thành phần theo `groups` trong web/public/data/generated/components.json (chữ không có mục trong file đó thì tô một màu và vẫn hiện danh sách thành phần bằng chữ), hiệu ứng các thành phần trượt vào ghép thành chữ (hiện sẵn khi reduced motion) (FR-002b)
-- [ ] T039 [P] [US1] Tạo web/src/components/ui/SpeakButton.tsx dùng web/src/lib/speech.ts, phát trong ≤ 1 giây, báo lỗi tiếng Việt khi máy không có giọng tiếng Trung (SC-004)
-- [ ] T040 [US1] Tạo trang web/src/pages/LessonPage.tsx (`/bai/:lessonId`): thanh tiến độ trong bài, 3 nút "Chưa nhớ / Hơi nhớ / Đã nhớ" (FR-005), chuyển hướng học "chữ → nghĩa" hoặc "nghĩa → chữ" (FR-006)
-- [ ] T041 [US1] Tạo web/src/features/flashcard/LessonSummary.tsx: số từ đã nhớ/chưa nhớ, con dấu đỏ (Seal) và hiệu ứng chúc mừng, nút học bài tiếp / ôn lại từ chưa nhớ
-- [ ] T042 [US1] Thêm hộp thoại "Học tiếp từ thẻ đang dở?" khi mở lại bài còn dở trong web/src/pages/LessonPage.tsx
-- [ ] T043 [US1] Tạo trang web/src/pages/StagePage.tsx (`/lo-trinh/:stageId`) bản đơn giản: danh sách bài của cấp, bấm vào bài thì mở `/bai/:lessonId` (lộ trình đầy đủ ở US4); đồng thời cho `/` tạm chuyển hướng tới `/lo-trinh/hsk1` trong web/src/app/router.tsx để bản MVP mở ra là học được ngay (bỏ chuyển hướng này ở T094)
+- [X] T036 [P] [US1] Tạo web/src/features/flashcard/FlashCard.tsx: mặt trước chữ Hán Noto Serif SC ≥ 72px trên mobile; mặt sau pinyin (PinyinText), nghĩa, mẹo nhớ, hình liên tưởng, 1 câu ví dụ có nút nghe; lật bằng chạm/chuột/phím cách, rotateY 400ms `power2.out` (fade khi reduced motion) (FR-003, FR-002c)
+- [X] T037 [P] [US1] Tạo web/src/components/ui/MnemonicView.tsx: hiện các thành phần + nghĩa từng phần + câu chuyện; với `concrete` hiện ảnh (lazy load, giữ chỗ để không xô lệch bố cục), với `abstract` hiện hình tách bộ thủ (T038)
+- [X] T038 [P] [US1] Tạo web/src/components/ui/RadicalSplit.tsx: vẽ SVG chữ Hán từ dữ liệu nét, tô màu khác nhau cho từng thành phần theo `groups` trong web/public/data/generated/components.json (chữ không có mục trong file đó thì tô một màu và vẫn hiện danh sách thành phần bằng chữ), hiệu ứng các thành phần trượt vào ghép thành chữ (hiện sẵn khi reduced motion) (FR-002b)
+- [X] T039 [P] [US1] Tạo web/src/components/ui/SpeakButton.tsx dùng web/src/lib/speech.ts, phát trong ≤ 1 giây, báo lỗi tiếng Việt khi máy không có giọng tiếng Trung (SC-004)
+- [X] T040 [US1] Tạo trang web/src/pages/LessonPage.tsx (`/bai/:lessonId`): thanh tiến độ trong bài, 3 nút "Chưa nhớ / Hơi nhớ / Đã nhớ" (FR-005), chuyển hướng học "chữ → nghĩa" hoặc "nghĩa → chữ" (FR-006)
+- [X] T041 [US1] Tạo web/src/features/flashcard/LessonSummary.tsx: số từ đã nhớ/chưa nhớ, con dấu đỏ (Seal) và hiệu ứng chúc mừng, nút học bài tiếp / ôn lại từ chưa nhớ
+- [X] T042 [US1] Thêm hộp thoại "Học tiếp từ thẻ đang dở?" khi mở lại bài còn dở trong web/src/pages/LessonPage.tsx
+- [X] T043 [US1] Tạo trang web/src/pages/StagePage.tsx (`/lo-trinh/:stageId`) bản đơn giản: danh sách bài của cấp, bấm vào bài thì mở `/bai/:lessonId` (lộ trình đầy đủ ở US4); đồng thời cho `/` tạm chuyển hướng tới `/lo-trinh/hsk1` trong web/src/app/router.tsx để bản MVP mở ra là học được ngay (bỏ chuyển hướng này ở T094)
 - [ ] T044 [US1] Viết e2e web/tests/e2e/us1-flashcard.spec.ts theo kịch bản 1 trong quickstart.md, chạy ở mọi project Playwright; đếm số lần bấm từ `/lo-trinh/hsk1` tới thẻ đầu tiên và khẳng định ≤ 2 (để tổng từ trang chủ ≤ 3 theo constitution II)
 
 **Checkpoint**: US1 chạy độc lập — đây là MVP

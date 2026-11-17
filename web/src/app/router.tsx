@@ -3,7 +3,7 @@
  * Mỗi trang được tải riêng khi cần (lazy) để lần mở đầu nhẹ.
  */
 
-import { createBrowserRouter, type RouteObject } from 'react-router-dom'
+import { Navigate, createBrowserRouter, type RouteObject } from 'react-router-dom'
 import { Layout } from './Layout.tsx'
 
 /** Trang tạm "Đang xây dựng" cho route chưa làm. */
@@ -21,9 +21,17 @@ export const routes: RouteObject[] = [
   {
     element: <Layout />,
     children: [
-      placeholder('/', 'Trang chủ', 'Giới thiệu website và chọn level của bạn.'),
-      placeholder('/lo-trinh/:stageId', 'Danh sách bài', 'Các bài học của một cấp.'),
-      placeholder('/bai/:lessonId', 'Bài học', 'Học từ mới bằng thẻ lật.'),
+      // TẠM THỜI (T043): bản MVP mở ra là học được ngay. Bỏ dòng này khi làm trang chủ (T094).
+      { path: '/', element: <Navigate to="/lo-trinh/hsk1" replace /> },
+
+      {
+        path: '/lo-trinh/:stageId',
+        lazy: async () => ({ Component: (await import('../pages/StagePage.tsx')).default }),
+      },
+      {
+        path: '/bai/:lessonId',
+        lazy: async () => ({ Component: (await import('../pages/LessonPage.tsx')).default }),
+      },
 
       placeholder(
         '/kiem-tra-trinh-do',

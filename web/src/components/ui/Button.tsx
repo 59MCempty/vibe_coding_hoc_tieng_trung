@@ -21,7 +21,7 @@ const VARIANTS: Record<ButtonVariant, string> = {
   ghost: 'text-ink hover:bg-ink-wash active:bg-ink-wash',
 }
 
-export function buttonClass(variant: ButtonVariant = 'primary', extra = ''): string {
+function buttonClass(variant: ButtonVariant = 'primary', extra = ''): string {
   return `${BASE} ${VARIANTS[variant]} ${extra}`.trim()
 }
 

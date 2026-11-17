@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hsk1-l01",
+    "stageId": "hsk1",
+    "order": 1,
+    "titleVi": "Chào hỏi",
+    "topic": "chao-hoi",
+    "wordIds": ["hsk1-001", "hsk1-002", "hsk1-003", "hsk1-004", "hsk1-005", "hsk1-006", "hsk1-007", "hsk1-008", "hsk1-009", "hsk1-010"]
+  },
+  {
+    "id": "hsk1-l02",
+    "stageId": "hsk1",
+    "order": 2,
+    "titleVi": "Câu cơ bản",
+    "topic": "cau-co-ban",
+    "wordIds": ["hsk1-011", "hsk1-012", "hsk1-013", "hsk1-014", "hsk1-015", "hsk1-016", "hsk1-017", "hsk1-018", "hsk1-019", "hsk1-020"]
+  },
+  {
+    "id": "hsk1-l03",
+    "stageId": "hsk1",
+    "order": 3,
+    "titleVi": "Số đếm",
+    "topic": "so-dem",
+    "wordIds": ["hsk1-021", "hsk1-022", "hsk1-023", "hsk1-024", "hsk1-025", "hsk1-026", "hsk1-027", "hsk1-028", "hsk1-029", "hsk1-030"]
+  },
+  {
+    "id": "hsk1-l04",
+    "stageId": "hsk1",
+    "order": 4,
+    "titleVi": "Gia đình",
+    "topic": "gia-dinh",
+    "wordIds": ["hsk1-031", "hsk1-032", "hsk1-033", "hsk1-034", "hsk1-035", "hsk1-036", "hsk1-037", "hsk1-038", "hsk1-039", "hsk1-040"]
+  },
+  {
+    "id": "hsk1-l05",
+    "stageId": "hsk1",
+    "order": 5,
+    "titleVi": "Từ để hỏi",
+    "topic": "hoi-dap",
+    "wordIds": ["hsk1-041", "hsk1-042", "hsk1-043", "hsk1-044", "hsk1-045", "hsk1-046", "hsk1-047", "hsk1-048", "hsk1-049", "hsk1-050"]
+  },
+  {
+    "id": "hsk1-l06",
+    "stageId": "hsk1",
+    "order": 6,
+    "titleVi": "Ngày tháng",
+    "topic": "thoi-gian",
+    "wordIds": ["hsk1-051", "hsk1-052", "hsk1-053", "hsk1-054", "hsk1-055", "hsk1-056", "hsk1-057", "hsk1-058", "hsk1-059", "hsk1-060"]
+  },
+  {
+    "id": "hsk1-l07",
+    "stageId": "hsk1",
+    "order": 7,
+    "titleVi": "Buổi trong ngày và đơn vị đếm",
+    "topic": "don-vi",
+    "wordIds": ["hsk1-061", "hsk1-062", "hsk1-063", "hsk1-064", "hsk1-065", "hsk1-066", "hsk1-067", "hsk1-068", "hsk1-069", "hsk1-070"]
+  },
+  {
+    "id": "hsk1-l08",
+    "stageId": "hsk1",
+    "order": 8,
+    "titleVi": "Ăn uống",
+    "topic": "an-uong",
+    "wordIds": ["hsk1-071", "hsk1-072", "hsk1-073", "hsk1-074", "hsk1-075", "hsk1-076", "hsk1-077", "hsk1-078", "hsk1-079", "hsk1-080"]
+  },
+  {
+    "id": "hsk1-l09",
+    "stageId": "hsk1",
+    "order": 9,
+    "titleVi": "Trường học",
+    "topic": "truong-hoc",
+    "wordIds": ["hsk1-081", "hsk1-082", "hsk1-083", "hsk1-084", "hsk1-085", "hsk1-086", "hsk1-087", "hsk1-088", "hsk1-089", "hsk1-090"]
+  },
+  {
+    "id": "hsk1-l10",
+    "stageId": "hsk1",
+    "order": 10,
+    "titleVi": "Hoạt động hằng ngày",
+    "topic": "hoat-dong",
+    "wordIds": ["hsk1-091", "hsk1-092", "hsk1-093", "hsk1-094", "hsk1-095", "hsk1-096", "hsk1-097", "hsk1-098", "hsk1-099", "hsk1-100"]
+  },
+  {
+    "id": "hsk1-l11",
+    "stageId": "hsk1",
+    "order": 11,
+    "titleVi": "Đồ vật và nơi chốn",
+    "topic": "do-vat",
+    "wordIds": ["hsk1-101", "hsk1-102", "hsk1-103", "hsk1-104", "hsk1-105", "hsk1-106", "hsk1-107", "hsk1-108", "hsk1-109", "hsk1-110"]
+  },
+  {
+    "id": "hsk1-l12",
+    "stageId": "hsk1",
+    "order": 12,
+    "titleVi": "Vị trí và đi lại",
+    "topic": "vi-tri",
+    "wordIds": ["hsk1-111", "hsk1-112", "hsk1-113", "hsk1-114", "hsk1-115", "hsk1-116", "hsk1-117", "hsk1-118", "hsk1-119", "hsk1-120"]
+  },
+  {
+    "id": "hsk1-l13",
+    "stageId": "hsk1",
+    "order": 13,
+    "titleVi": "Tính chất và thời tiết",
+    "topic": "tinh-tu",
+    "wordIds": ["hsk1-121", "hsk1-122", "hsk1-123", "hsk1-124", "hsk1-125", "hsk1-126", "hsk1-127", "hsk1-128", "hsk1-129", "hsk1-130"]
+  },
+  {
+    "id": "hsk1-l14",
+    "stageId": "hsk1",
+    "order": 14,
+    "titleVi": "Mong muốn và khả năng",
+    "topic": "mong-muon",
+    "wordIds": ["hsk1-131", "hsk1-132", "hsk1-133", "hsk1-134", "hsk1-135", "hsk1-136", "hsk1-137", "hsk1-138", "hsk1-139", "hsk1-140"]
+  },
+  {
+    "id": "hsk1-l15",
+    "stageId": "hsk1",
+    "order": 15,
+    "titleVi": "Từ hay gặp khác",
+    "topic": "tu-khac",
+    "wordIds": ["hsk1-141", "hsk1-142", "hsk1-143", "hsk1-144", "hsk1-145", "hsk1-146", "hsk1-147", "hsk1-148", "hsk1-149", "hsk1-150"]
+  }
+]
