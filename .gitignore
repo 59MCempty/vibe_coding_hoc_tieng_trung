@@ -1,0 +1,28 @@
+# Thư viện và bản build
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Bí mật và cấu hình máy
+.env*
+.wrangler/
+*.local
+
+# Kiểm thử
+test-results/
+playwright-report/
+
+# Hệ điều hành và trình soạn thảo
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Bản copy nguyên repo, không phải skill
+.claude/skills/spec-kit/
+.claude/skills/ui-ux-pro-max-skill/
+.claude/skills/.claude/

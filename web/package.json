@@ -1,0 +1,44 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "npm run build:data && npm run validate:content",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "format": "prettier --write src scripts tests",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "validate:content": "node scripts/validate-content.ts",
+    "build:data": "node scripts/build-search-index.ts && node scripts/build-confusables.ts",
+    "fetch:strokes": "node scripts/fetch-strokes.ts"
+  },
+  "dependencies": {
+    "hanzi-writer": "^3.7.3",
+    "lucide-react": "^1.73.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^31.0.1",
+    "oxlint": "^1.90.0",
+    "prettier": "^3.10.1",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.0"
+  }
+}
